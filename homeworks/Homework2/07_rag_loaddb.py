@@ -17,8 +17,8 @@ from langchain_google_vertexai import VertexAIEmbeddings
 
 # custom Wikipedia:
 from wikipedia_loader import WikipediaLoader
+from email_loader import EmailLoader
 
-import readline
 
 
 # ***** IMPORTANT NOTES: *****
@@ -63,9 +63,17 @@ else:
 
 # Open or create the persistent Chroma vector database.
 
+def load_emails(directory):
+    """Load .eml files from a directory into the vector database."""
+    el = EmailLoader(directory=directory)
+    docs = el.load()
+    load_docs(docs)
 
 def load_docs(docs):
     """Split documents into chunks and store their embeddings in Chroma."""
+    if not docs:
+        print("  (no documents found, skipping)")
+        return
     # Split loaded documents into chunks before embedding and storing them.
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=10000, chunk_overlap=10)
     splits = text_splitter.split_documents(docs)
@@ -180,6 +188,10 @@ load_md(md_directory)
 csv_directory = "rag_data/csv"
 print(f"Loading CSV files from: {csv_directory}")
 load_csv(csv_directory)
+
+email_directory = "rag_data/emails"
+print(f"Loading email files from: {email_directory}")
+load_emails(email_directory)
 
 print("RAG database initialized with the following sources.")
 retriever = vectorstore.as_retriever()

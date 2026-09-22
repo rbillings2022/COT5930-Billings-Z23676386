@@ -1,0 +1,859 @@
+Received: from MN2PR04MB6925.namprd04.prod.outlook.com (2603:10b6:208:1e1::20)
+ by CO6PR04MB7635.namprd04.prod.outlook.com with HTTPS; Tue, 22 Sep 2026
+ 21:56:33 +0000
+Received: from SJ0PR03CA0331.namprd03.prod.outlook.com (2603:10b6:a03:39c::6)
+ by MN2PR04MB6925.namprd04.prod.outlook.com (2603:10b6:208:1e1::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.451.14; Tue, 22 Sep
+ 2026 21:56:31 +0000
+Received: from BY1PEPF000264B3.namprd02.prod.outlook.com
+ (2603:10b6:a03:39c:cafe::10) by SJ0PR03CA0331.outlook.office365.com
+ (2603:10b6:a03:39c::6) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.14 via Frontend Transport; Tue,
+ 22 Sep 2026 21:56:30 +0000
+Authentication-Results: spf=pass (sender IP is 129.145.70.146)
+ smtp.mailfrom=em.efollett.com; dkim=pass (signature was verified)
+ header.d=em.efollett.com;dmarc=pass action=none
+ header.from=em.efollett.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of em.efollett.com
+ designates 129.145.70.146 as permitted sender)
+ receiver=protection.outlook.com; client-ip=129.145.70.146;
+ helo=omp.em.efollett.com; pr=C
+Received: from omp.em.efollett.com (129.145.70.146) by
+ BY1PEPF000264B3.mail.protection.outlook.com (10.167.242.120) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.8
+ via Frontend Transport; Tue, 22 Sep 2026 21:56:30 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=efollett; d=em.efollett.com;
+ h=MIME-Version:Content-Type:Content-Transfer-Encoding:Date:To:From:Reply-To:
+ Subject:Message-ID; i=shop@em.efollett.com;
+ bh=jyy7mgwULChyQGkbA3vF4hKFWdQzFMKEZeCRlCVjD6M=;
+ b=AeGjmChc78DQoQwkdTKiWY3TYzYasJ2lyZtufocVYJT0r8PwpQVGuJSzraI4yRxcArT206dsjyQt
+   D7ugZrQnc5XeTiOqlM/UoAz1S7xl6xgaXwhVeXQ6gYPkhHnBKUIREZHJYoH82MYG28+0IWdkkDUa
+   88kNnC2H8h5QfEqhLC0=
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Date: Tue, 22 Sep 2026 21:56:30 +0000
+To: rbillings2022@fau.edu
+From: =?UTF-8?B?RmxvcmlkYSBBdGxhbnRpYyBVbml2ZXJzaXR5IEJvb2tzdG9yZQ==?=
+ <shop@em.efollett.com>
+Reply-To: =?UTF-8?B?RmxvcmlkYSBBdGxhbnRpYyBVbml2ZXJzaXR5IEJvb2tzdG9yZQ==?=
+ <reply@em.efollett.com>
+Subject: Don't miss out: Score your student-exclusive NFL Sunday Ticket offer on YouTube
+Feedback-ID: 7266:151805082:oraclersys
+X-sgxh1: jIpttpgnkTRTTxMHmQLKm
+X-rext: 8.rsys119.EP4nY1ZEdTTKLLlC8_tZ6xdqEWl559nXSzPvUHajGLVeAazx51HeWNQ
+X-cid: fheg.132554102
+X-ei: EMAo9JOgUoIC-5PCSZocaDlHE1OO830Op0
+X-cp: ExfxLGaUFEiB_DZqA7O_of_dco7BvrSNObQ
+Message-ID: <0.1.7.203.1DD4ADD394B01B4.0@omp.em.efollett.com>
+Return-Path: shop@em.efollett.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2026 21:56:30.8833
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 262a3bc3-9550-4058-43ff-08df18f45c42
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 63c3c9c1-e824-413f-b435-2f0cabb2828f:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BY1PEPF000264B3:EE_|MN2PR04MB6925:EE_|CO6PR04MB7635:EE_
+X-MS-Exchange-Organization-AuthSource: BY1PEPF000264B3.namprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 262a3bc3-9550-4058-43ff-08df18f45c42
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:13230040|12012899012|6062899009|7149299003|4022899009|260918224100599003|260918215300599003|69100299015|7049299003|3109299003|3072899012|31052699007|4092899012|5062899012|5082899009|13102899012|13012899012|3122999038|3092899012|2092899012|1032899013|10067099003|11063799006|5063699009|19002099009|18003699003|55112099003|16102099003|2066899003|4113699003|8096899003|57112099003|13003099007;
+X-Forefront-Antispam-Report: CIP:129.145.70.146;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:omp.em.efollett.com;PTR:omp.em.efollett.com;CAT:NONE;SFS:(13230040)(12012899012)(6062899009)(7149299003)(4022899009)(260918224100599003)(260918215300599003)(69100299015)(7049299003)(3109299003)(3072899012)(31052699007)(4092899012)(5062899012)(5082899009)(13102899012)(13012899012)(3122999038)(3092899012)(2092899012)(1032899013)(10067099003)(11063799006)(5063699009)(19002099009)(18003699003)(55112099003)(16102099003)(2066899003)(4113699003)(8096899003)(57112099003)(13003099007);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Sep 2026 21:56:30.6819
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 262a3bc3-9550-4058-43ff-08df18f45c42
+X-MS-Exchange-CrossTenant-Id: 63c3c9c1-e824-413f-b435-2f0cabb2828f
+X-MS-Exchange-CrossTenant-AuthSource: BY1PEPF000264B3.namprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR04MB6925
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.2658130
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0451.004
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944490095)(944506478)(944626604)(920097)(930201)(20251009189)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?windows-1256?Q?hRtPvPj6zA4O7a6W+eifxCENWGaTDPyxXZbAnkkbBPDK4VWvmzdvYWQU?=
+ =?windows-1256?Q?RiuyCoiGcwmJ1DsPi7BuSB3V4GGLeCnWpesQNEQxHwpLTkyVrwnEAQQn?=
+ =?windows-1256?Q?e1HPb79/hQKCyYPxcz67fb2G9sfdFSufOKnoNkRlYIRJiLsB9eRTYtUc?=
+ =?windows-1256?Q?P+eJBsVg9vf2BQ5/ShHwUSisBnIiB9YzMWhh022Oji13jwsiKTKeiOtK?=
+ =?windows-1256?Q?h3XclpEMsW85ID0JHWBe9p4DYtb2c9H7zs2ExclXZjEN4wTfWHCgxP6z?=
+ =?windows-1256?Q?ZJb21KlX+7jElBIKtqGQiOo6/x1P48fW2Ayf7mvZAjN4fz94Qaru1s2j?=
+ =?windows-1256?Q?2zhyvQgtnKMgftRtaFyLzZ3TTgme+W898lnM/24y+tRE9qO1hBDLs5Pe?=
+ =?windows-1256?Q?27Hd9e9p8v1HM7gmE+mdx58JIPiAg/xJLvqCpg7g7jd63GhA3RFDAjrs?=
+ =?windows-1256?Q?7rA8BJRNtmVoglnDG4ya0WmRPOfcZKMQO24EX3RgcgaKXdbZ6erYlumG?=
+ =?windows-1256?Q?ewnIv2l0yHO5bs5uvJ5cRtZ1I8QIyDA15qnn2gXTkptc62ZHTymMGe1N?=
+ =?windows-1256?Q?crpHys+onvxoUn9cvSDGqQXO8xAVmFIz/t8VO3CHqBqOPS0PBQ+Wk+AL?=
+ =?windows-1256?Q?deKteDGOZAMJQj/tXed+Iv7YndiUHEkuQfQiSJZGGRdBronmIci06NL6?=
+ =?windows-1256?Q?tJZqbjG8TPAgHsIx5lc0LphftePVMn1WBaYGtt/DB/Vp8qh8sY/crMz1?=
+ =?windows-1256?Q?NnCw6zAWcs28U/pu7d50M/wEAWo9WJjS08KEhb2Sb3mLtKdUmNZ3WV9W?=
+ =?windows-1256?Q?TT6dJqs6HXTr9Lm+GFy18dqvJDQFDFXxMV0GI1X7wGFonaz2MgZp4n/y?=
+ =?windows-1256?Q?MKKNMLvDdiAGg/EFR0rxcDnkhjnBP7fLCWC3/denikFe6b7Sl0s7UWW8?=
+ =?windows-1256?Q?b5wZ84mHiK61GakIln8XU96TX0ODGhLE5ZsnQoEL44X1csI6aBqmNf1x?=
+ =?windows-1256?Q?0aFSonNsqkNokigsrznTXoRJVxVSl6+TflbqPZmLNI23ijjGCaaf/XKR?=
+ =?windows-1256?Q?Kk4pcRBy7JUalNofjmd8xxl9qB07IuXrNjka9ILcC3aZP7ZLoNVc0RXK?=
+ =?windows-1256?Q?g2XxLtFONjtg3lEEsPr3DHxVJt38CDjySGtwwPWeRQMJA7AEWBbdg0u1?=
+ =?windows-1256?Q?pwwW/9uhmwreUCgODfZPutIgQXNqproSI5AC47RGDkHv1emuc3VRnpzy?=
+ =?windows-1256?Q?fIDBaS5PNBap9mz8//Q5hP+kiKQ8+MlMzUjglo73zVHEQr69FSRho6XI?=
+ =?windows-1256?Q?v5+mhICt9nOA2Qd7pZanYeltg4gdu75jVoiilNVO/vjGOgjKN70GIHpE?=
+ =?windows-1256?Q?BUe4mJFb1+9CDDhpiWyH31P2nJa6soMrR85TufH+I0vaIfIXaj8sZeiS?=
+ =?windows-1256?Q?0LdLyGK+TmB41y6NElt1UQp6qH7JKMzD8xq9RX4o5Me1rPBHkS24nBKN?=
+ =?windows-1256?Q?kG510qVZf27cCBFqqRCPMptX+ABSnuHKSlBBV1+2m0PCTorkX3hJGtDT?=
+ =?windows-1256?Q?X14JzJLj/CFdFgdpz7gpr9yqnQnqFMli3SNCjSxzPPRiBRHnknW0IPqL?=
+ =?windows-1256?Q?rHvm3j76ik4Hd1LtJNNLldBRAXmgg8c4oD4kU27UIa1TBwiQrXA4OieT?=
+ =?windows-1256?Q?z8jNXwepFI9+IcaU4csTLdnC20zG0uIzGNO2U1505+52JhNjICz5DTog?=
+ =?windows-1256?Q?HWUbDXraLtDiOoNmwyH/DqcqggsD6YuOFNF4gnhv+5U+Qp9Fx3lqPWkk?=
+ =?windows-1256?Q?KKmu6+IxyHXYdBn2TmDOQMg7miZ69mo2wVA3H4ormhBmqu0rz/yG2oNd?=
+ =?windows-1256?Q?SG0NtSjRLzLnTTFVqzVlo+TBJ1LgASNhaLS52/nP4dYtlcz8OI44jV57?=
+ =?windows-1256?Q?O+ppu0M71SaRD0sIo3khxjSpi+H9K5ecN/yEHS41JJY046jhEsvb8xO3?=
+ =?windows-1256?Q?ezeeLdciEndOz2c9wsg3qbCAWnaJGeA4YxLQXt22zkdu9Q3z14xAZg0D?=
+ =?windows-1256?Q?eBF9GSbAuceJEiKjTiNNXCW0UqjisNqb3Sg4K1GXXP4OPc1nbV3/PA3g?=
+ =?windows-1256?Q?KemSIaqPm+pAukCUJZ1RT+w2RQlcozIHKQGd/nw2ZaXblEKVfbxgOOCg?=
+ =?windows-1256?Q?hOLIxX8mdF7CVGnwS6luaP9WCh1nwR/GK4b8IW3NLojwY/dj1K6gspoB?=
+ =?windows-1256?Q?D5phzZdFggky72MNsXfG6TKrY/HaHmzdgUs0LZMlwSgUUvtutg0O7ugJ?=
+ =?windows-1256?Q?F2iAtJ09kAAQo/7Ju6DfUo2FyJePxQfGJuWaN769VkE8bx+25Ija1DBf?=
+ =?windows-1256?Q?NABLtogULWI6WRR/5UFs+p4XyCCztPcXrgNBmMUtWxRbDg8FMyLQC4K6?=
+ =?windows-1256?Q?+QDMbLs7tHgSurrMaLEPu7N94UdKA+cTOR4gdPYKsa/g496L5KAO467M?=
+ =?windows-1256?Q?Z9VQPSp1V66QGbUpQOHzqYsggMpIwjjUgiYNL4za56bV3+4MtMKOdy1h?=
+ =?windows-1256?Q?LkL0W8Aj5sB9EF2RtwlFscCdttIV7yASKNt5BlIshyBGpI00aVaR+1C8?=
+ =?windows-1256?Q?yFETQff+XwYsBEGvX4zEzecc?=
+MIME-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html style=3D"opacity: 1;" x=
+mlns=3D"http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Your Store</title>
+<!-- utf-8 works for most cases -->
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<!-- Forcing initial-scale shouldn't be necessary -->
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<!-- Use the latest (edge) version of IE rendering engine -->
+<meta name=3D"x-apple-disable-message-reformatting">
+<!-- Disable auto-scale in iOS 10 Mail entirely --><!-- CSS Reset : BEGIN -=
+-><style>
+            /* What it does: Remove spaces around the email design added by=
+ some email clients. */
+            /* Beware: It can remove the padding / margin and add a backgro=
+und color to the compose a reply window. */
+            html,
+            body {
+                margin: 0 auto !important;
+                padding: 0 !important;
+                height: 100% !important;
+                width: 100% !important;
+            }
+            a:link {
+                color: #0000ee;
+            }=20
+            a:visited {
+                color: #3d85c6;
+            }
+            a:active {
+                color: #0000ee;
+            }
+            /* What it does: Stops email clients resizing small text. */
+            * {
+                -ms-text-size-adjust: 100%;
+                -webkit-text-size-adjust: 100%;
+            }
+            /* What it does: Centers email on Android 4.4 */
+            div[style*=3D"margin: 16px 0"] {
+                margin: 0 !important;
+            }
+            /* What it does: Stops Outlook from adding extra spacing to tab=
+les. */
+            table,
+            td {
+                mso-table-lspace: 0pt !important;
+                mso-table-rspace: 0pt !important;
+            }
+            /* What it does: Fixes webkit padding issue. Fix for Yahoo mail=
+ table alignment bug. Applies table-layout to the first 2 tables then remov=
+es for anything nested deeper. */
+            table {
+                border-spacing: 0 !important;
+                border-collapse: collapse !important;
+                table-layout: fixed !important;
+                margin: 0 auto !important;
+            }
+            table table  {
+                table-layout: auto;
+            }
+            table table table {
+                table-layout: auto;
+            }
+            /* What it does: Uses a better rendering method when resizing i=
+mages in IE. */
+            img {
+                -ms-interpolation-mode:bicubic;
+            }
+            /* What it does: A work-around for email clients meddling in tr=
+iggered links. */
+            *[x-apple-data-detectors],  /* iOS */
+            .x-gmail-data-detectors,    /* Gmail */
+            .x-gmail-data-detectors *,
+            .aBn {
+                border-bottom: 0 !important;
+                cursor: default !important;
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+            /* What it does: Prevents Gmail from displaying a download butt=
+on on large, non-linked images. */
+            .a6S {
+                display: none !important;
+                opacity: 0.01 !important;
+            }
+            /* If the above doesn't work, add a .g-img class to any image i=
+n question. */
+            img.g-img + div {
+                display: none !important;
+            }
+            /* What it does: Prevents underlining the button text in Window=
+s 10 */
+            .button-link {
+                text-decoration: none !important;
+            }
+            .mobileShow {
+                display: none;
+            }
+            .gmailHide {
+                display: none;
+            }
+            /* What it does: Removes right gutter in Gmail iOS app: https:/=
+/github.com/TedGoas/Cerberus/issues/89  */
+            /* Create one of these media queries for each additional viewpo=
+rt size you'd like to fix */
+            /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+            /* What it does: Forces elements to resize to the full width of=
+ their container. Useful for resizing images beyond their max-width. */
+            .fluid {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            a.couponLine1 {
+                text-decoration: none !important;
+                font-weight: bold;
+                font-family: sans-serif;
+                font-size: 56;
+                line-height: 56px;
+                color: #414141;
+                font-family:'Montserrat','Arial','Helvetica'}
+            a.couponLine2 {
+                text-decoration: none !important;
+                font-weight: normal;
+                font-family: sans-serif;
+                font-size: 36px;
+                line-height: 40px;
+                color: #414141;
+                font-family:'Montserrat','Arial','Helvetica'}
+            a.couponLine3 {
+                text-decoration: none !important;
+                font-weight: bold;
+                font-family: sans-serif;
+                font-size: 40px;
+                line-height: 50px;
+                color: #414141;
+                font-family:'Montserrat','Arial','Helvetica'}
+            @media only screen and (width: 320px),(width:375px),(width:414p=
+x){
+                u ~ div {
+                    min-width: 100vw;
+                }
+            }
+            @media only screen and (min-device-width: 320px) and (max-devic=
+e-width: 374px) {
+                .email-container {
+                    min-width: 320px !important;
+                }
+            }
+            /* iPhone 6, 6S, 7, 8, and X */
+            @media only screen and (min-device-width: 375px) and (max-devic=
+e-width: 413px) {
+                .email-container {
+                    min-width: 375px !important;
+                }
+            }
+            /* iPhone 6+, 7+, and 8+ */
+            @media only screen and (min-device-width: 414px) {
+                .email-container {
+                    min-width: 414px !important;
+                }
+            }
+            @media only screen and (max-width: 481px) {
+                /* Media query for displaying content in mobile email clien=
+ts */
+                .imghide {
+                    max-height: none !important;
+                    font-size: 12px !important;
+                    display: block !important;
+                }
+                /* globals */
+                .FS11 {
+                    font-size: 11px !important;
+                }
+                td.FS11_nav {
+                    padding: 3px !important;
+                }
+                .FS11_nav {
+                    font-size: 10px !important;
+                    padding: 0px 0px;
+                }
+                .hide {
+                    display: none !important;
+                }
+                .wrap {
+                    display: block !important;
+                }
+                .center {
+                    text-align:center !important;
+                }
+                .centercenter {
+                    margin-left:auto!important;
+                    margin-right:auto !important;
+                    padding:0 !important;
+                }
+                .mobilecontent {
+                    display: inline !important;
+                    overflow : auto !important;
+                    width: auto !important;
+                    max-height: inherit !important;
+                }
+                table table table table {
+                    table-layout: auto;
+                }
+            }
+            @media only screen and (min-width: 320px) and (max-width: 480px=
+) {
+                td.FS11_nav {
+                    padding: 2px !important;
+                }
+                a.FS11_nav {
+                    font-weight: normal !important;
+                    font-size: 9px !important;
+                    padding: 0;
+                }
+                table{
+                    table-layout: auto !important;
+                }
+                table table table table {
+                    table-layout: auto;
+                }
+            }
+            @media only screen and (max-width: 380px) {
+                a.couponLine1 span {
+                    text-decoration: none !important;
+                    font-weight: bold;
+                    font-family: sans-serif;
+                    font-size: 32px !important;
+                    line-height: 44px !important;
+                    color: #414141;
+                    font-family:'Montserrat','Arial','Helvetica'}
+                a.couponLine2 {
+                    text-decoration: none !important;
+                    font-weight: normal;
+                    font-family: sans-serif;
+                    font-size: 26px !important;
+                    line-height: 32px !important;
+                    color: #414141;
+                    font-family:'Montserrat','Arial','Helvetica'}
+                a.couponLine3 {
+                    text-decoration: none !important;
+                    font-weight: bold;
+                    font-family: sans-serif;
+                    font-size: 20px !important;
+                    line-height: 24px !important;
+                    color: #414141;
+                    font-family:'Montserrat','Arial','Helvetica'}
+                table table table table {
+                    table-layout: auto;
+                }
+            }
+        </style><!-- CSS Reset : END --><!-- What it does: Makes background=
+ images in 72ppi Outlook render at correct size. --><!--[if gte mso 9]>
+	<xml>
+        <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+<![endif]-->
+</head>
+<body width=3D"100%" bgcolor=3D"#ffffff" style=3D"margin: 0; padding: 0px; =
+mso-line-height-rule: exactly;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"background: #FF0000;" width=3D"5">&nbsp;</td>
+<td style=3D"background: #FDF2F4;" width=3D"10">&nbsp;</td>
+<td style=3D"background: #FDF2F4;"><strong>EXTERNAL EMAIL : </strong>Exerci=
+se caution when responding, opening links, or opening attachments.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<div>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" bgco=
+lor=3D"#ffffff">
+<tbody>
+<tr>
+<td>
+<div style=3D"max-width: 600px; margin: auto; webkit-text-size-adjust: 100%=
+;" class=3D"email-container">
+<!--[if mso]>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"600" align=
+=3D"center">
+<tr>
+<td>
+<![endif]--><!-- Email Body : BEGIN -->
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"100%" style=3D"max-width: 600px; webkit-text-size-adjust: 100%;">
+<!--  BEGIN: Data Source. Create variables from any campaign data source fi=
+elds  --><!--  END: Data Source   --><!-- don't let a campaign send to defa=
+ult store numbers (411 or 2083) which are assigned to records of closing/cl=
+osed stores. Added 10-28-2022 CT --><!-- BEGIN: MSD. Grab all variables fro=
+m MSD used throughout campaign so there is 1 standard call of fields rather=
+ than in separate banners or shells, etc.  --><!-- IF STORELOGO field in MS=
+D is empty, look to SHOPIFY_LOGO field. Added 6.10.26 as new stores are bei=
+ng added to Shopify without an eFollett site --><!-- assign an FAQ page for=
+ Contacting Support - used in footers --><!-- END: store 2379 check --><!--=
+ use French in View Online, Nav & Footer. ONLY used in RIM & Course Materia=
+ls Notification emails currently. Building for the future --><!-- July 2021=
+ --><!-- nothing to see here - no French involved --><!-- July 2021 --><!--=
+  BEGIN: IF soon to be Shopify, remove from all email except a few with the=
+ flag below. Should not be sent any promotional emails until further notice=
+ unless flag set. MARCH 2026 --><!--  END: ShopifySoon check  --><!--  BEGI=
+N: Preheader, View Online Store Logo and Navigation  --><style type=3D"text=
+/css">
+@media only screen and (max-width: 481px) {
+            .FS11 { font-size: 11px !important; }
+            td.FS11_nav { padding: 3px !important; }
+            .FS11_nav { font-size: 10px !important; padding: 0px 0px;}
+            }
+@media only screen and (max-width: 480px) {
+                td.FS11_nav { padding: 2px !important; }
+            	a.FS11_nav, a.FS11_nav:visited {text-decoration: none !importa=
+nt; font-weight: normal !important; font-size: 9px !important; padding: 0; =
+}
+     }
+@media only screen and (max-width:320px) {
+                td.FS11_nav { padding: 1px !important; }
+            	a.FS11_nav, a.FS11_nav:visited {text-decoration: none !importa=
+nt; font-weight: normal !important; font-size: 6px !important; padding: 0; =
+overflow: nowrap }
+            }
+</style><!-- Spacer : BEGIN -->
+<tbody>
+<tr>
+<td bgcolor=3D"#FFFFFF" height=3D"10" width=3D"500" style=3D"line-height:10=
+px; font-size:0px;">
+</td>
+</tr>
+<!--  Spacer : END --><!-- BEGIN: Preheader and View Online   --><!-- BEGIN=
+:  Preheader Space variable. If Preheader text isn't lengthy, will put spac=
+e in before the View Online text in mobile preview --><!-- END:  Preheader =
+Space variable. -->
+<tr>
+<td>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%" styl=
+e=3D"font-size: 14px; text-align: left; max-width:600px; -webkit-text-size-=
+adjust: 100%;">
+<tbody>
+<tr>
+<td height=3D"18" width=3D"70%" style=3D"text-align: left; font-family: san=
+s-serif; font-size: 14px; line-height: 18px; color:#808080; padding:10px;">
+<!--  BEGIN: PREHEADER_FILE variable check  --><a href=3D"https://nam02.saf=
+elinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fem.efollett.com%2Fpub%2F=
+cc%3F_ri_%3DX0Gzc2X%253DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN=
+3aHrEezeL6HFzfYSaL4vzaVXtpKX%253DSTRARATCT%26_ei_%3DENP3AJPH8nr2wFqwV6ni-2G=
+JPoPY42ondx45LFRSkuMvOp_FcJhHUjPfu5_jMapCvk1EHsN1BazUulDpCvUm_QNdaFfQefJLTm=
+_1FlTVrGC028bg0hXdMjSi4PcwwxIPIULPt2W_FxAtG9vDZLnYrFC18jAMIm3-oE-9EFGDElo37=
+EH1E-ibaTejNtEl5UekNggseSE-wiOSH81JQGfePbkMK0iyFGD_hqOw4LWQoB4EP8ZGXGPo38VP=
+quwHmL_u_kqm1kZOLpLDliOmTSv6jKBRqc8Qvy7ioGmbzAqivHZeldDp26S45ArsQCoUEHMTpC8=
+V0VoMAUcYUUEjqYP2wU05vUhVAw9eOQsD-Zc1cVi5m7N7FEC0mX6FfDXcim5dBOgGSKXdOju0_V=
+IlrPMrLPcxjk8If4mvO5o1khOzIf-DJQIY6BciXNOM2zPm-OR_bN1dTkhixPrM5_u3Op3r8uFZb=
+y4HMqk441N18JvH7VJsGY4FawPypkUmXC0h_QUaE-kw8w4GesKY5yAdupyE-LDShx_IjYW5q0y6=
+tijzg0TwyHRLo7ysMdYRgJaC-VsZEG2vMYvcJw.%26_di_%3Djggeqhejfk3ta17mkdo0s38bof=
+1rjjuu7ubi27qh5ra3b7qlvieg&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C2=
+62a3bc39550405843ff08df18f45c42%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%=
+7C639257109940973551%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOi=
+IwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C=
+&amp;sdata=3DSmQR0gC4WMVn3tRu97KLtJbwYgLGlnwgCujMajP6qng%3D&amp;reserved=3D=
+0" originalsrc=3D"https://em.efollett.com/pub/cc?_ri_=3DX0Gzc2X%3DCQjkPkSSD=
+QGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%3DST=
+RARATCT&amp;_ei_=3DENP3AJPH8nr2wFqwV6ni-2GJPoPY42ondx45LFRSkuMvOp_FcJhHUjPf=
+u5_jMapCvk1EHsN1BazUulDpCvUm_QNdaFfQefJLTm_1FlTVrGC028bg0hXdMjSi4PcwwxIPIUL=
+Pt2W_FxAtG9vDZLnYrFC18jAMIm3-oE-9EFGDElo37EH1E-ibaTejNtEl5UekNggseSE-wiOSH8=
+1JQGfePbkMK0iyFGD_hqOw4LWQoB4EP8ZGXGPo38VPquwHmL_u_kqm1kZOLpLDliOmTSv6jKBRq=
+c8Qvy7ioGmbzAqivHZeldDp26S45ArsQCoUEHMTpC8V0VoMAUcYUUEjqYP2wU05vUhVAw9eOQsD=
+-Zc1cVi5m7N7FEC0mX6FfDXcim5dBOgGSKXdOju0_VIlrPMrLPcxjk8If4mvO5o1khOzIf-DJQI=
+Y6BciXNOM2zPm-OR_bN1dTkhixPrM5_u3Op3r8uFZby4HMqk441N18JvH7VJsGY4FawPypkUmXC=
+0h_QUaE-kw8w4GesKY5yAdupyE-LDShx_IjYW5q0y6tijzg0TwyHRLo7ysMdYRgJaC-VsZEG2vM=
+YvcJw.&amp;_di_=3Djggeqhejfk3ta17mkdo0s38bof1rjjuu7ubi27qh5ra3b7qlvieg" sty=
+le=3D"text-decoration: none; color:#808080;" target=3D"blank">Enjoy
+ every out-of-market Sunday afternoon game for $119 &gt;</a><!--  DEFAULT i=
+f no custom preheader file, just put text in variable  --><!--  END PREHEAD=
+ER FILE and URL variables check  --><!-- start HIDDEN_PREVIEW_TEXT --><!--[=
+if !mso]><! -->
+<div style=3D"display:none !important; display:none; overflow:hidden; float=
+:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibilit=
+y:hidden;">
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=
+=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;</div>
+<!--<![endif]--><!-- end HIDDEN_PREVIEW_TEXT --></td>
+<td height=3D"18" width=3D"30%" style=3D"text-align: right; font-family: sa=
+ns-serif; font-size: 14px; line-height: 18px; color: #555555; padding:10px;=
+">
+<!--  BEGIN: NO_VIEW_ONLINE. If this has a value, don't display view online=
+ link  --><!-- or just put the text and link it --><a href=3D"https://nam02=
+.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fem.efollett.com%2Fpu=
+b%2Fcc%3F_ri_%3DX0Gzc2X%253DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc=
+1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%253DSTRARAURT%26_ei_%3DEOwPQ42l-mBFJGD0ZPx=
+QdvkDSYZVwKI_65fOuggokACKfQNqeEiUqH1Rxvg5nRAlO3L-ohNEJfYatbvDdFYE5sNHYkoDkC=
+vVPYfF5o3D-5FiEAvKJzmtJM2dm6_3KNP_w-OGY1KYsOBW_BscA2Ls708pngegC5m3crJuoEXE5=
+KJgtx5V7MSiIzpVbDyt4jlrbqJsLtbp2ngmV-74-XLCNWpcFk44kpIeyL3bIZJjq2KdbfnT-DLT=
+MVFisRbheOj_ZPCOTy7HVXb7MzMLY9QwwaLex6MGyrgXPajTBZMOuyB8NLhDUR4MQWI.%26_di_=
+%3Dsjk9iqvpvkro6f46uj8buac2mp18ideqvsl6acc3o6dgv8b34sf0&amp;data=3D05%7C02%=
+7Crbillings2022%40fau.edu%7C262a3bc39550405843ff08df18f45c42%7C63c3c9c1e824=
+413fb4352f0cabb2828f%7C0%7C0%7C639257109941003121%7CUnknown%7CTWFpbGZsb3d8e=
+yJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIs=
+IldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dq90u7%2FxckMKKb7zBYDIpuVEoSdxe7Yw=
+Y5LUU73WVf9I%3D&amp;reserved=3D0" originalsrc=3D"https://em.efollett.com/pu=
+b/cc?_ri_=3DX0Gzc2X%3DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3a=
+HrEezeL6HFzfYSaL4vzaVXtpKX%3DSTRARAURT&amp;_ei_=3DEOwPQ42l-mBFJGD0ZPxQdvkDS=
+YZVwKI_65fOuggokACKfQNqeEiUqH1Rxvg5nRAlO3L-ohNEJfYatbvDdFYE5sNHYkoDkCvVPYfF=
+5o3D-5FiEAvKJzmtJM2dm6_3KNP_w-OGY1KYsOBW_BscA2Ls708pngegC5m3crJuoEXE5KJgtx5=
+V7MSiIzpVbDyt4jlrbqJsLtbp2ngmV-74-XLCNWpcFk44kpIeyL3bIZJjq2KdbfnT-DLTMVFisR=
+bheOj_ZPCOTy7HVXb7MzMLY9QwwaLex6MGyrgXPajTBZMOuyB8NLhDUR4MQWI.&amp;_di_=3Ds=
+jk9iqvpvkro6f46uj8buac2mp18ideqvsl6acc3o6dgv8b34sf0" style=3D"text-decorati=
+on: underline; color:#808080;">View
+ Online</a><!--  END: NO_VIEW_ONLINE.  --> </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- END: Preheader and View Online   --><!--=20
+     <!-- BEGIN: STORE LOGO   -->
+<tr>
+<td bgcolor=3D"#FFFFFF" style=3D"padding:10px;" align=3D"center" class=3D"c=
+enter"><a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhtt=
+ps%3A%2F%2Fem.efollett.com%2Fpub%2Fcc%3F_ri_%3DX0Gzc2X%253DCQjkPkSSDQGyWg5S=
+zdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%253DSTRARAU=
+TT%26_ei_%3DENP3AJPH8nr2wFqwV6ni-2G85hNY1XE-9d4CcBs0RgORNUmc3wcFo2UPBNp5pch=
+2N43fTN5MztNcdeLITE_nXNNsj0c09Trok-xjPnVmAPMYSaxYUxkHQf2BjsQPAuzqvVXeR_F5px=
+KOb7IDXhJgTsMskKPqFHLNHv0JF-Gzr-wc-atIFkVVC4bzvRzrHDZPFCtpvTjyQzKHsc1I4yYBl=
+-4TqY-NJDi2oTxs0x6c75X8KY2CpnTo5hbpGVoSmnZifowujuu9iJPaIbxvaiS7GgLhEttcVRuy=
+rUK41lMciBbyRUxG-YJ84jeydCeAwCYfUDiXtI5wog.%26_di_%3Dh3842t2o7kvb78ns264glp=
+j344911jaf2oq7hglsnsa8vuqbp36g&amp;data=3D05%7C02%7Crbillings2022%40fau.edu=
+%7C262a3bc39550405843ff08df18f45c42%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%=
+7C0%7C639257109941027672%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIl=
+YiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7=
+C%7C&amp;sdata=3Do65oX%2FLhh0%2F2FHViPxvtLKw0dLxw%2BUQMxP4D8UDHJ2c%3D&amp;r=
+eserved=3D0" originalsrc=3D"https://em.efollett.com/pub/cc?_ri_=3DX0Gzc2X%3=
+DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaV=
+XtpKX%3DSTRARAUTT&amp;_ei_=3DENP3AJPH8nr2wFqwV6ni-2G85hNY1XE-9d4CcBs0RgORNU=
+mc3wcFo2UPBNp5pch2N43fTN5MztNcdeLITE_nXNNsj0c09Trok-xjPnVmAPMYSaxYUxkHQf2Bj=
+sQPAuzqvVXeR_F5pxKOb7IDXhJgTsMskKPqFHLNHv0JF-Gzr-wc-atIFkVVC4bzvRzrHDZPFCtp=
+vTjyQzKHsc1I4yYBl-4TqY-NJDi2oTxs0x6c75X8KY2CpnTo5hbpGVoSmnZifowujuu9iJPaIbx=
+vaiS7GgLhEttcVRuyrUK41lMciBbyRUxG-YJ84jeydCeAwCYfUDiXtI5wog.&amp;_di_=3Dh38=
+42t2o7kvb78ns264glpj344911jaf2oq7hglsnsa8vuqbp36g" target=3D"_blank"><img s=
+rc=3D"https://bkstr.scene7.com/is/image/Bkstr/2076" alt=3D"Florida Atlantic=
+ University Bookstore" border=3D"0" width=3D"220"></a>
+</td>
+</tr>
+<!-- END: STORE LOGO --><!-- BEGIN: IU Navigation --><!-- if LANGUAGE?has_c=
+ontent && (LANGUAGE =3D 'F' || LANGUAGE =3D '-2')> in French  - nothing =20
+else>
+     <!-- Bassmaster Events 8016 send their own emails out of another syste=
+m, so do not add this line to their emails. We just provide html structure =
+for them --><!-- if STORENUMBER?c =3D '8016'> --><!-- do not show this row =
+--><!-- else> --><!-- tr>
+     <td height=3D"18" width=3D"100%" align=3D"center" style=3D"font-family=
+: sans-serif; font-size: 11px; line-height: 12px; color: #555555; padding-t=
+op:8px;padding-right:8px;padding-left:8px;padding-bottom:0px;">
+         Don't miss a thing! Please add <a rel=3D"noopener" href=3D"#" styl=
+e=3D"color: #000001 !important; font-weight: bold; color: inherit !importan=
+t; text-decoration: none !important;">shop@em.efollett.com</a> to your addr=
+ess book. </td>
+    </tr>
+        <if>  End Bassmaster Events=20
+	if>
+     END:  Don't miss email addy --><!--  END: Navigaton  --><!-- CAMPAIGN =
+TRACKING PIXEL -->
+<tr>
+<td>
+<table width=3D"1" height=3D"1" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0">
+<tbody>
+<tr>
+<td style=3D"font-size:0px; line-height:0px;"><img src=3D"https://mi.bkstr.=
+com/p/up/7190803f6e85d816/o.gif?mi_u=3D16099770342&amp;mi_ecmp=3Dfheg.13255=
+4102" width=3D"1" height=3D"1" alt=3D"" aria-hidden=3D"true">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- /CAMPAIGN TRACKING PIXEL --><!-- Spacer : BEGIN -->
+<tr>
+<td bgcolor=3D"#FFFFFF" height=3D"5" style=3D"line-height:5px; font-size:0p=
+x;"></td>
+</tr>
+<!-- Spacer : END --><!--  END: Preheader, View Online Store Logo and Navig=
+ation  --><!--  BEGIN: TLA Top Banner  --><!--  END: TLA Top Banner   --><!=
+--  Abandon Cart Banner  commenting out 1/31/24 due to MI --><!-- include c=
+ontentlibrary/!global_content/banners/abandoncart_imagetest_banner_no_space=
+ htm --><!--  END: Abandon Cart Banner   --><!--  BEGIN:  BOPIS Banner   --=
+><!-- don't do anything --><!--  END: BOPIS Banner   --><!--  BEGIN: STORE_=
+FOUND. If MSD did not find store #, skip email. Check before processing con=
+tent  --><!--  Storenumber was found in MSD  --><!-- Spacer : BEGIN --><!--=
+ some banners have a spacer to separate it from the above banner --><!-- do=
+n't do anything - don't want spacer --><!-- Spacer : END --><!-- Banner Ima=
+ge : BEGIN -->
+<tr>
+<td width=3D"100%" bgcolor=3D"#dcdddf" height=3D"48" align=3D"center">
+<p style=3D"margin: 0px !important; padding-top: 12px; padding-bottom: 12px=
+; padding-left: 8px; padding-right: 8px; font-weight: bold; font-style: ita=
+lic;font-size: 16px; line-height: 26px; font-family: 'Montserrat',Arial,Hel=
+vetica,san-serif">
+A message from one of our partners...</p>
+</td>
+</tr>
+<!-- some banners are png with transparent bgs so they can show the school =
+colors through. is white by default --><!-- Spacer : BEGIN --><!-- some ban=
+ners have a spacer to separate it from the above banner -->
+<tr>
+<td bgcolor=3D"#ffffff" height=3D"10" style=3D"font-size:0px;"><img src=3D"=
+https://em.efollett.com/assets/responsysimages/content/fheg/spacer.gif" wid=
+th=3D"1" height=3D"10"></td>
+</tr>
+<!-- Spacer : END --><!-- Banner Image : BEGIN -->
+<tr>
+<td bgcolor=3D"#003366" align=3D"center" style=3D"max-width:600px; -webkit-=
+text-size-adjust: 100%;">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fem.efollett.com%2Fpub%2Fcc%3F_ri_%3DX0Gzc2X%253DCQjkPkSSDQGyWg5SzdGK22d=
+eet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%253DSTRARAUWT%26_e=
+i_%3DEWKDiGOUr3U3gBstjnFNOLFlSfAO6Po9YxlsHX4orfndcuFBkMy-eRZA3jXqCcJCP0Rvsj=
+2T0Zs2enopD3OgfHTQTz413-bGX3AQN1SMwxcpAxou1WRODP0Evyaj86H8jbF-GMwXcmgLjohwk=
+VjlDQmBt6hsDVmv8Ox_-hHFsM876ddN2nwIZhrC6w8MDOerhZ107J_e5OHmrJ6klaVRdPpWxqTD=
+gMjXIVfUqlh2NtKUbloDPBIDShbd8BfmrmrS3thobGUAJmMFzqTy0ag0LxbQfC8XZwt-vxC0ZWT=
+HfkjIsZcVjOrwfB78DJFdPYKqMu6f4em84yku7lgWkbFwbDBAX14tGTEamL9MDHzZ2gJeGW3bPX=
+zROuowj11ola_FEk58uMiaZdpWmxc2ZxoWlVrF4ZU8isVXboul1LrP_UWnzHZC8_l3F88No5jtF=
+HUiRPJxQ7f96t3Xbh2g-3DJPatYlPrrCpNTfQQ4BJ_Kqj7Q4HIQDcaTUZvcm7v_Tqc0s23aC_No=
+0NdTNwKjQ1KrKlKBVBBYoDJzvT01e7o5SQejwClloq05U-OfHqb55BQ8n_v5MSaG.%26_di_%3D=
+2oa3c6727u2fndpmbsckor5h698a0pppk7p9tiggnvt29vgkrmv0&amp;data=3D05%7C02%7Cr=
+billings2022%40fau.edu%7C262a3bc39550405843ff08df18f45c42%7C63c3c9c1e824413=
+fb4352f0cabb2828f%7C0%7C0%7C639257109941048291%7CUnknown%7CTWFpbGZsb3d8eyJF=
+bXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIld=
+UIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DpKU1kQnfNmEukhrDjNEq6FdX6%2BkzD3L%2B=
+ZjoaYXEDtl0%3D&amp;reserved=3D0" originalsrc=3D"https://em.efollett.com/pub=
+/cc?_ri_=3DX0Gzc2X%3DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aH=
+rEezeL6HFzfYSaL4vzaVXtpKX%3DSTRARAUWT&amp;_ei_=3DEWKDiGOUr3U3gBstjnFNOLFlSf=
+AO6Po9YxlsHX4orfndcuFBkMy-eRZA3jXqCcJCP0Rvsj2T0Zs2enopD3OgfHTQTz413-bGX3AQN=
+1SMwxcpAxou1WRODP0Evyaj86H8jbF-GMwXcmgLjohwkVjlDQmBt6hsDVmv8Ox_-hHFsM876ddN=
+2nwIZhrC6w8MDOerhZ107J_e5OHmrJ6klaVRdPpWxqTDgMjXIVfUqlh2NtKUbloDPBIDShbd8Bf=
+mrmrS3thobGUAJmMFzqTy0ag0LxbQfC8XZwt-vxC0ZWTHfkjIsZcVjOrwfB78DJFdPYKqMu6f4e=
+m84yku7lgWkbFwbDBAX14tGTEamL9MDHzZ2gJeGW3bPXzROuowj11ola_FEk58uMiaZdpWmxc2Z=
+xoWlVrF4ZU8isVXboul1LrP_UWnzHZC8_l3F88No5jtFHUiRPJxQ7f96t3Xbh2g-3DJPatYlPrr=
+CpNTfQQ4BJ_Kqj7Q4HIQDcaTUZvcm7v_Tqc0s23aC_No0NdTNwKjQ1KrKlKBVBBYoDJzvT01e7o=
+5SQejwClloq05U-OfHqb55BQ8n_v5MSaG.&amp;_di_=3D2oa3c6727u2fndpmbsckor5h698a0=
+pppk7p9tiggnvt29vgkrmv0" target=3D"_blank"><img src=3D"https://em.efollett.=
+com/assets/responsysimages/content/fheg/NFL_Sept26_EM6.gif" width=3D"600" h=
+eight=3D"" alt=3D"Clock's ticking. Lock in your exclusive NFL Sunday Ticket=
+ offer. Click to get it now. Student eligibility verification required. Exc=
+ludes digital-only games. Terms &amp; embargoes apply. No refunds. Commerci=
+al use excluded." border=3D"0" align=3D"center" style=3D"width: 600px; max-=
+width: 100%; height: auto; font-family: sans-serif; font-size: 15px; line-h=
+eight: 140%; margin: auto;" class=3D"g-img"></a><br>
+</td>
+</tr>
+<!-- Banner Image : END --><!-- END: STORE_FOUND check --><!--  BEGIN: TLA =
+Bottom Banner  --><!--  END: TLA Bottom Banner   --><!-- BEGIN: Disclaimer,=
+ Contact Us and Footer sections --><!-- DEVELOPER NOTE:  This html creates =
+a 'Your Purchase Makes a difference/Shop with Purpose' statement for some s=
+tores -- if French, put French first, then English. If it's a non-unique/cu=
+stom statement, put default. If custom statement for a store in custom SEQ,=
+ put those. Then call the next part of the footer into the email.   END DEV=
+ELOPER NOTE --><!-- do NOT add the Purpose statement in Clout/Follett Media=
+ Network emails as may link to another site to purchase - which would NOT b=
+enefit the campus directly --><!-- don't do anything --><!-- end Clout camp=
+aign check --><!-- Call footer nav --><!-- do Not add the this portion to C=
+lout/Follett Media Network or French store emails bc they may link to anoth=
+er site to purchase - might make these bookstore nav items confusing to the=
+ customer --><!-- don't do anything --><!-- end Clout campaign check --><!-=
+-  BEGIN: Disclaimers for all. If Disclaimers has a value in it, pull in th=
+e file. This is a variable in case a disclaimer needs to be customized in a=
+ different way, the DISCLAIMERS variable can drive which file gets pulled i=
+n   -->
+<div id=3D"footerDisclaimers" role=3D"contentinfo"></div>
+<tr>
+<td width=3D"100%" bgcolor=3D"#ffffff" style=3D"padding: 5px; font-family: =
+Arial, 'Helvetica', sans-serif; font-size: 10px; line-height: 140%; color: =
+#000000;">
+<!-- show 2nd disclaimer if there is one --><!-- show 3rd disclaimer if the=
+re is one --><!-- show 4th disclaimer if there is one --></td>
+</tr>
+<div></div>
+<!--  END: Disclaimers -->
+<div></div>
+<!-- END: Disclaimer, Contact Us and Footer sections --><!-- Call unsub and=
+ address copy --><!--  ELSE: LANGUAGE defaults to English --><!-- Spacer wi=
+th border : BEGIN=20
+    <tr>
+        <td bgcolor=3D"#FFFFFF" height=3D"10" style=3D"line-height:10px; fo=
+nt-size:0px; border-bottom: 1px #bebebe solid;"></td>
+    </tr>
+ Spacer : END --><!-- Spacer with border : BEGIN -->
+<tr>
+<td bgcolor=3D"#FFFFFF" height=3D"10" style=3D"line-height:10px; font-size:=
+0px; border-bottom: 1px #bebebe solid;">
+</td>
+</tr>
+<!-- Spacer : END -->
+<tr>
+<td width=3D"100%" bgcolor=3D"#ffffff" style=3D"padding: 10px 15px 10px 15p=
+x; font-family: Arial, 'Helvetica', sans-serif; font-size: 10px; line-heigh=
+t: 140%; color: #000000; text-align: center">
+This is a promotional message sent to rbillings2022@fau.edu by Florida Atla=
+ntic University Bookstore. To ensure delivery to your inbox, please add sho=
+p@em.efollett.com to your address book.<br>
+<br>
+<b>Please do not reply to this email.</b><br>
+<br>
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fem.efollett.com%2Fpub%2Fcc%3F_ri_%3DX0Gzc2X%253DCQjkPkSSDQGyWg5SzdGK22d=
+eet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%253DSTRARAUAT%26_e=
+i_%3DEOwPQ42l-mBFJGD0ZPxQdvkDSYZVwKI_65fOuggokACKfQNqeEiUqH1Rxvg5nRAlO1c99M=
+zfYDxKEPovw0jbtMpuLZYLqtxkkRWDigNCoPpnz3bTpp2XzsMGeR9XSF9CzWU_gjt7y1zb6TDys=
+RHajvftMtjNboVn1YzpWGFPVN-sWmxjwj4HRS2U.%26_di_%3Dd2heusoek5cg568cf5bfepksh=
+emdfo5ijd50kh3biivo5rm2ffjg&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C=
+262a3bc39550405843ff08df18f45c42%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0=
+%7C639257109941069360%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiO=
+iIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7=
+C&amp;sdata=3DNRlXk%2Fa5uHBySklHZ2h9j3xWr5iCISANyKLYU53REq4%3D&amp;reserved=
+=3D0" originalsrc=3D"https://em.efollett.com/pub/cc?_ri_=3DX0Gzc2X%3DCQjkPk=
+SSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%3=
+DSTRARAUAT&amp;_ei_=3DEOwPQ42l-mBFJGD0ZPxQdvkDSYZVwKI_65fOuggokACKfQNqeEiUq=
+H1Rxvg5nRAlO1c99MzfYDxKEPovw0jbtMpuLZYLqtxkkRWDigNCoPpnz3bTpp2XzsMGeR9XSF9C=
+zWU_gjt7y1zb6TDysRHajvftMtjNboVn1YzpWGFPVN-sWmxjwj4HRS2U.&amp;_di_=3Dd2heus=
+oek5cg568cf5bfepkshemdfo5ijd50kh3biivo5rm2ffjg" style=3D"font-family: Arial=
+, 'Helvetica', sans-serif; color: #000000;" target=3D"_blank">Unsubscribe</=
+a>
+ &nbsp; | &nbsp; <a href=3D"https://nam02.safelinks.protection.outlook.com/=
+?url=3Dhttps%3A%2F%2Fem.efollett.com%2Fpub%2Fcc%3F_ri_%3DX0Gzc2X%253DCQjkPk=
+SSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%2=
+53DSTRARAUAT%26_ei_%3DEOwPQ42l-mBFJGD0ZPxQdvkDSYZVwKI_65fOuggokACKfQNqeEiUq=
+H1Rxvg5nRAlO1c99MzfYDxKEPovw0jbtMpuLZYLqtxkkRWDigNCoPpnz3bTpp2XzsMGeR9XSF9C=
+zWU_gjt7y1zb6TDysRHajvftMtjNboVn1YzpWGFPVN-sWmxjwj4HRS2U.%26_di_%3Dd2heusoe=
+k5cg568cf5bfepkshemdfo5ijd50kh3biivo5rm2ffjg&amp;data=3D05%7C02%7Crbillings=
+2022%40fau.edu%7C262a3bc39550405843ff08df18f45c42%7C63c3c9c1e824413fb4352f0=
+cabb2828f%7C0%7C0%7C639257109941091175%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1h=
+cGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%=
+3D%3D%7C0%7C%7C%7C&amp;sdata=3DosFYj3iyijchOsrFsbcE9EZ4RidWQYiP1mDPe%2BkI6y=
+Y%3D&amp;reserved=3D0" originalsrc=3D"https://em.efollett.com/pub/cc?_ri_=
+=3DX0Gzc2X%3DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6H=
+FzfYSaL4vzaVXtpKX%3DSTRARAUAT&amp;_ei_=3DEOwPQ42l-mBFJGD0ZPxQdvkDSYZVwKI_65=
+fOuggokACKfQNqeEiUqH1Rxvg5nRAlO1c99MzfYDxKEPovw0jbtMpuLZYLqtxkkRWDigNCoPpnz=
+3bTpp2XzsMGeR9XSF9CzWU_gjt7y1zb6TDysRHajvftMtjNboVn1YzpWGFPVN-sWmxjwj4HRS2U=
+.&amp;_di_=3Dd2heusoek5cg568cf5bfepkshemdfo5ijd50kh3biivo5rm2ffjg" style=3D=
+"font-family: Arial, 'Helvetica', sans-serif; color: #000000;" target=3D"_b=
+lank">
+Manage your preferences</a> &nbsp; | &nbsp; <a href=3D"https://nam02.safeli=
+nks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fem.efollett.com%2Fpub%2Fcc%=
+3F_ri_%3DX0Gzc2X%253DCQjkPkSSDQGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aH=
+rEezeL6HFzfYSaL4vzaVXtpKX%253DSTRARAUCT%26_ei_%3DESL5_9Jyo8JUjoWfuDJo7thWjV=
+Ka7WlYAARsEmcGVmnjkFaZKNIF6C9jLpIySpDZ7Z3v2HHauJ9b2rNILvhK-RjpB5xEfwqagq8Ax=
+IJQL5o8ZobkqA8mDSWcMr4ZPasyBw0l4kbZnMOeCO1BYR6u_cHZtsEh3KRkbwd4lzRYGIoBZ7IK=
+C1_gXA5HKKs5nn0q6OLglQ29y9q3Dg80j8Tm7t_9uq9FssowX3vl-BtP-BvUEHFEdp9X_93B2kl=
+rPS7tpCOxvxeMUIZGKx_3NQEkJdCHl0lMteqS2XCEUMiRaDvLMli8lg-XDgTmv_Sp2NKUxj04Tu=
+qoctYbxuNboElhj-4FnMMVHyWWGSbD.%26_di_%3De0cl4hda5kqnops791dvvcrmltn34enuc2=
+sotf9t01rhpfsd8430&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C262a3bc39=
+550405843ff08df18f45c42%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257=
+109941112460%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMD=
+AwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sda=
+ta=3DVcQzT6t%2FEvolwyLCN4WxPExb%2FmWK7hh%2F8%2BkznPz3YC4%3D&amp;reserved=3D=
+0" originalsrc=3D"https://em.efollett.com/pub/cc?_ri_=3DX0Gzc2X%3DCQjkPkSSD=
+QGyWg5SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXtpKX%3DST=
+RARAUCT&amp;_ei_=3DESL5_9Jyo8JUjoWfuDJo7thWjVKa7WlYAARsEmcGVmnjkFaZKNIF6C9j=
+LpIySpDZ7Z3v2HHauJ9b2rNILvhK-RjpB5xEfwqagq8AxIJQL5o8ZobkqA8mDSWcMr4ZPasyBw0=
+l4kbZnMOeCO1BYR6u_cHZtsEh3KRkbwd4lzRYGIoBZ7IKC1_gXA5HKKs5nn0q6OLglQ29y9q3Dg=
+80j8Tm7t_9uq9FssowX3vl-BtP-BvUEHFEdp9X_93B2klrPS7tpCOxvxeMUIZGKx_3NQEkJdCHl=
+0lMteqS2XCEUMiRaDvLMli8lg-XDgTmv_Sp2NKUxj04TuqoctYbxuNboElhj-4FnMMVHyWWGSbD=
+.&amp;_di_=3De0cl4hda5kqnops791dvvcrmltn34enuc2sotf9t01rhpfsd8430" style=3D=
+"font-family: Arial, 'Helvetica', sans-serif; color: #000000;" target=3D"_b=
+lank">
+Privacy Policy</a> </td>
+</tr>
+<!--  END: LANGUAGE  --><!-- BEGIN: Address. Confirm Store Address is not b=
+lank -->
+<tr>
+<td width=3D"100%" bgcolor=3D"#ffffff" style=3D"padding: 7px 10px 10px 10px=
+; font-family: Arial, 'Helvetica', sans-serif; font-size: 10px; line-height=
+: 140%; color: #000000; text-align: center">
+<!-- BEGIN: Address. Confirm Store Address is not blank -->Florida Atlantic=
+ University Bookstore<!-- sometimes the store name =3D the store_address1, =
+so don't list it 2x --> | 777 Glades Road | Boca Raton, FL 33431<!--  END: =
+Address  --><!-- BEGIN: TAGGING --><!-- BEGIN: DOTOMI -->
+<img height=3D"1" width=3D"1" border=3D"0" src=3D"http://login.dotomi.com/u=
+cm/UCMController?dtm_com=3D2&amp;dtm_cid=3D2554&amp;dtm_cmagic=3D8c59fd&amp=
+;dtm_fid=3D103&amp;dtm_format=3D6&amp;cli_promo_id=3D99&amp;dtm_email_hash=
+=3D0b350705e6e32dc2acd23978268b6f69&amp;dtm_user_id=3D1014907908&amp;dtmc_d=
+rop_id=3D2026-09-22"><!-- END: DOTOMI --><!-- BEGIN: IMPACT RADIUS Tracking=
+ Pixel -->
+<img height=3D"0" width=3D"0" src=3D"https://efollett.7eer.net/i/177360/202=
+336/2379?adcampaign=3DPromo_NFL-Sunday-Ticket_FMN_260922" style=3D"position=
+:absolute;visibility:hidden;" borde=3D"0"><!-- END: IMPACT RADIUS Tracking =
+Pixel --><!-- END: TAGGING -->
+</td>
+</tr>
+<!-- BEGIN: Live Intent if LIVEINTENT bottom banner is assigned and NOT Ath=
+letics or Events --><!-- do not show LI in Athletics or Events campaigns or=
+ if turned off --><!-- not athletics or events or turned off --><!-- END: L=
+ive Intent if LIVEINTENT bottom banner is assigned and NOT Athletics or Eve=
+nts -->
+</tbody>
+</table>
+<p></p>
+<!-- END:  Check for Store 2379 --></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table cellpadding=3D"0" cellspacing=3D"0" style=3D"border: 0px; padding: 0=
+px; margin: 0px; position: absolute; display: none; float: left">
+<tbody>
+<tr>
+<td height=3D"1" style=3D"font-size: 1px; line-height: 1px; padding: 0px;">=
+<br>
+<img src=3D"https://em.efollett.com/pub/as?_ri_=3DX0Gzc2X%3DCQjkPkSSDQGyWg5=
+SzdGK22deet8CXlzdAzfKzbG4tYYDgzc1FyN3aHrEezeL6HFzfYSaL4vzaVXHkMX%3Dw&amp;_e=
+i_=3DEUlaGGF4SNMvxFF7KucKuWOVyDbfNuSklDOiODzzE88ZYjEBwOp-f6nMUMY_cpAxGbgPth=
+jLVZ2trwLgw2PEGFmxis0ogtUTBE1FQfchHg.&amp;_di_=3Dc8s59dhu7qd4fri6l26c39gn8a=
+9h2st5ori022fqsq5kdqhpbckg">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,1031 @@
+Received: from DS0PR04MB8597.namprd04.prod.outlook.com (2603:10b6:8:125::5) by
+ CO6PR04MB7635.namprd04.prod.outlook.com with HTTPS; Tue, 22 Sep 2026 19:46:29
+ +0000
+Received: from PH0PR07CA0076.namprd07.prod.outlook.com (2603:10b6:510:f::21)
+ by DS0PR04MB8597.namprd04.prod.outlook.com (2603:10b6:8:125::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.451.14; Tue, 22 Sep
+ 2026 19:46:20 +0000
+Received: from SJ1PEPF000023D4.namprd21.prod.outlook.com
+ (2603:10b6:510:f:cafe::74) by PH0PR07CA0076.outlook.office365.com
+ (2603:10b6:510:f::21) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.451.14 via Frontend Transport; Tue,
+ 22 Sep 2026 19:46:19 +0000
+Authentication-Results: mx.microsoft.com 1; spf=pass (sender IP is
+ 69.72.46.73) smtp.mailfrom=notifications.joinhandshake.com; dkim=pass
+ (signature was verified) header.d=notifications.joinhandshake.com;dmarc=pass
+ action=none header.from=notifications.joinhandshake.com;compauth=pass
+ reason=100
+Received-SPF: Pass (protection.outlook.com: domain of
+ notifications.joinhandshake.com designates 69.72.46.73 as permitted sender)
+ receiver=protection.outlook.com; client-ip=69.72.46.73;
+ helo=v573.v501407a0.usw1.send.mailgun.net; pr=C
+Received: from v573.v501407a0.usw1.send.mailgun.net (69.72.46.73) by
+ SJ1PEPF000023D4.mail.protection.outlook.com (10.167.244.69) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.21.451.0 via Frontend Transport; Tue, 22 Sep 2026 19:46:19 +0000
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=notifications.joinhandshake.com; q=dns/txt; s=pic; t=1790106378; x=1790113578;
+ h=Message-Id: Reply-To: List-Unsubscribe-Post: List-Unsubscribe: To: To: From: From: Subject: Subject: Content-Type: Mime-Version: Date: Sender;
+ bh=CXAY+6PnIRGLjvKL4hBb5nQO6AHfUAurzR/RjAynGnA=;
+ b=O5CW5Sru8TEjGTinIuEoREXTPzK5PbzckE1Z1k9ZYDI6vq6nrDH1auX2BP2QRDSXOB9fEIv/lMyiGq1p6cuDrfy5Vbyz1U5u40W7nBDEgj5B1mM+9OXC4TTbk7br5znpu5md/bX+pff+FADXQCVdjzaBo/XzNUIZ/VYtzgPhz+A=
+X-Mailgun-Sid: WyI2NzEwOCIsInJiaWxsaW5nczIwMjJAZmF1LmVkdSIsIjJkOTY3Il0=
+Received: by 353309bfce806f105f37f3fb47a8c59c115756adad14cf3067b8d60b3454d4f0 with HTTP
+ id 6ab2db0996ff9fb215bd86f8; Tue, 22 Sep 2026 19:46:17 GMT
+X-Mailgun-Sending-Ip: 69.72.46.73
+Date: Tue, 22 Sep 2026 19:46:17 +0000
+Content-Type: multipart/alternative;
+ boundary="ab125676e50c80c0b7216bdc185ebb29df78c856a44bc3acd8d31536b0d2"
+Subject: New Linux Engineer 2026-1625 at SimVentions
+From: Handshake <handshake@notifications.joinhandshake.com>
+To: rbillings2022@fau.edu
+X-Mailgun-Tag: approve_job_posting
+X-Mailgun-Track-Opens: true
+X-Mailgun-Track-Clicks: true
+X-Mailgun-Require-Tls: false
+X-Mailgun-Native-Send: true
+List-Unsubscribe: <https://email.notifications.joinhandshake.com/u/eJyEkMGO3CAQRL9muDGCNthw4BLllJ-w2tDssDuABXiU_H3kyUjZRIpyrO6u0usKDoKdFxbonh7UfqyZxq2Gte4j1dIv-kuoGVO56K-u1JFi8vjcXN9rKjcsod_wg66-ZkYZ0339fLWm4AgN-BgjlyISV0ZufCNPXKopgvbGxgnYzc2LBGu0hYBRg1deAWqtt-D1DH62LDkQMAsLIK2a5XIVAkFNc4xWGtIGL0r8j_C9bieSlGoCaTT7m3UjFDJ4z-dpUlwFktwENHwibY3QxtqIbG8Ukn9aRsrUB-bdycUKMWkQoJcFFLC91XD4sW6H_6DhvtWts-balu73VN46CICLEhGPK4WD9ZTTHdv6C7C7z4O-0vedWspUxlowk_ut-R8f85eLny6O-97qg07B99pHKm_8rJAL-8_4B7aEZbgaIxvulfCkeiWwo1M7q1KTWDRIzR4OfgYAAP__eqzGhg>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Reply-To: no-reply@joinhandshake.com
+X-Mailgun-Variables: {"delivery_method_options[domain]": "notifications.joinhandshake.com",
+ "email_notification_id": "ea82cfff-10fe-481b-bece-143f25c89f32", "job_id":
+ "11432185", "notification_id": "bea01dcc-6334-4de1-8da8-3e59805899fa",
+ "prediction_timestamp": "1790035202577242", "product_bucket": "Jobs",
+ "similar_job_ids": "", "similar_jobs_experiment_name":
+ "experiment-notifications-similar-jobs-approve-job-posting-2026-09",
+ "similar_jobs_experiment_variant": "off", "user_id": "43075215"}
+Message-Id: <20260922194617.00a2436ff918e58a@notifications.joinhandshake.com>
+Return-Path: handshake@notifications.joinhandshake.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2026 19:46:19.7340
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 5a334824-3dc7-48d9-7b23-08df18e22c73
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 63c3c9c1-e824-413f-b435-2f0cabb2828f:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SJ1PEPF000023D4:EE_|DS0PR04MB8597:EE_|CO6PR04MB7635:EE_
+X-MS-Exchange-Organization-AuthSource: SJ1PEPF000023D4.namprd21.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 5a334824-3dc7-48d9-7b23-08df18e22c73
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:13230040|704161411799003|2092899012|3092899012|4092899012|3072899012|5062899012|69100299015|260918215300599003|260918224100599003|1032899013|7049299003|29132699027|7149299003|13102899012|12012899012|3109299003|4022899009|5082899009|13012899012|31052699007|10067099003|11063799006|18003699003|4133799003|19002099009|55112099003|21082099003|16102099003|57112099003|5063699009|2066899003|8096899003|13003099007|20204042999004|20203002999009;
+X-Forefront-Antispam-Report: CIP:69.72.46.73;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:v573.v501407a0.usw1.send.mailgun.net;PTR:v573.v501407a0.usw1.send.mailgun.net;CAT:NONE;SFS:(13230040)(704161411799003)(2092899012)(3092899012)(4092899012)(3072899012)(5062899012)(69100299015)(260918215300599003)(260918224100599003)(1032899013)(7049299003)(29132699027)(7149299003)(13102899012)(12012899012)(3109299003)(4022899009)(5082899009)(13012899012)(31052699007)(10067099003)(11063799006)(18003699003)(4133799003)(19002099009)(55112099003)(21082099003)(16102099003)(57112099003)(5063699009)(2066899003)(8096899003)(13003099007)(20204042999004)(20203002999009);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Sep 2026 19:46:19.4854
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5a334824-3dc7-48d9-7b23-08df18e22c73
+X-MS-Exchange-CrossTenant-Id: 63c3c9c1-e824-413f-b435-2f0cabb2828f
+X-MS-Exchange-CrossTenant-AuthSource: SJ1PEPF000023D4.namprd21.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DS0PR04MB8597
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:10.0311345
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0451.004
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944490095)(944506478)(944626604)(920097)(930201)(20251009189)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?0X8puk3m4VBv/crL8cpD39jPb8Me5W2se6xBF1fJapIjf3GFge3vUnmJ?=
+ =?Windows-1252?Q?Ysy6NNhNFw8PfNDEqulpDBKaODRmd5LobpYszTtTBNiUmR62vIcvlosY?=
+ =?Windows-1252?Q?WAW5X33XIXiB6xVTIdp57fe1dbXRyp89fGttrXWSPslf/EmFsDF8ZZyE?=
+ =?Windows-1252?Q?pVhMHzlSIgVEGyRabqyPlhbMQiILKgGtdPe6B83hz0MCo9cpQQIHG7be?=
+ =?Windows-1252?Q?gQcDcJT1LtPgh/Ys1d4PEQCc352BAT3pnVa7NNLdlcOBTGNCX4aRVigS?=
+ =?Windows-1252?Q?2L/VS7baQUTjMpfT6xo+cfZ+nw93qZpWZ5sNx3PLI2xkxypcDgaUv9Gn?=
+ =?Windows-1252?Q?UdmnmigyefSHRUoZthAG5U73J0Zxn12hFEla+gS2/XOs/3NDuFw2ux2A?=
+ =?Windows-1252?Q?ImPtF59VadcWl7frSQH25jhwPwcMEyXglN3IOQT/dqaq3Vsx86QqVB8X?=
+ =?Windows-1252?Q?MyVPCLlUsfcibc5NQWN7unTjG4aIF3u9BX0W/Ngf6PtYZhn7CuwJr6Vo?=
+ =?Windows-1252?Q?bxBNBNblZ9tLt/t1b6Y9qeZu4cWpEgQD1YpYkqWfjfVfQbcS9UqTFDSx?=
+ =?Windows-1252?Q?ptkX5jL7XOAN1tubsFn5SgM9kh2rGXMzoXcztbmPn4tXFcJL4Z1Fts1D?=
+ =?Windows-1252?Q?6iglBMKzydkOepAuVJ/C2s2FSTtK0eFxyFCJLs/7elkrujae/fmfxXMo?=
+ =?Windows-1252?Q?rE+JX4amGwXh2Zgj8gJ5BdrszBS4c5fXdz60bV90pBn6RHq09OI7yZaa?=
+ =?Windows-1252?Q?7+GH6m1ThnIyBQ1Cz4G9J2f9wN0oToWTT39X4vzrZ+1LX4EYX1H1uoWM?=
+ =?Windows-1252?Q?D8utt0mg+5rZpL5MFx66lbJ2k1/AEwzKiS4Xeac7uGrQICK/DuyetC3q?=
+ =?Windows-1252?Q?RAhouyAjfFn7Z+YjhEp/6123fk/q5rAoSilSMIgaDogVgl+4eUBQJkQR?=
+ =?Windows-1252?Q?J7/pm0LeUYyYbD63+otnLTAV5FSqKVzgJNlWrlCGJuGeDflBbXQGTrlx?=
+ =?Windows-1252?Q?gh0X9DDyFMD4FkJlRG4XMVlAjBC+RHKg/8Lr+Urt7iCDNyoNrbYGdOXI?=
+ =?Windows-1252?Q?p6jwz+02YrKZOjmcbW9iSC2pUDBDuFJVMN8ba5dbZ2mwQzp/YCKRO8SB?=
+ =?Windows-1252?Q?RzpB/0+G3KG3/GTzZ07Oc66w1T6GguJkX55x6ZgjJQloZBfgtRO45NzD?=
+ =?Windows-1252?Q?U9CwEfdnKlyBx1tp+A4CqK939H3qbuaUiIrE9uE5Fn1rgH6L4Hx5DfPt?=
+ =?Windows-1252?Q?/DvEMLyMMWYp4gjkobNkBqTWAHICTjOBzQLLdckFPqe5X7Dx1hLyWhmS?=
+ =?Windows-1252?Q?JCwFiLJBzsx05G8CVNJcja2DiIQAMFAVDs2IQicA3//WSzYK21k1Y67Q?=
+ =?Windows-1252?Q?vgmwJHvw/Uu1BUtKDS3kGo8h53zh+xZXFqSjlqMEHl5sJWgJwNISs0mq?=
+ =?Windows-1252?Q?GMFuLtBzpKIHp208z6G3CQhMd95g2hqGXLOu0yt4O3XKexOR3vX7f/nq?=
+ =?Windows-1252?Q?MPAIoG67Z4IwoX2e7fx2dA1u5Wn2S4XOeXqCMtnlHKSY5UUf6YteNMud?=
+ =?Windows-1252?Q?+iBDcSZBxtji9JkewuKzhXNL2nYiYzbCGuGJqHMkW6U1jt2apFETMz0z?=
+ =?Windows-1252?Q?93AcvCFNWHml8DeGZtYf4VyBZHm3sEH68eV6+s9lx14IFwBmEyWTPtfF?=
+ =?Windows-1252?Q?+mlmKpKKL8+thKxyf6ZhTNHO8mbNhDkaWbklCJfHWwE9DNVet0oUpEZC?=
+ =?Windows-1252?Q?FWzcRd2o8IsyXr/f6nrB8lnYCv8VOc1kylr/VAU574uCpW6Wfti9fi27?=
+ =?Windows-1252?Q?ghi1lmp2hox1JX7QJPrDLJZqapjPSGzF/70WHO08kQe99vRF4Fqz6Rzs?=
+ =?Windows-1252?Q?6WJN7SnFHzsYgaMi0HTctOlno6m8myEO0A31DUgndf7RnAgZpaHIX9ex?=
+ =?Windows-1252?Q?iTp0CUPCV4JJGAAToRr42TJoCH23E4DpStEMvHyYNf3GiQqMHOSBIFX4?=
+ =?Windows-1252?Q?oo8Z1ElmuRNvoEem5VD8D7q+nM3K76Rydu6oMirtt85yp+qPSDlrCBA+?=
+ =?Windows-1252?Q?JWStfNXcC+3chvazLyS8f8sLYQpgnkrytBUhpE4XC52uRjxZx9aQHjKq?=
+ =?Windows-1252?Q?dGbRFl3YZ0XAAjvj6hGZKsDWRX8aHA3Yrh3W5xHzZc8bigWV+OgAeVE3?=
+ =?Windows-1252?Q?BOCq7G+fv00CDqM4jjlCo775bmQoWt382sJ6OltFY8eeu8gTd5XnWyrn?=
+ =?Windows-1252?Q?Pzv7TWhwPr1wDB2W201CXI7Jx93ghkXzNhjoGDGgJ5gWKXK3lTW4HTnq?=
+ =?Windows-1252?Q?vRSXin3Bbz6/674fufHMk+5hYdiB7CmXKNNMZvYsa/1wsgnuF4w7KLQH?=
+ =?Windows-1252?Q?sopM+/RDHlxU4c69i5zJyUG7q5TFlgFDy6j3LQFgKa4freJcWB/givGp?=
+ =?Windows-1252?Q?gHEkxrX6LqrmwAQb1YLZQRlsJ+yOTJhkX1IihbcuRHhPfEef/YdQ2r73?=
+ =?Windows-1252?Q?W7e3oq5Tht6tDrZCALSlEtQv2h046QtBohj9tkvTVfuU+j3wlXM=3D?=
+MIME-Version: 1.0
+
+--ab125676e50c80c0b7216bdc185ebb29df78c856a44bc3acd8d31536b0d2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+                EXTERNAL EMAIL : Exercise caution when responding, opening =
+links, or opening attachments.
+
+[Handshake] <https://email.notifications.joinhandshake.com/c/eJyEkcuO3CwQhZ=
+_G7BhBgW28YPH_as0iL2FhKLqZMWABbiVvH9HTUiY3ZVmXc1T1HafBLdNMHO7hjuXbGrHdslvz0=
+UJOdRj_dzmakIbxolNuwQdrHpOXtxzSzSRXb-YdX2yOBDWfF8bZJGZFMJqwr58la3AajQLrvaec=
+eaRS8Y1uaJFyKTyMVi1eALlpUHz2Vk2KcWWYV3ZyfDMerLOTYxJJ0MBgYgsAX-TE5xfGDEgxeb9=
+whaMyg2T_Ovctb_0kzqUArkay61trRx3EfwO8DvDqzfm7qo_E69niWvNZLA7iYo6j5Duu3e_ItY=
+V0XfvzWAaY-mZEF844iMuDybNpTTxMuKZBXGo7Haa2fiCrIV33hxv5ld6GhnFnLZ2EkFQ65FQ5o=
+6jAcVFsVMviDTkKumAfkhYi1mbi8QiGiREYjPMMEshRsjttW7fTvmPTX_JWSdFlC_se0rUCAxgk=
+6wjQnaSGGHZT1g9kVX9u1BW_HlhC7C8kE1H_qOlPGdCninYVfWLrBX1ioz1Uypa_2t9NCSY1nb0=
+nTf8BPDkrlo5KCjaPwEdy1_A9AAD__6Cp_20>
+New job match
+
+A new role<https://email.notifications.joinhandshake.com/c/eJyEkU2O3CAQRk8D=
+O0ZQGBsvWCRq9SKXsDAUbWaMsQC3kttH7ukokz9lWQWvKN7nDfixH6jHNd6xfJsStiX7Ke8t5q0=
+S9dnnZONG1MVsucUQnX2cvLzmuC1283Wxb_jicqJoxDBywXs5aIrJxnX6iEzRG7QaXAiBCR6QdV=
+rMbEaHTHQygHJ6DBLoYjRw1VvNRzXPwMGHcRjQ614oLUBIT6MBDj0fAcTY9WJ44dxCJ_sQRqFRa=
+Us6_r91X_N8riREJ0FoRVeztLZXIj8RuBK4Bnv8SRG4vuaZVbTFLQSuP2gir0dLU81HcUjkxe57=
+yXeczkf2XFvcbtNpBAuB_ryZ0McjEXl5iHo2nU27jbeNyEtth8etTe8ea9xu62Ma_V3pjJYL7xz=
+rpexY51Ew7a1mEtWoudLjGCzdC_roHkiLCWuzaX-kxaUCDmoYoAO6l-wP16b5cG_YzJc8V1pMme=
+O6xu1WgQOQjp9e0B-0xhRXW6Z3j9V8bNQJv-5YYjq_sNmE5mfNfgmGPSl2Uuyp7SzYUxs7k2Z8_=
+Of4uy3Rbs3kEGgzfxFPj4rlVNVJPigQit4NfA8AAP__y9AEdg> at SimVentions matches y=
+our preferences.
+
+[SimVentions logo] <https://email.notifications.joinhandshake.com/c/eJyEkcG=
+O2yAQhp8GbqxgMLY5cGgV5dCXsDAMG7IBLMBR-_aV01Tdtlv1OMx8zOj7vQGvx4l6vMU71m9Lwn=
+4pfilbjyU3oj77kmzMRJ1MLj2G6Oyj83ItMV9s9u1i3_DFlUTRiElzwUc5zRSTjbflPbJEb9DO4=
+EIITPCAbJjFylZ0yMQgAyg36yCBXszkJ-0saiXEGlYZ7DQ4PkvllJSTR0WjAQ4j1wBCD6OYXji3=
+MMgxBC1mVLMlA__fudeyHicJMUgQs6I3c-l9a0R-InAmcA52_5sicL6WlTW01V0InH_SRJ73nhZ=
+n02bjaybyZLetljsux5qttB7zK4HxMVRyx9yJPG2lxYca_my1sleHH9PLYRTrczKhj3si8vQQTf=
+8UvaLlwjvHRikHNngUbPZ2ZhKVnrmatQ6WbhV9dA-kx4St27Q9MuRSAQc1TTAA3Wrxu-vLurs37=
+OZLWRutpq7xdov5tQEHIAM_bKHfaYsp3mxdftht5v1DW_DrhjUmzH3JNqH5VbPf4mJPih0Ue8o4=
+CvaUwY78Gdf__P5ua7S5mxIC7eYDnXRvWA9Vg-STAqHo3cD3AAAA___wxA1Y>   SimVentions=
+ Linux Engineer 2026-1625 $106=E2=80=93147K/yr =E2=80=A2 Full-Time =E2=80=
+=A2 Dahlgren, VA (Onsite) <https://email.notifications.joinhandshake.com/c/=
+eJyEkcGO2yAQhp8GbqxgMLY5cGgV5dCXsDAMG7IBLMBR-_aV01Tdtlv1OMx8zOj7vQGvx4l6vMU=
+71m9Lwn4pfilbjyU3oj77kmzMRJ1MLj2G6Oyj83ItMV9s9u1i3_DFlUTRiElzwUc5zRSTjbflPb=
+JEb9DO4EIITPCAbJjFylZ0yMQgAyg36yCBXszkJ-0saiXEGlYZ7DQ4PkvllJSTR0WjAQ4j1wBCD=
+6OYXji3MMgxBC1mVLMlA__fudeyHicJMUgQs6I3c-l9a0R-InAmcA52_5sicL6WlTW01V0InH_S=
+RJ73nhZn02bjaybyZLetljsux5qttB7zK4HxMVRyx9yJPG2lxYca_my1sleHH9PLYRTrczKhj3s=
+i8vQQTf8UvaLlwjvHRikHNngUbPZ2ZhKVnrmatQ6WbhV9dA-kx4St27Q9MuRSAQc1TTAA3Wrxu-=
+vLurs37OZLWRutpq7xdov5tQEHIAM_bKHfaYsp3mxdftht5v1DW_DrhjUmzH3JNqH5VbPf4mJPi=
+h0Ue8o4CvaUwY78Gdf__P5ua7S5mxIC7eYDnXRvWA9Vg-STAqHo3cD3AAAA___wxA1Y>
+View job <https://email.notifications.joinhandshake.com/c/eJyEkU2O3CAQRk8DO=
+0ZQGBsvWCRq9SKXsDAUbWaMsQC3kttH7ukokz9lWQWvKN7nDfixH6jHNd6xfJsStiX7Ke8t5q0S=
+9dnnZONG1MVsucUQnX2cvLzmuC1283Wxb_jicqJoxDBywXs5aIrJxnX6iEzRG7QaXAiBCR6QdVr=
+MbEaHTHQygHJ6DBLoYjRw1VvNRzXPwMGHcRjQ614oLUBIT6MBDj0fAcTY9WJ44dxCJ_sQRqFRaU=
+s6_r91X_N8riREJ0FoRVeztLZXIj8RuBK4Bnv8SRG4vuaZVbTFLQSuP2gir0dLU81HcUjkxe57y=
+Xeczkf2XFvcbtNpBAuB_ryZ0McjEXl5iHo2nU27jbeNyEtth8etTe8ea9xu62Ma_V3pjJYL7xzr=
+pexY51Ew7a1mEtWoudLjGCzdC_roHkiLCWuzaX-kxaUCDmoYoAO6l-wP16b5cG_YzJc8V1pMmeO=
+6xu1WgQOQjp9e0B-0xhRXW6Z3j9V8bNQJv-5YYjq_sNmE5mfNfgmGPSl2Uuyp7SzYUxs7k2Z8_O=
+f4uy3Rbs3kEGgzfxFPj4rlVNVJPigQit4NfA8AAP__y9AEdg>
+
+Want better job recommendations? Update your preferences.<https://email.not=
+ifications.joinhandshake.com/c/eJyEkcmuGysQhp8Gdhwx9rBgca8sL_ISLRoKNz7NIKCt=
+5O2j9rGUk0lZVsFXFN_vNHfzMGIHe3hA_bZE6Ft2Sy495NSQ-t_laEJC6qJT7sEHa54nb_cc0ma=
+Sa5t5hzebIwbNxpkyOohxwhBN2JfPyBKcBjNx670njHogcmIrWcECYVJ4ruw0e8HxppVah9XT2Q=
+qrqFjHSVIphBcr-NHNzuGgOeUDnTlnsxzY-Eap4VIM3s9sAjUZJOm_1r3n9VyJMSk4mxTe9dZ7a=
+Uj8h_gV8as3x-8U4td7XkkDU-2GxPUoznRYSgUPFZKFhsSFIT4cPS4tH9UCEhdTSs0PWM4nS249=
+pNty-oH6uhnBhSMicXlqezWticWEW0Li0vrhIPXlw2oL6bY_p-FfBa9gKHPWkkEISaQDRiZnJiJ=
+AzRNV0zx7g0sFF-wT6SFC6yaWZ3ZUKE65GkcuOS41u8P2ZT3sO3T9Ja8NV13XsO8h3RqnnCNJT0=
+vgDtxCDLupy4fVpj832gJfC9QQzy8kE0H_qMlPMZEXRU6KvLSdBXlpI2fuhM5_Hf8wNZjUdfYed=
+_0H8fhoUE9VUtBRcabwQ_PvAQAA__8jXwv->
+
+[Instagram] <https://email.notifications.joinhandshake.com/c/eJyEkc2O2ywUhq=
+8GdkT82mbB4vsUZdGbsDAcEmYMWICT9u4rZyJ1pmrV5Tn28-rwvN5wr4cRe1jjHeqPOUG_FT-Xr=
+ceSG1L_-5JszEidTS49hujs88vprcR8s9m3m32HkysJg2GjpowOYpwwJBvX-TMyR2_ATtyFEAij=
+AYic2EIWcECYFIErN-kgOL4ZFhZnNQXq3ChHvSg6UA3TMlpnlZMMR8MpH6jmnGk5sPFEqeVSDCF=
+oNoGaLJL0X-e-leU4iTEpOJsUXs2t960h8R_iF8Qvj8fjFHPr9lptOgjEL19SkLjsPc2t7NUBEm=
+e7bbXcYT6Ct9J6zNf5sAAV8eH4M4GPe0Li_JTzWjqbNhuvGYlz67uH3OcPdy3m6_pMw79rXMBS5=
+p0jgxCSSA-MTN5ORIDSE1WT1sHirYKP7on0mKB1m7ZnQ1QoTrkaRy453mrxu-vzsrt36OZbWRqu=
+pi5xXWO-Nk45R5IGu5_A77jFFFdb5w93zXxetBm-b1BjOp6QbQLzayZfyiAvihwUeWk7BvLSRo5=
+2CdV_jb_bGm3upoSAu_mDeLw3qIcqKeioOFP4bvjPAAAA___ZbANm>  [X]  <https://email=
+.notifications.joinhandshake.com/c/eJyEkc2O2yAUhZ8GdkT82cYLFq2iLPoS1jVcEmaM=
+sQBH07evnInUSdWqy_tzju79jrfSj_1APS7xjuXnlLDdsp_y1mJeK-m--5wgrqQ72zW3GKKDx-T=
+0luN6g9XXG7zjyeVE0Yph5IL3ajAUE8Rl-iqZorcIRroQAhM8INNGzGxGh0xoFWTnzBiUpDcLs_=
+Mznw06b2YwozHa9Q4UF4MGpxWNVnLZ81FKMepeDCfOQWrVhzAKg50Bovn_zn3L83GSEFpJYTq62=
+FtrWyXqG5EXIi8fxxaRlxclUZe9panmvTgk6gzbVvIdp8Nsy7XF9Todn2Mhsj82E_q4J6LODyDP=
+poO0QbyuRJ1r2z2ubfrkVeN6XR5u9E90MwIX3jnWK6WZ9iiY8WCYwm40vDPjGIBuBX10D0mLCWu=
+DtD1S4aqTXHbDILWkW8l-d22ad_eOzf7Ic6XFljkuS1yvVXIpieYB9hP6ndaY4gJl-uRV7ddGnf=
+BjwxLT8cIKCe3vmr0EwJ4qdqjYE9tRsCc2diTK-PhP-zuUCGuzOQTa7F_A071iOVBpxYdOio7er=
+fwVAAD__7SG_tU>      [TikTok]  <https://email.notifications.joinhandshake.c=
+om/c/eJyEkcGO2ywUhZ_G7IjgYmyzYPH_imbRl7AwXBImBizASfv2lTOROlO16vIe7jm6fMdpcG=
+oYicM13LH8mCO2a3Zz3lrIqXbyf5ejCamTZ51yCz5Y83w5veeQria5ejU3PNkcCWo-KsbZIMaJY=
+DRhnT9b5uA0mgms955y5pH2E1_oghYp74UHaSflBZCrXhaGfhgEGIFcCgfGq4ExN4lBugUVCRoY=
+DEwBcNUPfDwxZqAXg_eKTygn0_XsX-e-5-U4ifNeAJ8kWfW1ta124r8O3jp4ezwepxZuLd-O9UP=
+r2ZeUTrztLc4178ViJ85m20q-43wEb7m2kC7zQQFLB8OxGdGFPXbi_ITzEq2JmwmX1IlzbbvD1O=
+YPdjWky_pMI79jXNAw7qylgxA97R1yOjkzUYFSTUxOSnlDtoIu2KelhYi1mbg9G2JCAgM5jtAD2=
+Up2u23zstsbNv0tL5UUXZawriFdKjCArmfe7Cd0O6khhtWU-YNd1Z-FOuP3DUuIxxeSiah_zfRL=
+GfTlooeLvrAdA31ho0e7lKm_xt9NCSY1nb0nTf8BPNkrlgNVL9gogUty1_AzAAD__0k_ApE>
+[Apple App Store] <https://email.notifications.joinhandshake.com/c/eJyEkcuu=
+2yAQhp8GdkQw4NuCRasoi74EwjAknBiwDI7at6-cE6mnN53lDHzD8P1eg5_6gXpc4gO3HyZhuxV=
+vytpiyZV0X31JNmbSnXUuLYbo7PPk9FZivtns683e8eRKoqjFMHHBezmMFJONi_mImOg12hFcCI=
+EJHpCpUcxsRodMKBmgc-MUJNCbdiCkml0QzqvZc2k9eOR8ADtPk-eWRg0cej4BiEn1YjhxbkHJP=
+oRJjNiNlij-2bpvZT5WEkJJEGNHF31rba1EfiFwIXAJdv-bInCJeS579maJ-V4JXOy6mphrs8tC=
+5GVvydSybw6JPNt13coDzfHUWmqL-WoOL7gR6I-bCX3cE5Hnp65X09m02njNRJ5r2z3mZt5t1pi=
+vy3Ma_VPsjJYL7xzrpVRMeRRs9HZkErtp5N04TcHSdUMf3RNpMWFtNq3PzLjsgEM3DKCArlvxu2=
+tm3t0dm_5W5ko3vc1xWWK-VuAARPHDDvqd1pjiYjfzbrPqj41q8PuKW0zHF7JNqH_V7Ld42ItiB=
+8Ve2o6CvbSxI2_Gp_-Of9gt2tx0CYE2_Q_xdK-4HaqU5EMHoqMPDT8DAAD__0aWCmA>     [Go=
+ogle Play Store]  <https://email.notifications.joinhandshake.com/c/eJyEkcuu=
+2yAQhp8GdkQw4NuCRasoi74EwjAknBiwDI7at6-cE6mnN53lDHzD8P1eg5_6gXpc4gO3HyZhuxV=
+vytpiyZV0X31JNmbSnXUuLYbo7PPk9FZivtns683e8eRKoqjFMHHBezmMFJONi_mImOg12hFcCI=
+EJHpCpUcxsRodMKBmgc-MUJNCbdiCkml0QzqvZc2k9eOR8ADtPk-eWRg0cej4BiEn1YjhxbkHJP=
+oRJjNiNlij-2bpvZT5WEkJJEGNHF31rba1EfiFwIXAJdv-bInCJeS579maJ-V4JXOy6mphrs8tC=
+5GVvydSybw6JPNt13coDzfHUWmqL-WoOL7gR6I-bCX3cE5Hnp65X09m02njNRJ5r2z3mZt5t1pi=
+vy3Ma_VPsjJYL7xzrpVRMeRRs9HZkErtp5N04TcHSdUMf3RNpMWFtNq3PzLjsgEM3DKCArlvxu2=
+tm3t0dm_5W5ko3vc1xWWK-VuAARPHDDvqd1pjiYjfzbrPqj41q8PuKW0zHF7JNqH_V7Ld42ItiB=
+8Ve2o6CvbSxI2_Gp_-Of9gt2tx0CYE2_Q_xdK-4HaqU5EMHoqMPDT8DAAD__0aWCmA>
+
+You received this email because Handshake partners with your school to help=
+ you grow your career. Manage email preferences<https://email.notifications=
+.joinhandshake.com/c/eJyEks2O4yoQhZ8GdrSgwDFesLhXURbzEhaGIqHbgAU4mnn7kdORuu=
+enNctT1DkUX-EN-Ok0Uo9rvGP9MSfst-LnsvVYciPD_74kGzMZziaXHkN09nHy8lpivtns282-4=
+YsriaIR48QFP8lRU0w2rvNnyxy9QavBhRCY4AGZ0mJhCzpkQskAg9NTkEBvRnsNXAWu1MKXsCzo=
+R-vkCCNfQHqFNBrgcOITgJjUSYwvnFtQ8hTCJDQO2hLF_zXua1mOkYRQEoQe6GpuvW-NyP8IXAh=
+cgt3_dBG4fM5lW8WAFbPDRuTlQxF5tttWyx3n456ttB7zlcBp72luZa9ftcwHN6zPzoQ-7onI8w=
+Pns-hs2my8ZiLPre8ec5_fabeYr-sjjf4OfkHLhXeOnaRUTHkUTHurmcRh0nzQ0xQs3Sr66B6WH=
+hO2btP22CmXA3AYxhEU0K0Wv7s-L7t7w26-laXRauoS1zXmawMOQBQ_6KHfaYsprrbO77Sb-Vxo=
+M37fsMZ0PCHbhOZDs1_Wx54udrjYE9sh2BMbO_4D49OX8Xdbo83dlBBoN38BT_eG9UClJB8HEAO=
+9G_gZAAD___7fFnY> or unsubscribe<https://fau.joinhandshake.com/email/unsubs=
+cribe/sAA8IOnm_zO39tc2hLIdXQ5dnJDlU5ul_tgebus-qLX4orEsVSWXrnPuac_sfElKK6rBi=
+LTm-KLxegdtJykKudQzFot5ROUdJGQb9dXBo82DWy4o7GUvrUjqcglnEfZ5w0uOixTCsJSJzXPl=
+9RUfRI06jtl8SpW6rZ7PS7dwesmfqkhuza5Ao7Ntg1Qp8A8MGJQg5i73mbshPkaPrlxFZl0mlLu=
+Rc03KNxUG3ZRZAnkln-dN8YHdFmqhfQs_RcRFaezAhUH2ytHhs7NsKUVpBm4qAT0dd5ZJ-H2gow=
+VwRFkfaICfyCTKXBOvV37LKUPanjwSaC9fFt6ao-pA0bJDB2VaxagGdh3XTcCRkdih-wfLqZ9uV=
+tVdbyjO57b7-jKNFrv12bsgVSVB7LWVJRLaue5tzLJBksb19lbmYtep2lQoFgPRQRU_R_7WKTuq=
+rK5aWjQjLLC51truF_f7o4dI-uFmsqCIcvWbE1pNOeTkhTDq32nbBX-Aw-2sa0NWYHPt04svgxm=
+u7DzTcU9m91uRMTEFs0RozCqlQc8UAVef0EWVTUoO_2xSoETKmWSdiYLT_yKM36QE_nGUv-YRo-=
+9WHveglbHGHGs2uxnDUK2Su1KPImySSA7AnZWcIfdV0maRdtP095BCZ7f_x37D7yeV1IFf_454K=
+4th1gBLGV1pftTyNfaJPmtSSDnKFDCo7w5w8GK3CERT0I0sf8BM307i--SNeCX2m4qhRIT4vt--=
+9QuwM2gUdupiQTEDGm0unw>.
+
+P.O. Box 40770, San Francisco, CA 94140
+
+[Handshake]
+
+
+--ab125676e50c80c0b7216bdc185ebb29df78c856a44bc3acd8d31536b0d2
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xhtml" style=3D"min-he=
+ight:100%;background:#f5f5f5;background-color:transparent"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><m=
+eta content=3D"width=3Ddevice-width" name=3D"viewport">
+<title>Handshake</title>
+<style>@media only screen and (max-width: 664px) {
+.small-float-center{margin:0 auto !important;float:none !important;text-ali=
+gn:center !important}
+.small-text-center{text-align:center !important}
+.small-text-left{text-align:left !important}
+.small-text-right{text-align:right !important}
+.hide-for-large{display:block !important;width:auto !important;overflow:vis=
+ible !important;max-height:none !important;font-size:inherit !important;lin=
+e-height:inherit !important}
+table.body table.container .hide-for-large{display:table !important;width:1=
+00% !important}
+table.body table.container .row.hide-for-large{display:table !important;wid=
+th:100% !important}
+table.body table.container .callout-inner.hide-for-large{display:table-cell=
+ !important;width:100% !important}
+table.body table.container .show-for-large{display:none !important;width:0;=
+mso-hide:all;overflow:hidden}
+table.body img{width:auto;height:auto}
+table.body center{min-width:0 !important}
+table.body .container{width:95% !important}
+table.body .columns{height:auto !important;-moz-box-sizing:border-box;-webk=
+it-box-sizing:border-box;box-sizing:border-box;padding-left:64px !important=
+;padding-right:64px !important}
+table.body .column{height:auto !important;-moz-box-sizing:border-box;-webki=
+t-box-sizing:border-box;box-sizing:border-box;padding-left:64px !important;=
+padding-right:64px !important}
+table.body .columns .column{padding-left:0 !important;padding-right:0 !impo=
+rtant}
+table.body .columns .columns{padding-left:0 !important;padding-right:0 !imp=
+ortant}
+table.body .column .column{padding-left:0 !important;padding-right:0 !impor=
+tant}
+table.body .column .columns{padding-left:0 !important;padding-right:0 !impo=
+rtant}
+table.body .collapse .columns{padding-left:0 !important;padding-right:0 !im=
+portant}
+table.body .collapse .column{padding-left:0 !important;padding-right:0 !imp=
+ortant}
+td.small-1{display:inline-block !important;width:8.33333% !important}
+th.small-1{display:inline-block !important;width:8.33333% !important}
+td.small-2{display:inline-block !important;width:16.66667% !important}
+th.small-2{display:inline-block !important;width:16.66667% !important}
+td.small-3{display:inline-block !important;width:25% !important}
+th.small-3{display:inline-block !important;width:25% !important}
+td.small-4{display:inline-block !important;width:33.33333% !important}
+th.small-4{display:inline-block !important;width:33.33333% !important}
+td.small-5{display:inline-block !important;width:41.66667% !important}
+th.small-5{display:inline-block !important;width:41.66667% !important}
+td.small-6{display:inline-block !important;width:50% !important}
+th.small-6{display:inline-block !important;width:50% !important}
+td.small-7{display:inline-block !important;width:58.33333% !important}
+th.small-7{display:inline-block !important;width:58.33333% !important}
+td.small-8{display:inline-block !important;width:66.66667% !important}
+th.small-8{display:inline-block !important;width:66.66667% !important}
+td.small-9{display:inline-block !important;width:75% !important}
+th.small-9{display:inline-block !important;width:75% !important}
+td.small-10{display:inline-block !important;width:83.33333% !important}
+th.small-10{display:inline-block !important;width:83.33333% !important}
+td.small-11{display:inline-block !important;width:91.66667% !important}
+th.small-11{display:inline-block !important;width:91.66667% !important}
+td.small-12{display:inline-block !important;width:100% !important}
+th.small-12{display:inline-block !important;width:100% !important}
+.columns td.small-12{display:block !important;width:100% !important}
+.column td.small-12{display:block !important;width:100% !important}
+.columns th.small-12{display:block !important;width:100% !important}
+.column th.small-12{display:block !important;width:100% !important}
+table.body td.small-offset-1{margin-left:8.33333% !important}
+table.body th.small-offset-1{margin-left:8.33333% !important}
+table.body td.small-offset-2{margin-left:16.66667% !important}
+table.body th.small-offset-2{margin-left:16.66667% !important}
+table.body td.small-offset-3{margin-left:25% !important}
+table.body th.small-offset-3{margin-left:25% !important}
+table.body td.small-offset-4{margin-left:33.33333% !important}
+table.body th.small-offset-4{margin-left:33.33333% !important}
+table.body td.small-offset-5{margin-left:41.66667% !important}
+table.body th.small-offset-5{margin-left:41.66667% !important}
+table.body td.small-offset-6{margin-left:50% !important}
+table.body th.small-offset-6{margin-left:50% !important}
+table.body td.small-offset-7{margin-left:58.33333% !important}
+table.body th.small-offset-7{margin-left:58.33333% !important}
+table.body td.small-offset-8{margin-left:66.66667% !important}
+table.body th.small-offset-8{margin-left:66.66667% !important}
+table.body td.small-offset-9{margin-left:75% !important}
+table.body th.small-offset-9{margin-left:75% !important}
+table.body td.small-offset-10{margin-left:83.33333% !important}
+table.body th.small-offset-10{margin-left:83.33333% !important}
+table.body td.small-offset-11{margin-left:91.66667% !important}
+table.body th.small-offset-11{margin-left:91.66667% !important}
+table.body table.columns td.expander{display:none !important}
+table.body table.columns th.expander{display:none !important}
+table.body .right-text-pad{padding-left:10px !important}
+table.body .text-pad-right{padding-left:10px !important}
+table.body .left-text-pad{padding-right:10px !important}
+table.body .text-pad-left{padding-right:10px !important}
+table.menu{width:100% !important}
+table.menu td{width:auto !important;display:inline-block !important}
+table.menu th{width:auto !important;display:inline-block !important}
+table.menu.vertical td{display:block !important}
+table.menu.vertical th{display:block !important}
+table.menu.small-vertical td{display:block !important}
+table.menu.small-vertical th{display:block !important}
+table.menu[align=3D"center"]{width:auto !important}
+table.button.small-expand{width:100% !important}
+table.button.small-expanded{width:100% !important}
+table.button.small-expand table{width:100%}
+table.button.small-expanded table{width:100%}
+table.button.small-expand table a{text-align:center !important;width:100% !=
+important;padding-left:0 !important;padding-right:0 !important}
+table.button.small-expanded table a{text-align:center !important;width:100%=
+ !important;padding-left:0 !important;padding-right:0 !important}
+table.button.small-expand center{min-width:0}
+table.button.small-expanded center{min-width:0}
+th.columns.first.small-12{padding-left:16px !important}
+th.columns.last.small-12{padding-right:16px !important}
+table.body img.icon-20{width:20px;height:20px}
+}
+table.button:hover table tr td a{color:#ffffff}
+table.button:active table tr td a{color:#ffffff}
+table.button table tr td a:visited{color:#ffffff}
+table.button.tiny:hover table tr td a{color:#ffffff}
+table.button.tiny:active table tr td a{color:#ffffff}
+table.button.tiny table tr td a:visited{color:#ffffff}
+table.button.small:hover table tr td a{color:#ffffff}
+table.button.small:active table tr td a{color:#ffffff}
+table.button.small table tr td a:visited{color:#ffffff}
+table.button.large:hover table tr td a{color:#ffffff}
+table.button.large:active table tr td a{color:#ffffff}
+table.button.large table tr td a:visited{color:#ffffff}
+table.button:hover table td{background:#04191b;color:#ffffff}
+table.button:visited table td{background:#04191b;color:#ffffff}
+table.button:active table td{background:#04191b;color:#ffffff}
+table.button:hover table a{border:0 solid #04191b}
+table.button:visited table a{border:0 solid #04191b}
+table.button:active table a{border:0 solid #04191b}
+table.button.secondary:hover table td{background:#919191;color:#ffffff}
+table.button.secondary:hover table a{border:0 solid #919191}
+table.button.secondary:hover table td a{color:#ffffff}
+table.button.secondary:active table td a{color:#ffffff}
+table.button.secondary table td a:visited{color:#ffffff}
+table.button.success:hover table td{background:#004d33}
+table.button.success:hover table a{border:0 solid #004d33}
+table.button.alert:hover table td{background:#99000d}
+table.button.alert:hover table a{border:0 solid #99000d}
+table.button.warning:hover table td{background:#cc8800}
+table.button.warning:hover table a{border:0px solid #cc8800}
+.thumbnail:hover{box-shadow:0 0 6px 1px rgba(0,85,204,0.5)}
+.thumbnail:focus{box-shadow:0 0 6px 1px rgba(0,85,204,0.5)}
+table.button.secondary:hover table td{background:#dcdcdc;border-color:#dcdc=
+dc;color:rgba(8,8,8,0.79)}
+table.button.secondary table tr td a:visited{color:rgba(8,8,8,0.79)}
+table.button.secondary:hover table tr td a{color:rgba(8,8,8,0.79)}
+table.button.secondary:hover table tr td a:visited{color:rgba(8,8,8,0.79)}
+a:hover{color:#254fa5}
+a:active{color:#183684}
+a.plain:hover{color:#2e2a2b}
+a.plain:active{color:#1c1819}
+.primary-button a:hover{color:inherit}
+.outline-button a:hover{color:inherit}
+.button a:hover{color:inherit}
+.primary-button a:active{color:inherit}
+.outline-button a:active{color:inherit}
+.button a:active{color:inherit}
+.primary-button:hover{color:#fff;background-color:#062e32;border-color:1px =
+solid #062e32}
+.primary-button:active{color:#fff;background-color:#073d42;border-color:1px=
+ solid #062e32}
+.outline-button:hover{color:#062e32;border-color:#062e32}
+.outline-button:active{color:#073d42;border-color:#073d42}
+table.lined a:hover{text-decoration:none}
+@media (max-width: 767px) {
+.avatar--mobile-md{max-width:56px}
+}
+@media screen and (max-width: 767px) {
+.padding-content{padding:0 16px !important}
+table.student-footer-v3{padding:0 16px}
+table.student-footer-v3 td.socials img{padding:0 12% 0 0 !important}
+table.student-footer-v3 td.app-store img{padding:0 0 0 4% !important}
+table.rebrand-cta{width:100% !important}
+}
+@media (min-width: 768px) {
+td.email-footer .hiring-team-footer .media-links-container{display:flex;jus=
+tify-content:space-between;margin-bottom:32px}
+td.email-footer .employer-hosted-meetings-footer .media-links-container{dis=
+play:flex;justify-content:space-between;margin-bottom:32px}
+table.email-footer .hiring-team-footer .media-links-container{display:flex;=
+justify-content:space-between;margin-bottom:32px}
+table.email-footer .employer-hosted-meetings-footer .media-links-container{=
+display:flex;justify-content:space-between;margin-bottom:32px}
+}
+@media screen and (max-width: 240px) {
+.event-card-container table.event-attendees .logo-group .event-detail .even=
+t-tags{white-space:nowrap}
+}</style>
+</head>
+<body class=3D"rebrand" style=3D"min-width:100%;-webkit-text-size-adjust:10=
+0%;-ms-text-size-adjust:100%;margin:0;padding:0;-moz-box-sizing:border-box;=
+-webkit-box-sizing:border-box;box-sizing:border-box;font-family:&quot;Noi G=
+rotesk&quot;, system-ui, sans-serif;color:#231f20;font-size:16px;line-heigh=
+t:20px;width:100% !important">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"background: #FF0000;" width=3D"5">&nbsp;</td>
+<td style=3D"background: #FDF2F4;" width=3D"10">&nbsp;</td>
+<td style=3D"background: #FDF2F4;"><strong>EXTERNAL EMAIL : </strong>Exerci=
+se caution when responding, opening links, or opening attachments.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<div>
+<table class=3D"body email-layout rebrand" data-made-with-foundation=3D"" s=
+tyle=3D"border-spacing:0;vertical-align:top;text-align:left;background:#f5f=
+5f5;height:100%;background-color:transparent;max-width:728px;table-layout:f=
+ixed;border:0;border-collapse:collapse;width:100%;text-align:inherit;margin=
+:auto;padding:0;background-color:white">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td class=3D"email-header" style=3D"font-family:&quot;Noi Grotesk&quot;, sy=
+stem-ui, sans-serif;padding:0;vertical-align:top;text-align:left">
+<div class=3D"padding-content" style=3D"padding:0 40px">
+<table style=3D"border-spacing:0;border-collapse:collapse;padding:0;vertica=
+l-align:top;text-align:left;width: 100%" width=3D"100%">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td align=3D"left" style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui,=
+ sans-serif;padding:0;vertical-align:top;text-align:left;vertical-align: mi=
+ddle;">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkcuO3CwQhZ_G7BhBgW28YPH=
+_as0iL2FhKLqZMWABbiVvH9HTUiY3ZVmXc1T1HafBLdNMHO7hjuXbGrHdslvz0UJOdRj_dzmakI=
+bxolNuwQdrHpOXtxzSzSRXb-YdX2yOBDWfF8bZJGZFMJqwr58la3AajQLrvaeceaRS8Y1uaJFyK=
+TyMVi1eALlpUHz2Vk2KcWWYV3ZyfDMerLOTYxJJ0MBgYgsAX-TE5xfGDEgxeb9whaMyg2T_Ovct=
+b_0kzqUArkay61trRx3EfwO8DvDqzfm7qo_E69niWvNZLA7iYo6j5Duu3e_ItYV0XfvzWAaY-mZ=
+EF844iMuDybNpTTxMuKZBXGo7Haa2fiCrIV33hxv5ld6GhnFnLZ2EkFQ65FQ5o6jAcVFsVMviDT=
+kKumAfkhYi1mbi8QiGiREYjPMMEshRsjttW7fTvmPTX_JWSdFlC_se0rUCAxgk6wjQnaSGGHZT1=
+g9kVX9u1BW_HlhC7C8kE1H_qOlPGdCninYVfWLrBX1ioz1Uypa_2t9NCSY1nb0nTf8BPDkrlo5K=
+CjaPwEdy1_A9AAD__6Cp_20&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C5a33=
+48243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C6=
+39257031896797080%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwL=
+jAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&am=
+p;sdata=3DnMHlCk08167GYyFz9s0kd%2FTlSxeJL2ci0%2BdcMa%2F36FE%3D&amp;reserved=
+=3D0" originalsrc=3D"https://email.notifications.joinhandshake.com/c/eJyEkc=
+uO3CwQhZ_G7BhBgW28YPH_as0iL2FhKLqZMWABbiVvH9HTUiY3ZVmXc1T1HafBLdNMHO7hjuXbG=
+rHdslvz0UJOdRj_dzmakIbxolNuwQdrHpOXtxzSzSRXb-YdX2yOBDWfF8bZJGZFMJqwr58la3Aa=
+jQLrvaeceaRS8Y1uaJFyKTyMVi1eALlpUHz2Vk2KcWWYV3ZyfDMerLOTYxJJ0MBgYgsAX-TE5xf=
+GDEgxeb9whaMyg2T_Ovctb_0kzqUArkay61trRx3EfwO8DvDqzfm7qo_E69niWvNZLA7iYo6j5D=
+uu3e_ItYV0XfvzWAaY-mZEF844iMuDybNpTTxMuKZBXGo7Haa2fiCrIV33hxv5ld6GhnFnLZ2Ek=
+FQ65FQ5o6jAcVFsVMviDTkKumAfkhYi1mbi8QiGiREYjPMMEshRsjttW7fTvmPTX_JWSdFlC_se=
+0rUCAxgk6wjQnaSGGHZT1g9kVX9u1BW_HlhC7C8kE1H_qOlPGdCninYVfWLrBX1ioz1Uypa_2t9=
+NCSY1nb0nTf8BPDkrlo5KCjaPwEdy1_A9AAD__6Cp_20" style=3D"color:#254fa5;font-w=
+eight:inherit;color: inherit; text-decoration: none;"><img alt=3D"Handshake=
+" class=3D"handshake-logo lime" height=3D"36" src=3D"https://handshake-prod=
+uction-cdn.joinhandshake.com/static_assets/hs-icon-lime-round.png" title=3D=
+"Handshake" width=3D"36" style=3D"outline:none;text-decoration:none;-ms-int=
+erpolation-mode:bicubic;width:auto;max-width:100%;clear:both;display:block;=
+border:none;margin-top:24px;margin-bottom:16px;width:36px;height:36px;margi=
+n:24px 0">
+</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td class=3D"email-content" style=3D"font-family:&quot;Noi Grotesk&quot;, s=
+ystem-ui, sans-serif;padding:0;vertical-align:top;text-align:left;padding-b=
+ottom:40px">
+<div class=3D"padding-content" style=3D"padding:0 40px">
+<h2 class=3D"email-header" style=3D"word-break:break-word;font-size:39px;li=
+ne-height:44px;font-size:32px;font-weight:700;line-height:38px;margin:0 0 2=
+4px">
+New job match </h2>
+<p class=3D"body-text" style=3D"line-height:28px;font-size:18px"><a href=3D=
+"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Femail.=
+notifications.joinhandshake.com%2Fc%2FeJyEkU2O3CAQRk8DO0ZQGBsvWCRq9SKXsDAUb=
+WaMsQC3kttH7ukokz9lWQWvKN7nDfixH6jHNd6xfJsStiX7Ke8t5q0S9dnnZONG1MVsucUQnX2c=
+vLzmuC1283Wxb_jicqJoxDBywXs5aIrJxnX6iEzRG7QaXAiBCR6QdVrMbEaHTHQygHJ6DBLoYjR=
+w1VvNRzXPwMGHcRjQ614oLUBIT6MBDj0fAcTY9WJ44dxCJ_sQRqFRaUs6_r91X_N8riREJ0FoRV=
+eztLZXIj8RuBK4Bnv8SRG4vuaZVbTFLQSuP2gir0dLU81HcUjkxe57yXeczkf2XFvcbtNpBAuB_=
+ryZ0McjEXl5iHo2nU27jbeNyEtth8etTe8ea9xu62Ma_V3pjJYL7xzrpexY51Ew7a1mEtWoudLj=
+GCzdC_roHkiLCWuzaX-kxaUCDmoYoAO6l-wP16b5cG_YzJc8V1pMmeO6xu1WgQOQjp9e0B-0xhR=
+XW6Z3j9V8bNQJv-5YYjq_sNmE5mfNfgmGPSl2Uuyp7SzYUxs7k2Z8_Of4uy3Rbs3kEGgzfxFPj4=
+rlVNVJPigQit4NfA8AAP__y9AEdg&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7=
+C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C=
+0%7C639257031896827253%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYi=
+OiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%=
+7C&amp;sdata=3DV36vngpMKgi0ZI0pLH0mtwXGlC%2FOahXCpVlisPqjBdI%3D&amp;reserve=
+d=3D0" originalsrc=3D"https://email.notifications.joinhandshake.com/c/eJyEk=
+U2O3CAQRk8DO0ZQGBsvWCRq9SKXsDAUbWaMsQC3kttH7ukokz9lWQWvKN7nDfixH6jHNd6xfJsS=
+tiX7Ke8t5q0S9dnnZONG1MVsucUQnX2cvLzmuC1283Wxb_jicqJoxDBywXs5aIrJxnX6iEzRG7Q=
+aXAiBCR6QdVrMbEaHTHQygHJ6DBLoYjRw1VvNRzXPwMGHcRjQ614oLUBIT6MBDj0fAcTY9WJ44d=
+xCJ_sQRqFRaUs6_r91X_N8riREJ0FoRVeztLZXIj8RuBK4Bnv8SRG4vuaZVbTFLQSuP2gir0dLU=
+81HcUjkxe57yXeczkf2XFvcbtNpBAuB_ryZ0McjEXl5iHo2nU27jbeNyEtth8etTe8ea9xu62Ma=
+_V3pjJYL7xzrpexY51Ew7a1mEtWoudLjGCzdC_roHkiLCWuzaX-kxaUCDmoYoAO6l-wP16b5cG_=
+YzJc8V1pMmeO6xu1WgQOQjp9e0B-0xhRXW6Z3j9V8bNQJv-5YYjq_sNmE5mfNfgmGPSl2Uuyp7S=
+zYUxs7k2Z8_Of4uy3Rbs3kEGgzfxFPj4rlVNVJPigQit4NfA8AAP__y9AEdg" style=3D"colo=
+r:#254fa5;font-weight:inherit;color:#2e6aff;text-decoration:none">A
+ new role</a> at <b>SimVentions</b> matches your preferences. </p>
+<table class=3D"job-list" style=3D"border-spacing:0;padding:0;vertical-alig=
+n:top;text-align:left;width:100%;border-collapse:collapse;max-width:648px">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<table class=3D"job-list-item" style=3D"border-spacing:0;padding:0;vertical=
+-align:top;text-align:left;width:100%;border-collapse:collapse;background-c=
+olor:white">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td class=3D"job-list-logo-cell" style=3D"font-family:&quot;Noi Grotesk&quo=
+t;, system-ui, sans-serif;padding:0;text-align:left;width:64px;vertical-ali=
+gn:top">
+<a class=3D"job-list-logo-link" href=3D"https://nam02.safelinks.protection.=
+outlook.com/?url=3Dhttps%3A%2F%2Femail.notifications.joinhandshake.com%2Fc%=
+2FeJyEkcGO2yAQhp8GbqxgMLY5cGgV5dCXsDAMG7IBLMBR-_aV01Tdtlv1OMx8zOj7vQGvx4l6v=
+MU71m9Lwn4pfilbjyU3oj77kmzMRJ1MLj2G6Oyj83ItMV9s9u1i3_DFlUTRiElzwUc5zRSTjbfl=
+PbJEb9DO4EIITPCAbJjFylZ0yMQgAyg36yCBXszkJ-0saiXEGlYZ7DQ4PkvllJSTR0WjAQ4j1wB=
+CD6OYXji3MMgxBC1mVLMlA__fudeyHicJMUgQs6I3c-l9a0R-InAmcA52_5sicL6WlTW01V0InH=
+_SRJ73nhZn02bjaybyZLetljsux5qttB7zK4HxMVRyx9yJPG2lxYca_my1sleHH9PLYRTrczKhj=
+3si8vQQTf8UvaLlwjvHRikHNngUbPZ2ZhKVnrmatQ6WbhV9dA-kx4St27Q9MuRSAQc1TTAA3Wrx=
+u-vLurs37OZLWRutpq7xdov5tQEHIAM_bKHfaYsp3mxdftht5v1DW_DrhjUmzH3JNqH5VbPf4mJ=
+Pih0Ue8o4CvaUwY78Gdf__P5ua7S5mxIC7eYDnXRvWA9Vg-STAqHo3cD3AAAA___wxA1Y&amp;d=
+ata=3D05%7C02%7Crbillings2022%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%=
+7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257031896849959%7CUnknown%7=
+CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIk=
+FOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DbcEnULlSdakVih8M168=
+OkaT2slwAHAmRZxRCcZ67Fm0%3D&amp;reserved=3D0" originalsrc=3D"https://email.=
+notifications.joinhandshake.com/c/eJyEkcGO2yAQhp8GbqxgMLY5cGgV5dCXsDAMG7IBL=
+MBR-_aV01Tdtlv1OMx8zOj7vQGvx4l6vMU71m9Lwn4pfilbjyU3oj77kmzMRJ1MLj2G6Oyj83It=
+MV9s9u1i3_DFlUTRiElzwUc5zRSTjbflPbJEb9DO4EIITPCAbJjFylZ0yMQgAyg36yCBXszkJ-0=
+saiXEGlYZ7DQ4PkvllJSTR0WjAQ4j1wBCD6OYXji3MMgxBC1mVLMlA__fudeyHicJMUgQs6I3c-=
+l9a0R-InAmcA52_5sicL6WlTW01V0InH_SRJ73nhZn02bjaybyZLetljsux5qttB7zK4HxMVRyx=
+9yJPG2lxYca_my1sleHH9PLYRTrczKhj3si8vQQTf8UvaLlwjvHRikHNngUbPZ2ZhKVnrmatQ6W=
+bhV9dA-kx4St27Q9MuRSAQc1TTAA3Wrxu-vLurs37OZLWRutpq7xdov5tQEHIAM_bKHfaYsp3mx=
+dftht5v1DW_DrhjUmzH3JNqH5VbPf4mJPih0Ue8o4CvaUwY78Gdf__P5ua7S5mxIC7eYDnXRvWA=
+9Vg-STAqHo3cD3AAAA___wxA1Y" style=3D"color:#254fa5;font-weight:inherit;disp=
+lay:block;padding:16px 16px 16px 0"><img alt=3D"SimVentions logo" class=3D"=
+job-list-logo exists" height=3D"48" src=3D"https://joinhandshake-production=
+.imgix.net/app/public/assets/institutions/52941/original/hs-emp-logo-data.?=
+ixlib=3Drb-4.1.1&amp;v=3D1551214493&amp;s=3D56495b5beff6220e0603ef160e29f32=
+f" width=3D"48" style=3D"outline:none;text-decoration:none;-ms-interpolatio=
+n-mode:bicubic;width:auto;max-width:100%;clear:both;border:none;display:blo=
+ck;border-radius:12px;min-width:48px;min-height:48px;max-width:48px;max-hei=
+ght:48px;border:0.5px solid rgba(31,32,44,0.2)">
+</a></td>
+<td class=3D"job-list-content-cell" style=3D"font-family:&quot;Noi Grotesk&=
+quot;, system-ui, sans-serif;padding:0;text-align:left;vertical-align:top">
+<a class=3D"job-list-content-link" href=3D"https://nam02.safelinks.protecti=
+on.outlook.com/?url=3Dhttps%3A%2F%2Femail.notifications.joinhandshake.com%2=
+Fc%2FeJyEkcGO2yAQhp8GbqxgMLY5cGgV5dCXsDAMG7IBLMBR-_aV01Tdtlv1OMx8zOj7vQGvx4=
+l6vMU71m9Lwn4pfilbjyU3oj77kmzMRJ1MLj2G6Oyj83ItMV9s9u1i3_DFlUTRiElzwUc5zRSTj=
+bflPbJEb9DO4EIITPCAbJjFylZ0yMQgAyg36yCBXszkJ-0saiXEGlYZ7DQ4PkvllJSTR0WjAQ4j=
+1wBCD6OYXji3MMgxBC1mVLMlA__fudeyHicJMUgQs6I3c-l9a0R-InAmcA52_5sicL6WlTW01V0=
+InH_SRJ73nhZn02bjaybyZLetljsux5qttB7zK4HxMVRyx9yJPG2lxYca_my1sleHH9PLYRTrcz=
+Khj3si8vQQTf8UvaLlwjvHRikHNngUbPZ2ZhKVnrmatQ6WbhV9dA-kx4St27Q9MuRSAQc1TTAA3=
+Wrxu-vLurs37OZLWRutpq7xdov5tQEHIAM_bKHfaYsp3mxdftht5v1DW_DrhjUmzH3JNqH5VbPf=
+4mJPih0Ue8o4CvaUwY78Gdf__P5ua7S5mxIC7eYDnXRvWA9Vg-STAqHo3cD3AAAA___wxA1Y&am=
+p;data=3D05%7C02%7Crbillings2022%40fau.edu%7C5a3348243dc748d97b2308df18e22c=
+73%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257031896873666%7CUnknow=
+n%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiI=
+sIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DAlCT4wMrEIrcAO2L=
+WKNLJXHT7F2gid0BTWShc8ZmLeo%3D&amp;reserved=3D0" originalsrc=3D"https://ema=
+il.notifications.joinhandshake.com/c/eJyEkcGO2yAQhp8GbqxgMLY5cGgV5dCXsDAMG7=
+IBLMBR-_aV01Tdtlv1OMx8zOj7vQGvx4l6vMU71m9Lwn4pfilbjyU3oj77kmzMRJ1MLj2G6Oyj8=
+3ItMV9s9u1i3_DFlUTRiElzwUc5zRSTjbflPbJEb9DO4EIITPCAbJjFylZ0yMQgAyg36yCBXszk=
+J-0saiXEGlYZ7DQ4PkvllJSTR0WjAQ4j1wBCD6OYXji3MMgxBC1mVLMlA__fudeyHicJMUgQs6I=
+3c-l9a0R-InAmcA52_5sicL6WlTW01V0InH_SRJ73nhZn02bjaybyZLetljsux5qttB7zK4HxMV=
+Ryx9yJPG2lxYca_my1sleHH9PLYRTrczKhj3si8vQQTf8UvaLlwjvHRikHNngUbPZ2ZhKVnrmat=
+Q6WbhV9dA-kx4St27Q9MuRSAQc1TTAA3Wrxu-vLurs37OZLWRutpq7xdov5tQEHIAM_bKHfaYsp=
+3mxdftht5v1DW_DrhjUmzH3JNqH5VbPf4mJPih0Ue8o4CvaUwY78Gdf__P5ua7S5mxIC7eYDnXR=
+vWA9Vg-STAqHo3cD3AAAA___wxA1Y" style=3D"color:#254fa5;font-weight:inherit;d=
+isplay:block;padding:16px 0;text-decoration:none;color:inherit"><span class=
+=3D"job-list-employer" style=3D"display:block;color:#121212;font-size:15px;=
+font-weight:400;line-height:120%">SimVentions</span>
+<span class=3D"job-list-title" style=3D"display:block;margin-top:0;color:#0=
+03bcc;font-size:19px;font-weight:500;line-height:140%;letter-spacing:-0.38p=
+x">
+Linux Engineer 2026-1625</span> <span class=3D"job-list-meta" style=3D"disp=
+lay:block;color:rgba(18,18,18,0.6);font-size:15px;font-weight:400;line-heig=
+ht:140%;margin-top:2px">
+$106=E2=80=93147K/yr =E2=80=A2 Full-Time =E2=80=A2 Dahlgren, VA (Onsite) </=
+span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=3D"rebrand-cta" style=3D"border-spacing:0;border-collapse:coll=
+apse;padding:0;vertical-align:top;text-align:left;color:white;background-co=
+lor:black;font-size:16px;border-radius:4px;height:40px;margin-top:24px">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left;padding:8px 16px;text-align:cente=
+r;vertical-align:middle">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkU2O3CAQRk8DO0ZQGBsvWCR=
+q9SKXsDAUbWaMsQC3kttH7ukokz9lWQWvKN7nDfixH6jHNd6xfJsStiX7Ke8t5q0S9dnnZONG1M=
+VsucUQnX2cvLzmuC1283Wxb_jicqJoxDBywXs5aIrJxnX6iEzRG7QaXAiBCR6QdVrMbEaHTHQyg=
+HJ6DBLoYjRw1VvNRzXPwMGHcRjQ614oLUBIT6MBDj0fAcTY9WJ44dxCJ_sQRqFRaUs6_r91X_N8=
+riREJ0FoRVeztLZXIj8RuBK4Bnv8SRG4vuaZVbTFLQSuP2gir0dLU81HcUjkxe57yXeczkf2XFv=
+cbtNpBAuB_ryZ0McjEXl5iHo2nU27jbeNyEtth8etTe8ea9xu62Ma_V3pjJYL7xzrpexY51Ew7a=
+1mEtWoudLjGCzdC_roHkiLCWuzaX-kxaUCDmoYoAO6l-wP16b5cG_YzJc8V1pMmeO6xu1WgQOQj=
+p9e0B-0xhRXW6Z3j9V8bNQJv-5YYjq_sNmE5mfNfgmGPSl2Uuyp7SzYUxs7k2Z8_Of4uy3Rbs3k=
+EGgzfxFPj4rlVNVJPigQit4NfA8AAP__y9AEdg&amp;data=3D05%7C02%7Crbillings2022%4=
+0fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0cabb28=
+28f%7C0%7C0%7C639257031896894827%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOn=
+RydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%=
+7C0%7C%7C%7C&amp;sdata=3DTFlrXaBY%2FxzQExgB2ye1XJEnmOL7z%2Bdghfz4qCKehho%3D=
+&amp;reserved=3D0" originalsrc=3D"https://email.notifications.joinhandshake=
+.com/c/eJyEkU2O3CAQRk8DO0ZQGBsvWCRq9SKXsDAUbWaMsQC3kttH7ukokz9lWQWvKN7nDfix=
+H6jHNd6xfJsStiX7Ke8t5q0S9dnnZONG1MVsucUQnX2cvLzmuC1283Wxb_jicqJoxDBywXs5aIr=
+JxnX6iEzRG7QaXAiBCR6QdVrMbEaHTHQygHJ6DBLoYjRw1VvNRzXPwMGHcRjQ614oLUBIT6MBDj=
+0fAcTY9WJ44dxCJ_sQRqFRaUs6_r91X_N8riREJ0FoRVeztLZXIj8RuBK4Bnv8SRG4vuaZVbTFL=
+QSuP2gir0dLU81HcUjkxe57yXeczkf2XFvcbtNpBAuB_ryZ0McjEXl5iHo2nU27jbeNyEtth8et=
+Te8ea9xu62Ma_V3pjJYL7xzrpexY51Ew7a1mEtWoudLjGCzdC_roHkiLCWuzaX-kxaUCDmoYoAO=
+6l-wP16b5cG_YzJc8V1pMmeO6xu1WgQOQjp9e0B-0xhRXW6Z3j9V8bNQJv-5YYjq_sNmE5mfNfg=
+mGPSl2Uuyp7SzYUxs7k2Z8_Of4uy3Rbs3kEGgzfxFPj4rlVNVJPigQit4NfA8AAP__y9AEdg" s=
+tyle=3D"color:#254fa5;font-weight:inherit;text-decoration:none;color:white"=
+><span style=3D"color: white;">View
+ job </span></a></td>
+</tr>
+</tbody>
+</table>
+<p class=3D"body-text" style=3D"line-height:28px;font-size:18px;margin-bott=
+om:24px">Want better job recommendations?
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkcmuGysQhp8Gdhwx9rBgca8=
+sL_ISLRoKNz7NIKCt5O2j9rGUk0lZVsFXFN_vNHfzMGIHe3hA_bZE6Ft2Sy495NSQ-t_laEJC6q=
+JT7sEHa54nb_cc0maSa5t5hzebIwbNxpkyOohxwhBN2JfPyBKcBjNx670njHogcmIrWcECYVJ4r=
+uw0e8HxppVah9XT2QqrqFjHSVIphBcr-NHNzuGgOeUDnTlnsxzY-Eap4VIM3s9sAjUZJOm_1r3n=
+9VyJMSk4mxTe9dZ7aUj8h_gV8as3x-8U4td7XkkDU-2GxPUoznRYSgUPFZKFhsSFIT4cPS4tH9U=
+CEhdTSs0PWM4nS249pNty-oH6uhnBhSMicXlqezWticWEW0Li0vrhIPXlw2oL6bY_p-FfBa9gKH=
+PWkkEISaQDRiZnJiJAzRNV0zx7g0sFF-wT6SFC6yaWZ3ZUKE65GkcuOS41u8P2ZT3sO3T9Ja8NV=
+13XsO8h3RqnnCNJT0vgDtxCDLupy4fVpj832gJfC9QQzy8kE0H_qMlPMZEXRU6KvLSdBXlpI2fu=
+hM5_Hf8wNZjUdfYed_0H8fhoUE9VUtBRcabwQ_PvAQAA__8jXwv-&amp;data=3D05%7C02%7Cr=
+billings2022%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413=
+fb4352f0cabb2828f%7C0%7C0%7C639257031896920264%7CUnknown%7CTWFpbGZsb3d8eyJF=
+bXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIld=
+UIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DeYi%2BFG2tJe7AXvtfPasIMCDLgVUHEiT9en=
+Kaj8EgHwM%3D&amp;reserved=3D0" originalsrc=3D"https://email.notifications.j=
+oinhandshake.com/c/eJyEkcmuGysQhp8Gdhwx9rBgca8sL_ISLRoKNz7NIKCt5O2j9rGUk0lZ=
+VsFXFN_vNHfzMGIHe3hA_bZE6Ft2Sy495NSQ-t_laEJC6qJT7sEHa54nb_cc0maSa5t5hzebIwb=
+NxpkyOohxwhBN2JfPyBKcBjNx670njHogcmIrWcECYVJ4ruw0e8HxppVah9XT2QqrqFjHSVIphB=
+cr-NHNzuGgOeUDnTlnsxzY-Eap4VIM3s9sAjUZJOm_1r3n9VyJMSk4mxTe9dZ7aUj8h_gV8as3x=
+-8U4td7XkkDU-2GxPUoznRYSgUPFZKFhsSFIT4cPS4tH9UCEhdTSs0PWM4nS249pNty-oH6uhnB=
+hSMicXlqezWticWEW0Li0vrhIPXlw2oL6bY_p-FfBa9gKHPWkkEISaQDRiZnJiJAzRNV0zx7g0s=
+FF-wT6SFC6yaWZ3ZUKE65GkcuOS41u8P2ZT3sO3T9Ja8NV13XsO8h3RqnnCNJT0vgDtxCDLupy4=
+fVpj832gJfC9QQzy8kE0H_qMlPMZEXRU6KvLSdBXlpI2fuhM5_Hf8wNZjUdfYed_0H8fhoUE9VU=
+tBRcabwQ_PvAQAA__8jXwv-" style=3D"color:#254fa5;font-weight:inherit;color:#=
+2e6aff;text-decoration:none">
+Update your preferences.</a> </p>
+</div>
+</td>
+</tr>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<div class=3D"rebrand-footer-background" style=3D"padding:40px 0;width:100%=
+">
+<div class=3D"padding-content" style=3D"padding:0 40px">
+<table class=3D"rebrand-links" style=3D"border-spacing:0;border-collapse:co=
+llapse;padding:0;vertical-align:top;text-align:left;width:100%">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td class=3D"rebrand-socials" style=3D"font-family:&quot;Noi Grotesk&quot;,=
+ system-ui, sans-serif;padding:0;vertical-align:top;text-align:left">
+<table style=3D"border-spacing:0;border-collapse:collapse;padding:0;vertica=
+l-align:top;text-align:left">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkc2O2ywUhq8GdkT82mbB4vs=
+UZdGbsDAcEmYMWICT9u4rZyJ1pmrV5Tn28-rwvN5wr4cRe1jjHeqPOUG_FT-XrceSG1L_-5JszE=
+idTS49hujs88vprcR8s9m3m32HkysJg2GjpowOYpwwJBvX-TMyR2_ATtyFEAijAYic2EIWcECYF=
+IErN-kgOL4ZFhZnNQXq3ChHvSg6UA3TMlpnlZMMR8MpH6jmnGk5sPFEqeVSDCFoNoGaLJL0X-e-=
+leU4iTEpOJsUXs2t960h8R_iF8Qvj8fjFHPr9lptOgjEL19SkLjsPc2t7NUBEme7bbXcYT6Ct9J=
+6zNf5sAAV8eH4M4GPe0Li_JTzWjqbNhuvGYlz67uH3OcPdy3m6_pMw79rXMBS5p0jgxCSSA-MTN=
+5ORIDSE1WT1sHirYKP7on0mKB1m7ZnQ1QoTrkaRy453mrxu-vzsrt36OZbWRqupi5xXWO-Nk45R=
+5IGu5_A77jFFFdb5w93zXxetBm-b1BjOp6QbQLzayZfyiAvihwUeWk7BvLSRo52CdV_jb_bGm3u=
+poSAu_mDeLw3qIcqKeioOFP4bvjPAAAA___ZbANm&amp;data=3D05%7C02%7Crbillings2022=
+%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0cabb=
+2828f%7C0%7C0%7C639257031896952431%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGki=
+OnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3=
+D%7C0%7C%7C%7C&amp;sdata=3D%2BOk9KKgjMgqu%2B6zl0ZwHAgHy3VgwDYq4PzhgLsjPFHs%=
+3D&amp;reserved=3D0" originalsrc=3D"https://email.notifications.joinhandsha=
+ke.com/c/eJyEkc2O2ywUhq8GdkT82mbB4vsUZdGbsDAcEmYMWICT9u4rZyJ1pmrV5Tn28-rwvN=
+5wr4cRe1jjHeqPOUG_FT-XrceSG1L_-5JszEidTS49hujs88vprcR8s9m3m32HkysJg2GjpowOY=
+pwwJBvX-TMyR2_ATtyFEAijAYic2EIWcECYFIErN-kgOL4ZFhZnNQXq3ChHvSg6UA3TMlpnlZMM=
+R8MpH6jmnGk5sPFEqeVSDCFoNoGaLJL0X-e-leU4iTEpOJsUXs2t960h8R_iF8Qvj8fjFHPr9lp=
+tOgjEL19SkLjsPc2t7NUBEme7bbXcYT6Ct9J6zNf5sAAV8eH4M4GPe0Li_JTzWjqbNhuvGYlz67=
+uH3OcPdy3m6_pMw79rXMBS5p0jgxCSSA-MTN5ORIDSE1WT1sHirYKP7on0mKB1m7ZnQ1QoTrkaR=
+y453mrxu-vzsrt36OZbWRqupi5xXWO-Nk45R5IGu5_A77jFFFdb5w93zXxetBm-b1BjOp6QbQLz=
+ayZfyiAvihwUeWk7BvLSRo52CdV_jb_bGm3upoSAu_mDeLw3qIcqKeioOFP4bvjPAAAA___ZbAN=
+m" style=3D"color:#254fa5;font-weight:inherit"><img alt=3D"Instagram" heigh=
+t=3D"24" src=3D"https://handshake-production-cdn.joinhandshake.com/static_a=
+ssets/email_assets/student_footer_v3_icons/instagram-grey.png" style=3D"out=
+line:none;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;ma=
+x-width:100%;clear:both;display:block;border:none;width:24px;height:24px;pa=
+dding:0 18px 0 0;width: 24px; height: 24px" width=3D"24">
+</a></td>
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkc2O2yAUhZ8GdkT82cYLFq2=
+iLPoS1jVcEmaMsQBH07evnInUSdWqy_tzju79jrfSj_1APS7xjuXnlLDdsp_y1mJeK-m--5wgrq=
+Q72zW3GKKDx-T0luN6g9XXG7zjyeVE0Yph5IL3ajAUE8Rl-iqZorcIRroQAhM8INNGzGxGh0xoF=
+WTnzBiUpDcLs_Mznw06b2YwozHa9Q4UF4MGpxWNVnLZ81FKMepeDCfOQWrVhzAKg50Bovn_zn3L=
+83GSEFpJYTq62FtrWyXqG5EXIi8fxxaRlxclUZe9panmvTgk6gzbVvIdp8Nsy7XF9Todn2Mhsj8=
+2E_q4J6LODyDPpoO0QbyuRJ1r2z2ubfrkVeN6XR5u9E90MwIX3jnWK6WZ9iiY8WCYwm40vDPjGI=
+BuBX10D0mLCWuDtD1S4aqTXHbDILWkW8l-d22ad_eOzf7Ic6XFljkuS1yvVXIpieYB9hP6ndaY4=
+gJl-uRV7ddGnfBjwxLT8cIKCe3vmr0EwJ4qdqjYE9tRsCc2diTK-PhP-zuUCGuzOQTa7F_A071i=
+OVBpxYdOio7erfwVAAD__7SG_tU&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C=
+5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0=
+%7C639257031896975277%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiO=
+iIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7=
+C&amp;sdata=3D7tS9ksQYattMWJD0wOGMSAh77JbjFM7XsR6N29qhIx0%3D&amp;reserved=
+=3D0" originalsrc=3D"https://email.notifications.joinhandshake.com/c/eJyEkc=
+2O2yAUhZ8GdkT82cYLFq2iLPoS1jVcEmaMsQBH07evnInUSdWqy_tzju79jrfSj_1APS7xjuXnl=
+LDdsp_y1mJeK-m--5wgrqQ72zW3GKKDx-T0luN6g9XXG7zjyeVE0Yph5IL3ajAUE8Rl-iqZorcI=
+RroQAhM8INNGzGxGh0xoFWTnzBiUpDcLs_Mznw06b2YwozHa9Q4UF4MGpxWNVnLZ81FKMepeDCf=
+OQWrVhzAKg50Bovn_zn3L83GSEFpJYTq62FtrWyXqG5EXIi8fxxaRlxclUZe9panmvTgk6gzbVv=
+Idp8Nsy7XF9Todn2Mhsj82E_q4J6LODyDPpoO0QbyuRJ1r2z2ubfrkVeN6XR5u9E90MwIX3jnWK=
+6WZ9iiY8WCYwm40vDPjGIBuBX10D0mLCWuDtD1S4aqTXHbDILWkW8l-d22ad_eOzf7Ic6XFljku=
+S1yvVXIpieYB9hP6ndaY4gJl-uRV7ddGnfBjwxLT8cIKCe3vmr0EwJ4qdqjYE9tRsCc2diTK-Ph=
+P-zuUCGuzOQTa7F_A071iOVBpxYdOio7erfwVAAD__7SG_tU" style=3D"color:#254fa5;fo=
+nt-weight:inherit"><img alt=3D"X" height=3D"24" src=3D"https://handshake-pr=
+oduction-cdn.joinhandshake.com/static_assets/email_assets/student_footer_v3=
+_icons/x-grey.png" style=3D"outline:none;text-decoration:none;-ms-interpola=
+tion-mode:bicubic;width:auto;max-width:100%;clear:both;display:block;border=
+:none;width:24px;height:24px;padding:0 18px 0 0;width: 24px; height: 24px" =
+width=3D"24">
+</a></td>
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkcGO2ywUhZ_G7IjgYmyzYPH=
+_imbRl7AwXBImBizASfv2lTOROlO16vIe7jm6fMdpcGoYicM13LH8mCO2a3Zz3lrIqXbyf5ejCa=
+mTZ51yCz5Y83w5veeQria5ejU3PNkcCWo-KsbZIMaJYDRhnT9b5uA0mgms955y5pH2E1_oghYp7=
+4UHaSflBZCrXhaGfhgEGIFcCgfGq4ExN4lBugUVCRoYDEwBcNUPfDwxZqAXg_eKTygn0_XsX-e-=
+5-U4ifNeAJ8kWfW1ta124r8O3jp4ezwepxZuLd-O9UPr2ZeUTrztLc4178ViJ85m20q-43wEb7m=
+2kC7zQQFLB8OxGdGFPXbi_ITzEq2JmwmX1IlzbbvD1OYPdjWky_pMI79jXNAw7qylgxA97R1yOj=
+kzUYFSTUxOSnlDtoIu2KelhYi1mbg9G2JCAgM5jtAD2Up2u23zstsbNv0tL5UUXZawriFdKjCAr=
+mfe7Cd0O6khhtWU-YNd1Z-FOuP3DUuIxxeSiah_zfRLGfTlooeLvrAdA31ho0e7lKm_xt9NCSY1=
+nb0nTf8BPNkrlgNVL9gogUty1_AzAAD__0k_ApE&amp;data=3D05%7C02%7Crbillings2022%=
+40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0cabb2=
+828f%7C0%7C0%7C639257031896995843%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiO=
+nRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D=
+%7C0%7C%7C%7C&amp;sdata=3DENb8JxZNDWZFH0FEQxMcpacq%2BXLGObb4T3tDZmZy3Hg%3D&=
+amp;reserved=3D0" originalsrc=3D"https://email.notifications.joinhandshake.=
+com/c/eJyEkcGO2ywUhZ_G7IjgYmyzYPH_imbRl7AwXBImBizASfv2lTOROlO16vIe7jm6fMdpc=
+GoYicM13LH8mCO2a3Zz3lrIqXbyf5ejCamTZ51yCz5Y83w5veeQria5ejU3PNkcCWo-KsbZIMaJ=
+YDRhnT9b5uA0mgms955y5pH2E1_oghYp74UHaSflBZCrXhaGfhgEGIFcCgfGq4ExN4lBugUVCRo=
+YDEwBcNUPfDwxZqAXg_eKTygn0_XsX-e-5-U4ifNeAJ8kWfW1ta124r8O3jp4ezwepxZuLd-O9U=
+Pr2ZeUTrztLc4178ViJ85m20q-43wEb7m2kC7zQQFLB8OxGdGFPXbi_ITzEq2JmwmX1IlzbbvD1=
+OYPdjWky_pMI79jXNAw7qylgxA97R1yOjkzUYFSTUxOSnlDtoIu2KelhYi1mbg9G2JCAgM5jtAD=
+2Up2u23zstsbNv0tL5UUXZawriFdKjCArmfe7Cd0O6khhtWU-YNd1Z-FOuP3DUuIxxeSiah_zfR=
+LGfTlooeLvrAdA31ho0e7lKm_xt9NCSY1nb0nTf8BPNkrlgNVL9gogUty1_AzAAD__0k_ApE" s=
+tyle=3D"color:#254fa5;font-weight:inherit"><img alt=3D"TikTok" height=3D"24=
+" src=3D"https://handshake-production-cdn.joinhandshake.com/static_assets/e=
+mail_assets/student_footer_v3_icons/tiktok-grey.png" style=3D"outline:none;=
+text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:10=
+0%;clear:both;display:block;border:none;width:24px;height:24px;padding:0 18=
+px 0 0;width: 24px; height: 24px" width=3D"24">
+</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class=3D"rebrand-app-store" style=3D"font-family:&quot;Noi Grotesk&quot=
+;, system-ui, sans-serif;padding:0;vertical-align:top;text-align:left">
+<table style=3D"border-spacing:0;border-collapse:collapse;padding:0;vertica=
+l-align:top;text-align:left;margin-right:0;margin-left:auto">
+<tbody>
+<tr style=3D"padding:0;vertical-align:top;text-align:left">
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<a style=3D"color:#254fa5;font-weight:inherit;color: inherit; text-decorati=
+on: none;" href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dht=
+tps%3A%2F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkcuu2yAQhp8GdkQ=
+w4NuCRasoi74EwjAknBiwDI7at6-cE6mnN53lDHzD8P1eg5_6gXpc4gO3HyZhuxVvytpiyZV0X3=
+1JNmbSnXUuLYbo7PPk9FZivtns683e8eRKoqjFMHHBezmMFJONi_mImOg12hFcCIEJHpCpUcxsR=
+odMKBmgc-MUJNCbdiCkml0QzqvZc2k9eOR8ADtPk-eWRg0cej4BiEn1YjhxbkHJPoRJjNiNlij-=
+2bpvZT5WEkJJEGNHF31rba1EfiFwIXAJdv-bInCJeS579maJ-V4JXOy6mphrs8tC5GVvydSybw6=
+JPNt13coDzfHUWmqL-WoOL7gR6I-bCX3cE5Hnp65X09m02njNRJ5r2z3mZt5t1pivy3Ma_VPsjJ=
+YL7xzrpVRMeRRs9HZkErtp5N04TcHSdUMf3RNpMWFtNq3PzLjsgEM3DKCArlvxu2tm3t0dm_5W5=
+ko3vc1xWWK-VuAARPHDDvqd1pjiYjfzbrPqj41q8PuKW0zHF7JNqH_V7Ld42ItiB8Ve2o6CvbSx=
+I2_Gp_-Of9gt2tx0CYE2_Q_xdK-4HaqU5EMHoqMPDT8DAAD__0aWCmA&amp;data=3D05%7C02%=
+7Crbillings2022%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824=
+413fb4352f0cabb2828f%7C0%7C0%7C639257031897020662%7CUnknown%7CTWFpbGZsb3d8e=
+yJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIs=
+IldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DD8XluJgl%2FrU4DwciYx%2F6Skb%2F8wZ=
+i9ke1PqoRou95VYg%3D&amp;reserved=3D0" originalsrc=3D"https://email.notifica=
+tions.joinhandshake.com/c/eJyEkcuu2yAQhp8GdkQw4NuCRasoi74EwjAknBiwDI7at6-cE=
+6mnN53lDHzD8P1eg5_6gXpc4gO3HyZhuxVvytpiyZV0X31JNmbSnXUuLYbo7PPk9FZivtns683e=
+8eRKoqjFMHHBezmMFJONi_mImOg12hFcCIEJHpCpUcxsRodMKBmgc-MUJNCbdiCkml0QzqvZc2k=
+9eOR8ADtPk-eWRg0cej4BiEn1YjhxbkHJPoRJjNiNlij-2bpvZT5WEkJJEGNHF31rba1EfiFwIX=
+AJdv-bInCJeS579maJ-V4JXOy6mphrs8tC5GVvydSybw6JPNt13coDzfHUWmqL-WoOL7gR6I-bC=
+X3cE5Hnp65X09m02njNRJ5r2z3mZt5t1pivy3Ma_VPsjJYL7xzrpVRMeRRs9HZkErtp5N04TcHS=
+dUMf3RNpMWFtNq3PzLjsgEM3DKCArlvxu2tm3t0dm_5W5ko3vc1xWWK-VuAARPHDDvqd1pjiYjf=
+zbrPqj41q8PuKW0zHF7JNqH_V7Ld42ItiB8Ve2o6CvbSxI2_Gp_-Of9gt2tx0CYE2_Q_xdK-4Ha=
+qU5EMHoqMPDT8DAAD__0aWCmA"><img alt=3D"Apple App Store" height=3D"26" src=
+=3D"https://handshake-production-cdn.joinhandshake.com/static_assets/email_=
+assets/student_footer_v3_icons/apple-app-store.png" style=3D"outline:none;t=
+ext-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100=
+%;clear:both;display:block;border:none;height:26px;padding:0 0 0 16px">
+</a></td>
+<td style=3D"font-family:&quot;Noi Grotesk&quot;, system-ui, sans-serif;pad=
+ding:0;vertical-align:top;text-align:left">
+<a style=3D"color:#254fa5;font-weight:inherit;color: inherit; text-decorati=
+on: none;" href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dht=
+tps%3A%2F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEkcuu2yAQhp8GdkQ=
+w4NuCRasoi74EwjAknBiwDI7at6-cE6mnN53lDHzD8P1eg5_6gXpc4gO3HyZhuxVvytpiyZV0X3=
+1JNmbSnXUuLYbo7PPk9FZivtns683e8eRKoqjFMHHBezmMFJONi_mImOg12hFcCIEJHpCpUcxsR=
+odMKBmgc-MUJNCbdiCkml0QzqvZc2k9eOR8ADtPk-eWRg0cej4BiEn1YjhxbkHJPoRJjNiNlij-=
+2bpvZT5WEkJJEGNHF31rba1EfiFwIXAJdv-bInCJeS579maJ-V4JXOy6mphrs8tC5GVvydSybw6=
+JPNt13coDzfHUWmqL-WoOL7gR6I-bCX3cE5Hnp65X09m02njNRJ5r2z3mZt5t1pivy3Ma_VPsjJ=
+YL7xzrpVRMeRRs9HZkErtp5N04TcHSdUMf3RNpMWFtNq3PzLjsgEM3DKCArlvxu2tm3t0dm_5W5=
+ko3vc1xWWK-VuAARPHDDvqd1pjiYjfzbrPqj41q8PuKW0zHF7JNqH_V7Ld42ItiB8Ve2o6CvbSx=
+I2_Gp_-Of9gt2tx0CYE2_Q_xdK-4HaqU5EMHoqMPDT8DAAD__0aWCmA&amp;data=3D05%7C02%=
+7Crbillings2022%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824=
+413fb4352f0cabb2828f%7C0%7C0%7C639257031897042948%7CUnknown%7CTWFpbGZsb3d8e=
+yJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIs=
+IldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DU68a%2FgQWPsUGlG7SI5m1FII5ZXtRILw=
+Lx%2B9Z8R3Qh2w%3D&amp;reserved=3D0" originalsrc=3D"https://email.notificati=
+ons.joinhandshake.com/c/eJyEkcuu2yAQhp8GdkQw4NuCRasoi74EwjAknBiwDI7at6-cE6m=
+nN53lDHzD8P1eg5_6gXpc4gO3HyZhuxVvytpiyZV0X31JNmbSnXUuLYbo7PPk9FZivtns683e8e=
+RKoqjFMHHBezmMFJONi_mImOg12hFcCIEJHpCpUcxsRodMKBmgc-MUJNCbdiCkml0QzqvZc2k9e=
+OR8ADtPk-eWRg0cej4BiEn1YjhxbkHJPoRJjNiNlij-2bpvZT5WEkJJEGNHF31rba1EfiFwIXAJ=
+dv-bInCJeS579maJ-V4JXOy6mphrs8tC5GVvydSybw6JPNt13coDzfHUWmqL-WoOL7gR6I-bCX3=
+cE5Hnp65X09m02njNRJ5r2z3mZt5t1pivy3Ma_VPsjJYL7xzrpVRMeRRs9HZkErtp5N04TcHSdU=
+Mf3RNpMWFtNq3PzLjsgEM3DKCArlvxu2tm3t0dm_5W5ko3vc1xWWK-VuAARPHDDvqd1pjiYjfzb=
+rPqj41q8PuKW0zHF7JNqH_V7Ld42ItiB8Ve2o6CvbSxI2_Gp_-Of9gt2tx0CYE2_Q_xdK-4HaqU=
+5EMHoqMPDT8DAAD__0aWCmA"><img alt=3D"Google Play Store" height=3D"26" src=
+=3D"https://handshake-production-cdn.joinhandshake.com/static_assets/email_=
+assets/student_footer_v3_icons/google-play-store.png" style=3D"outline:none=
+;text-decoration:none;-ms-interpolation-mode:bicubic;width:auto;max-width:1=
+00%;clear:both;display:block;border:none;height:26px;padding:0 0 0 16px">
+</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div class=3D"rebrand-footer-container" style=3D"margin-top:14px">
+<p class=3D"rebrand-footer-text" style=3D"font-size:18px;line-height:28px;c=
+olor:#878aae;font-size:14px;line-height:125%;margin:0 0 20px;color:#121212 =
+!important">
+You received this email because Handshake partners with your school to help=
+ you grow your career.
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Femail.notifications.joinhandshake.com%2Fc%2FeJyEks2O4yoQhZ8GdrSgwDFesLh=
+XURbzEhaGIqHbgAU4mnn7kdORuuenNctT1DkUX-EN-Ok0Uo9rvGP9MSfst-LnsvVYciPD_74kGz=
+MZziaXHkN09nHy8lpivtns282-4YsriaIR48QFP8lRU0w2rvNnyxy9QavBhRCY4AGZ0mJhCzpkQ=
+skAg9NTkEBvRnsNXAWu1MKXsCzoR-vkCCNfQHqFNBrgcOITgJjUSYwvnFtQ8hTCJDQO2hLF_zXu=
+a1mOkYRQEoQe6GpuvW-NyP8IXAhcgt3_dBG4fM5lW8WAFbPDRuTlQxF5tttWyx3n456ttB7zlcB=
+p72luZa9ftcwHN6zPzoQ-7onI8wPns-hs2my8ZiLPre8ec5_fabeYr-sjjf4OfkHLhXeOnaRUTH=
+kUTHurmcRh0nzQ0xQs3Sr66B6WHhO2btP22CmXA3AYxhEU0K0Wv7s-L7t7w26-laXRauoS1zXma=
+wMOQBQ_6KHfaYsprrbO77Sb-VxoM37fsMZ0PCHbhOZDs1_Wx54udrjYE9sh2BMbO_4D49OX8Xdb=
+o83dlBBoN38BT_eG9UClJB8HEAO9G_gZAAD___7fFnY&amp;data=3D05%7C02%7Crbillings2=
+022%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4352f0c=
+abb2828f%7C0%7C0%7C639257031897069225%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hc=
+GkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3=
+D%3D%7C0%7C%7C%7C&amp;sdata=3Dv2c2IrlRSCtx1E3CUEriGMtP67YXTCixfhfX0qPAXOU%3=
+D&amp;reserved=3D0" originalsrc=3D"https://email.notifications.joinhandshak=
+e.com/c/eJyEks2O4yoQhZ8GdrSgwDFesLhXURbzEhaGIqHbgAU4mnn7kdORuuenNctT1DkUX-E=
+N-Ok0Uo9rvGP9MSfst-LnsvVYciPD_74kGzMZziaXHkN09nHy8lpivtns282-4YsriaIR48QFP8=
+lRU0w2rvNnyxy9QavBhRCY4AGZ0mJhCzpkQskAg9NTkEBvRnsNXAWu1MKXsCzoR-vkCCNfQHqFN=
+BrgcOITgJjUSYwvnFtQ8hTCJDQO2hLF_zXua1mOkYRQEoQe6GpuvW-NyP8IXAhcgt3_dBG4fM5l=
+W8WAFbPDRuTlQxF5tttWyx3n456ttB7zlcBp72luZa9ftcwHN6zPzoQ-7onI8wPns-hs2my8ZiL=
+Pre8ec5_fabeYr-sjjf4OfkHLhXeOnaRUTHkUTHurmcRh0nzQ0xQs3Sr66B6WHhO2btP22CmXA3=
+AYxhEU0K0Wv7s-L7t7w26-laXRauoS1zXmawMOQBQ_6KHfaYsprrbO77Sb-VxoM37fsMZ0PCHbh=
+OZDs1_Wx54udrjYE9sh2BMbO_4D49OX8Xdbo83dlBBoN38BT_eG9UClJB8HEAO9G_gZAAD___7f=
+FnY" style=3D"color:#254fa5;font-weight:inherit;color:inherit">
+Manage email preferences</a> or <a disable-tracking=3D"true" href=3D"https:=
+//nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Ffau.joinhands=
+hake.com%2Femail%2Funsubscribe%2FsAA8IOnm_zO39tc2hLIdXQ5dnJDlU5ul_tgebus-qL=
+X4orEsVSWXrnPuac_sfElKK6rBiLTm-KLxegdtJykKudQzFot5ROUdJGQb9dXBo82DWy4o7GUvr=
+UjqcglnEfZ5w0uOixTCsJSJzXPl9RUfRI06jtl8SpW6rZ7PS7dwesmfqkhuza5Ao7Ntg1Qp8A8M=
+GJQg5i73mbshPkaPrlxFZl0mlLuRc03KNxUG3ZRZAnkln-dN8YHdFmqhfQs_RcRFaezAhUH2ytH=
+hs7NsKUVpBm4qAT0dd5ZJ-H2gowVwRFkfaICfyCTKXBOvV37LKUPanjwSaC9fFt6ao-pA0bJDB2=
+VaxagGdh3XTcCRkdih-wfLqZ9uVtVdbyjO57b7-jKNFrv12bsgVSVB7LWVJRLaue5tzLJBksb19=
+lbmYtep2lQoFgPRQRU_R_7WKTuqrK5aWjQjLLC51truF_f7o4dI-uFmsqCIcvWbE1pNOeTkhTDq=
+32nbBX-Aw-2sa0NWYHPt04svgxmu7DzTcU9m91uRMTEFs0RozCqlQc8UAVef0EWVTUoO_2xSoET=
+KmWSdiYLT_yKM36QE_nGUv-YRo-9WHveglbHGHGs2uxnDUK2Su1KPImySSA7AnZWcIfdV0maRdt=
+P095BCZ7f_x37D7yeV1IFf_454K4th1gBLGV1pftTyNfaJPmtSSDnKFDCo7w5w8GK3CERT0I0sf=
+8BM307i--SNeCX2m4qhRIT4vt--9QuwM2gUdupiQTEDGm0unw&amp;data=3D05%7C02%7Crbil=
+lings2022%40fau.edu%7C5a3348243dc748d97b2308df18e22c73%7C63c3c9c1e824413fb4=
+352f0cabb2828f%7C0%7C0%7C639257031897091198%7CUnknown%7CTWFpbGZsb3d8eyJFbXB=
+0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIj=
+oyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D6VhYKtpQ0WcaOpmrZ09olqV6MprHVTpLtL6AzGx=
+yckI%3D&amp;reserved=3D0" originalsrc=3D"https://fau.joinhandshake.com/emai=
+l/unsubscribe/sAA8IOnm_zO39tc2hLIdXQ5dnJDlU5ul_tgebus-qLX4orEsVSWXrnPuac_sf=
+ElKK6rBiLTm-KLxegdtJykKudQzFot5ROUdJGQb9dXBo82DWy4o7GUvrUjqcglnEfZ5w0uOixTC=
+sJSJzXPl9RUfRI06jtl8SpW6rZ7PS7dwesmfqkhuza5Ao7Ntg1Qp8A8MGJQg5i73mbshPkaPrlx=
+FZl0mlLuRc03KNxUG3ZRZAnkln-dN8YHdFmqhfQs_RcRFaezAhUH2ytHhs7NsKUVpBm4qAT0dd5=
+ZJ-H2gowVwRFkfaICfyCTKXBOvV37LKUPanjwSaC9fFt6ao-pA0bJDB2VaxagGdh3XTcCRkdih-=
+wfLqZ9uVtVdbyjO57b7-jKNFrv12bsgVSVB7LWVJRLaue5tzLJBksb19lbmYtep2lQoFgPRQRU_=
+R_7WKTuqrK5aWjQjLLC51truF_f7o4dI-uFmsqCIcvWbE1pNOeTkhTDq32nbBX-Aw-2sa0NWYHP=
+t04svgxmu7DzTcU9m91uRMTEFs0RozCqlQc8UAVef0EWVTUoO_2xSoETKmWSdiYLT_yKM36QE_n=
+GUv-YRo-9WHveglbHGHGs2uxnDUK2Su1KPImySSA7AnZWcIfdV0maRdtP095BCZ7f_x37D7yeV1=
+IFf_454K4th1gBLGV1pftTyNfaJPmtSSDnKFDCo7w5w8GK3CERT0I0sf8BM307i--SNeCX2m4qh=
+RIT4vt--9QuwM2gUdupiQTEDGm0unw" style=3D"color:#254fa5;font-weight:inherit;=
+color:inherit">
+unsubscribe</a>. </p>
+<p class=3D"rebrand-footer-text address" style=3D"font-size:18px;line-heigh=
+t:28px;color:#878aae;margin:0 0 20px;font-size:14px;line-height:125%;font-w=
+eight:bold;color:#121212 !important">
+P.O. Box 40770, San Francisco, CA 94140</p>
+<img alt=3D"Handshake" class=3D"handshake-logo" height=3D"30" src=3D"https:=
+//handshake-production-cdn.joinhandshake.com/static_assets/email_assets/stu=
+dent_footer_v3_icons/handshake-grey.png" style=3D"outline:none;text-decorat=
+ion:none;-ms-interpolation-mode:bicubic;width:auto;max-width:100%;clear:bot=
+h;display:block;width: 150px; height: 30px" title=3D"Handshake" width=3D"15=
+0">
+</div>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<img width=3D"1" height=3D"1" alt=3D"" src=3D"https://email.notifications.j=
+oinhandshake.com/o/eJyEkMGO2yAURb8m7IjgATYs2FRd9SesZ3hMmInBAhy1f185jdRpparL=
+CzpX593oIbppZpHu-UHtx7LRuNW41H3kWvrFfIl1w1wu5qsvdeSUAz5_ru81lxuW2G_4QddQN0Z=
+ezk5IManZMtow35fPyJKjJ7QQUkpcikRcW7nylQJxqVUCE6xLCtjNa7HGRAEQpA1k4hwcrApQgw=
+5GgGbZg4BJOADp9CTnqxAIWk0pOWnJWLxo8T_d97qeSlJqBdIa9rfrSihkDIFPSmmuI0luI1quy=
+DgrjHUuIdsbxRyeyMgb9YHb_pxBKAMCzDyDBra3Go8wlvUIHzT8t7p21nxb8_2ey1sHAXDRIuFx=
+pXiwnrd8x7b8Euz-80Nf6PtOLW9UxlJwI_878z8u5i-KnxTHfW_1QWfge-0jlzd-TsiF-2f9A1v=
+GMnxNiQ3_anhavRrY0amdU2klZgPSsIeHnwEAAP__WcrJyQ">
+</div>
+</body>
+</html>
+
+--ab125676e50c80c0b7216bdc185ebb29df78c856a44bc3acd8d31536b0d2--

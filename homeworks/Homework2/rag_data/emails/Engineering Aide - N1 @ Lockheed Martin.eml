@@ -1,0 +1,2602 @@
+Received: from CH8PR04MB994648.namprd04.prod.outlook.com
+ (2603:10b6:610:35c::16) by CO6PR04MB7635.namprd04.prod.outlook.com with
+ HTTPS; Tue, 22 Sep 2026 20:21:38 +0000
+Received: from CH2PR15CA0008.namprd15.prod.outlook.com (2603:10b6:610:51::18)
+ by CH8PR04MB994648.namprd04.prod.outlook.com (2603:10b6:610:35c::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.21.451.14; Tue, 22 Sep
+ 2026 20:21:36 +0000
+Received: from BN2PEPF00004FBA.namprd04.prod.outlook.com
+ (2603:10b6:610:51:cafe::e) by CH2PR15CA0008.outlook.office365.com
+ (2603:10b6:610:51::18) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.21.428.16 via Frontend Transport; Tue,
+ 22 Sep 2026 20:21:36 +0000
+Authentication-Results: spf=pass (sender IP is 156.70.12.112)
+ smtp.mailfrom=bounces.indeed.com; dkim=pass (signature was verified)
+ header.d=match.indeed.com;dmarc=pass action=none
+ header.from=match.indeed.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of bounces.indeed.com
+ designates 156.70.12.112 as permitted sender)
+ receiver=protection.outlook.com; client-ip=156.70.12.112;
+ helo=mta-70-12-112.indeed.com.sparkpostmail.com; pr=E
+Received: from mta-70-12-112.indeed.com.sparkpostmail.com (156.70.12.112) by
+ BN2PEPF00004FBA.mail.protection.outlook.com (10.167.243.180) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.21.451.8 via Frontend Transport; Tue, 22 Sep 2026 20:21:34 +0000
+X-MSFBL: E987zGRDADCa2PhYOFRiZUIz4ZNA/q1rUNm4gH+935Y=|eyJ0ZW5hbnRfaWQiOiJ
+	zcGMiLCJzdWJhY2NvdW50X2lkIjoiMCIsImN1c3RvbWVyX2lkIjoiMjk0Mjc2Iiw
+	ibWVzc2FnZV9pZCI6IjZhYjM0ZGUzYjI2YTExMjk1MWJjIiwiciI6InJiaWxsaW5
+	nczIwMjJAZmF1LmVkdSJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=match.indeed.com;
+	s=scph1024; t=1790108493; i=@match.indeed.com;
+	bh=mimShwLNmbyV/0SiSobEyzXgb41ruCKfxpSuy7fE350=;
+	h=To:Date:Content-Type:Message-ID:From:Subject:List-Unsubscribe:
+	 List-Unsubscribe-Post:From:To:Cc:Subject:Feedback-Id;
+	b=VEBBMVNFMMVX9Oz4ILkSP4SfpmvzYmR2KnZsa9PKfiBs2ksdLKOUZHy5gL1DTAtrX
+	 EH2rZkM5NmjTBKJD82uGUdu9UdHmRP829GzwX5rgpCsKS3qq1Pnv1lHzHHJOXPAqON
+	 6Sq0YOwN7jElWFoMfBjCFk2tJClFS3hFnSHPbX38=
+Received: from [10.90.32.161] ([10.90.32.161])
+	by i-0a626c397440dab83.mta1vrest.sd.prd.sparkpost (ecelerity 5.3.0.76429 r(msys-ecelerity:tags/5.3.0.18)) with REST
+	id CB/1D-14074-D43E2BA6; Tue, 22 Sep 2026 20:21:33 +0000
+To: <rbillings2022@fau.edu>
+Date: Tue, 22 Sep 2026 20:21:33 +0000
+Content-Type: multipart/alternative; boundary="_----lP2VEu2LsyBDE86w0T7R9w===_DA/1D-14074-D43E2BA6"
+Message-ID: <1k35cfpb2q78k80b@indeed.com>
+From: "Indeed" <donotreply@match.indeed.com>
+Reply-To: Indeed <donotreply@match.indeed.com>
+Subject: Engineering Aide - N1 @ Lockheed Martin
+List-ID: <match.indeed.com>
+List-Unsubscribe: <mailto:unsubscribe@unsub.spmta.com?subject=unsubscribe%3Am6OdwQqaxZW5nXcMC_WzBtfybRXf6eswb5-eQr7XvQg~%7CeyAicmNwdF90byI6ICJyYmlsbGluZ3MyMDIyQGZhdS5lZHUiLCAibGlzdF9pZCI6ICJtYXRjaC5pbmRlZWQuY29tIiwgInRlbmFudF9pZCI6ICJzcGMiLCAiY3VzdG9tZXJfaWQiOiAiMjk0Mjc2IiwgIm1lc3NhZ2VfaWQiOiAiNmFiMzRkZTNiMjZhMTEyOTUxYmMiLCAic3ViYWNjb3VudF9pZCI6ICIwIiB9>,<https://unsubscribe.spmta.com/u/qmG0XvuOPzqD9uXWUiGw-g~~/AAR9hBA~/Szt3bn7o4ZMcFwuE_gW799Zh9Xf5-BnJ5nK7JlW_Otu2yCzlbVzBlXft7zPZa7Kh1owNGA-MwtapBDFXqLQSrg~~>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Return-Path: msprvs1=20725UYq0aimM=bounces-294276@bounces.indeed.com
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Sep 2026 20:21:34.3945
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 677f7ab2-199d-4530-0fff-08df18e718e3
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 63c3c9c1-e824-413f-b435-2f0cabb2828f:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: BN2PEPF00004FBA:EE_|CH8PR04MB994648:EE_|CO6PR04MB7635:EE_
+X-MS-Exchange-Organization-AuthSource: BN2PEPF00004FBA.namprd04.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 677f7ab2-199d-4530-0fff-08df18e718e3
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:2;ARA:13230040|704162111799003|12012899012|13102899012|13012899012|7049299003|3109299003|260918224100599003|4022899009|3072899012|31052699007|39142699007|7149299003|5062899012|4092899012|3092899012|1032899013|69100299015|260918215300599003|29132699027|2092899012|10067099003|5063699009|5113699003|19002099009|4133799003|2066899003|8096899003|16102099003|11063799006|57112099003|21082099003|55112099003|18002099003|13003099007;
+X-Forefront-Antispam-Report: CIP:156.70.12.112;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mta-70-12-112.indeed.com.sparkpostmail.com;PTR:mta-70-12-112.indeed.com.sparkpostmail.com;CAT:NONE;SFS:(13230040)(704162111799003)(12012899012)(13102899012)(13012899012)(7049299003)(3109299003)(260918224100599003)(4022899009)(3072899012)(31052699007)(39142699007)(7149299003)(5062899012)(4092899012)(3092899012)(1032899013)(69100299015)(260918215300599003)(29132699027)(2092899012)(10067099003)(5063699009)(5113699003)(19002099009)(4133799003)(2066899003)(8096899003)(16102099003)(11063799006)(57112099003)(21082099003)(55112099003)(18002099003)(13003099007);DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Sep 2026 20:21:34.0456
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 677f7ab2-199d-4530-0fff-08df18e718e3
+X-MS-Exchange-CrossTenant-Id: 63c3c9c1-e824-413f-b435-2f0cabb2828f
+X-MS-Exchange-CrossTenant-AuthSource: BN2PEPF00004FBA.namprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH8PR04MB994648
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:04.5181829
+X-MS-Exchange-Processed-By-BccFoldering: 15.21.0451.004
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910005)(944490095)(944506478)(944626604)(920097)(930201)(20251009189)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?TnpOSnM3eElPdUZVWUlTMGtYSXNlS2lvSGFEaXlndmxZT3JlNmNVVzJWSGU5?=
+ =?utf-8?B?dDVEc3FnbEZ2VlhGM1JQeUdSbnRzcDE4REV3dlg4Wnhkb3dHNTNLZ29pS1V3?=
+ =?utf-8?B?TjgwZDk5MzJSeGtxZ1JjK1VreFR3OTYwR1BlOXNXbENRcGsvWTlKMHZTK3ZP?=
+ =?utf-8?B?SzlCOHpYUWJoSStoR1NJbFRxK3pFRTlaYXY4NWZXa0prSW5NZmNMUE5KSE9O?=
+ =?utf-8?B?dktaRUgybTNEdGhUY2RieEZvU1RuTGVrQTV3MGpGRVNEMG1sRzUrSm56RWVN?=
+ =?utf-8?B?TTlNYkR0cnVNditGeVFRK053YjljdE9tK1BtT0lQcmltNmJZc25RTmN0eGFC?=
+ =?utf-8?B?Um9VQmVUaFhaSGRqRHphR1pYWXpwYWZxSWhQc3BsT1JnMWZOSVhaWU81aksy?=
+ =?utf-8?B?QVBxY2M4b2xrc2dSUmhSbjVWMnd2WGRNVjBtQk9SVkxlUW0yQi9KYWd3MWNN?=
+ =?utf-8?B?K09Ca08wanRiWGZZeFhyeUhHZlphaG5XTlM1Tnhxdlh2S044MDZLTEI5VFl3?=
+ =?utf-8?B?R2x4NUhiWi9lWktoQ3lvbmN2UGFaQkd4MHJPWURMOUZVdnFRckFvL0w0YU5F?=
+ =?utf-8?B?bjhyZ3lERG1MUGF4ZC9qcWo3Sms1ZWpNOWI1NllCNkYxeGFCTUZaK2VGWVRX?=
+ =?utf-8?B?azJ1dHVPVVkrTmUxUGYzK3ROd3hHQVFtZmhrRXpUMlErSXRiK0tXY2tPb2dz?=
+ =?utf-8?B?YnFzU0U4UnphRHBQeFpoY0ZpU3F5UXdvZU0yUnpqa3Ixa3dxdE9IWEhSM0Jw?=
+ =?utf-8?B?QmlTZFdPaEQyTzNvRkJ0U0JoL1M5NmU2RlY5dW85QzNBNlBSSDNMRTVMckxQ?=
+ =?utf-8?B?U0F4Z0xZOEN2SzNqNUxLWWFlR00zZ0Q0KzlHVHg3MTZ6bXhxWW5LMmRWOWta?=
+ =?utf-8?B?M3V1UHNqbHpoZzdOYUJLUzlvenlmeU56cXBwVk16clY3WDN2NDU4Q3hCRllC?=
+ =?utf-8?B?V3E2WGErMTV0aFhUenhrMVRyck5XY0ZsWUZZSXM0MmFQMHlLQXJUMWhwT0U1?=
+ =?utf-8?B?UDJjZmFtQjZVT2VUZFVIOWxCZEZhRUc2YW5nTUw2bFhMajNTOW9nSHBWR0hp?=
+ =?utf-8?B?dVVFZFRMVnBqSG1LSUVZcWwvYW55M0oxUGF2d1ZrZmxacVNXMGNHOGNXUC9J?=
+ =?utf-8?B?UFgxSUZWUFdxTmFzT04rR05wR0d3ZXJnSEpEaUVFL2xSVjd6TjZTckJyTjN1?=
+ =?utf-8?B?RlRPOUNUYmd6RndXSStDV1p6SmxXWjJTYS9MQjRseXJnTG54NCswVThpeG9Y?=
+ =?utf-8?B?SzVDbEw1V0NnWTgzMWFreHF5OVU4ekxWZXpZQ3lvRFU5U3lQd0ZjcGNMc1lR?=
+ =?utf-8?B?U3RWWHBlalBla1J6ZDF6ZVZTajlPZ2s0Unl5VzhuVVBjemEvYWsxOGROT2lZ?=
+ =?utf-8?B?VHBVUnpKU2hiaUhCcExtOWhvSnc5b1k1MUNlZG0xZG5EeGRuTW1YTEs5L1Z6?=
+ =?utf-8?B?NDRFYjZlR3VJeTRBZTk2S2thYmRValRtU0dxWldhOThKMzIyTXBCZjBhT3o2?=
+ =?utf-8?B?NlRpaGNuNkptN1BuVjNjNFhjeHJJZ0VZL3NYN3o1dlpiRUYyVEplL1pRTDZO?=
+ =?utf-8?B?YVU2ZjdJUWU4WUVqUFMxSjBMVUJMcG5VdUp4ZmR5OVQ0Ym5ueVA2ZmVqaU0r?=
+ =?utf-8?B?U2FGQjZJemJRaStHQy9Ga25JUWFOQ1lVZEc2MTZpY1kzY1JHdEs3YS9oQkZy?=
+ =?utf-8?B?dldiam9hQ0c4M1UyWHBCV0hzZGwxaEZXcjJ1K1owWC9aZUFFUnRLNThXSG5n?=
+ =?utf-8?B?SlVYdnF6Y3ZqSnl4OTZERDgybkl4Q2dZcXZvSlJJVnh2QTM5cHZ0ME9jaW9x?=
+ =?utf-8?B?Z05XTmhUYTVKSnkxaSs1Y0hqbW1hTmFpN01ObjFCSTAveWQzUy9vaWx6ZFdK?=
+ =?utf-8?B?ckN5ZlA2c0NtbWtjU2JCenVPZmQwdnZGcFFnYitnbDBpU2hzbWkycTZZREpC?=
+ =?utf-8?B?NnNodVBkcFpPMEJkQWhtNllRdm1TRWIzdUJOVkpvRjJzS3NONW4vOWNEVUtn?=
+ =?utf-8?B?bFFQRmxKcjVvdnJkWEFvSlZ4TkhGS0FFYjViaHZrS0pHRmptRmJEZ0c4czVj?=
+ =?utf-8?B?dHkzdTAwWE55aTdNeHgzMG1NZ0lZRWVCTjFPcXdwbUF6SlhTZm9LSUwvMm9Y?=
+ =?utf-8?B?Y3RMK3hWVU9WcW1sSDNOWWcxWEpCbmcvUnM2NzZ4VjNmQTFML0hEejg1NW5L?=
+ =?utf-8?B?NVptN2ZQMXp1M2dhTkJ4N1FBbTNXK3BKNDdMeC9LeitxNWFJU3NQVTlGZmVR?=
+ =?utf-8?B?UnB6ZjNmQ1VGZldONzZQQnNsR01pMitjWG9mT0wwTWFxZ0VwUVc1SVQ3V1hP?=
+ =?utf-8?B?SC9GU0JxRU5QYjUzUkQ4RUhpQ3lSUTY3a0VFTTFVT1lKbGlxZzRmTFNobmVp?=
+ =?utf-8?B?TDk5a3NoUGdoaSszZ3J6SWVaZ3h1RWNiUzZONGFiTVBtbzhjbFhWSC9IWmZz?=
+ =?utf-8?B?Y3RwL2pXNitqWFhFUms1a0M0S0U5L3FqUHR3S2k3NUR1VEpWYmtSUmFRRTcv?=
+ =?utf-8?B?MkdNUDlHemxVdGNQVDYyRnMxdnZvaGNoelN3QWVZU2Z6dnlsQXpUL1k5Y3FX?=
+ =?utf-8?B?cFVyMGhwb05zZS9vbkdpMllYbW5mVHFlQXlidklteitHVHdVK0p6ZXg4Zm4v?=
+ =?utf-8?B?U3Z4SGJhWWxSOVNkR1NKZzhKRVY3NDdNTDZIbHRsNDQrVThXU1VUMjczVytv?=
+ =?utf-8?B?UkhrbkRVWEQrcVY5SHhYNysyT1NOQlpLaWNZR1hsWE1LNXdXZ0prWW5rNzZJ?=
+ =?utf-8?B?VUZ6SDNrakRPYWRIM281VkN6N09uQkUzS1p0cE1BUVNPUHU0N1J4c3pkSHB5?=
+ =?utf-8?B?dEt6SFFlZVA4VEYxam1MYXlzc1JhK2dKUzRSbnRyT0dEVy9Cb05tVGsrdERq?=
+ =?utf-8?B?YmVESjdlT2pJc0VpOGlaVmU5cTRhYUlkUUZTYnBiTEpiK2ZCUFhqdHBKeGlT?=
+ =?utf-8?B?V3I5TzhSMzJhZ1k2WDM2WlNPZytscUswSWY1UFVzbkVuOFY2cnFUWnpIekU1?=
+ =?utf-8?B?enF5RGNUa0l3YzBDS2VWeTdhT0Q5eHJBMWtUeWl4dGZkeU9kS0NjOXd4cnQ4?=
+ =?utf-8?Q?PZZMsapXane5gNahVupROU01tNqAQUldA=3D?=
+MIME-Version: 1.0
+
+--_----lP2VEu2LsyBDE86w0T7R9w===_DA/1D-14074-D43E2BA6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+                EXTERNAL EMAIL : Exercise caution when responding, opening =
+links, or opening attachments.
+
+$37,=E2=80=8C700 - $97,=E2=80=8C200 a year. Hi Romario, Your background in =
+software development and C++ could be a strong match for this Engineering A=
+ide role at Lockheed Martin. If you're interested in a position that offers=
+ on-the-job training and the chance to work on real projects, you can apply=
+ now or view the job description for more details.
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD
+
+Engineering Aide - N1 @ Lockheed Martin
+Introduction
+
+Hi Romario,
+
+Your background in software development and C++ could be a strong match for=
+ this Engineering Aide role at Lockheed Martin. If you're interested in a p=
+osition that offers on-the-job training and the chance to work on real proj=
+ects, you can apply now or view the job description for more details.
+
+View job <https://cts.indeed.com/v3/H4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1=
+amioUElpok0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD=
+0TZEYq9qtkLjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOL=
+JvkzUnwSgAEoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQg=
+CYkht5PlbdvhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQR=
+jbLz6-a6s_SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzk=
+sHdAjY2pVWa8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD=
+51aqtC5oKMSruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA/qQIey1-tK3zqB4H_ipyHQcFfV=
+dlF30Mes6_5BILpR4M>
+This is a bad match <https://cts.indeed.com/v3/H4sIAAAAAAAA_12Qy27iMBRA_yWL=
+WTXFMQkkSFWVDI-GAC2BlIiN5Tg2MQl26hjoQ_33cVnMondzpXN0daXzZZ2tkVVp3XajXu-ENan=
+uuSgpLe-JPPW4uHCNNZei6wmpbS40VbTTtHzU9YNT9z3CRKVko4AP3D9cMPkQ_kzuTdkxhqkT7Z=
+zBMvfmYOhyj_Ed6uKMgypfDaoCXTKwXLkM0c3xwJ2VSN7RDEYofJ3MUqcBT07O8r9RyLf7xG0-k=
+wy3noLFE5687FZyvHdDmSyS9WS8mF7T7jV43wz73fN1L0XYlrO5csu0o3nSNmUFkUoYiarUE3Ap=
+lm_g80Wvt1PYYj-MJm1m4zgeI7rO61yxjzWZy8FiGmysO-tkjb4sTIg8Cx2XJlYQBH4f-H5gJD4=
+c5rK4YQfAoQOB6_p9I0jDSb01Zc6HykitzvQ__WipQQUu7Vtvw5mS5o11lAWHGJl1E7aimGh-uf=
+W3qbCzDaInzBtzoeufl7_6W9_f_wDFdyvS0AEAAA/h3hqpiS5p2WnT2d0xMCZoDf8lliKah7tvD=
+m2-kHxtpw>
+Engineering Aide - N1<https://cts.indeed.com/v3/H4sIAAAAAAAA_42RwW6jMBRF_4U=
+Fq9I4YFITCY1amioUElpok0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4z=
+heF01GaXZNeD0TZEYq9qtkLjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1e=
+ac1LipdMnfOLJvkzUnwSgAEoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-P=
+zT5cTTsnWvQgCYkht5PlbdvhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC6=
+9DevgG-P1LQRjbLz6-a6s_SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU=
+9Puijbn-dqzksHdAjY2pVWa8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2o=
+iQNx5MKpRjoD51aqtC5oKMSruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA/qQIey1-tK3zqB=
+4H_ipyHQcFfVdlF30Mes6_5BILpR4M>
+
+Lockheed Martin
+
+Remote
+
+
+Salary
+[Matches your profile]
+
+$37,700 - $97,200 a year
+
+Job type
+[Matches your profile]
+
+Full-time
+
+Schedule
+
+4x10
+
+Work setting
+
+Remote
+
+
+Benefits
+
+  *   Health insurance
+  *   Dental insurance
+  *   Paid time off
+  *   Vision insurance
+  *   401(k) matching
+  *   + 7 more
+
+
+Job description preview
+Standard Job Description ITAP has already built a strong track record: Coho=
+rts 1 and 2 successfully developed apprentices through the program, and tho=
+se graduates have since moved into full-time roles across the company, incl=
+uding Full-Stack Engineers, Software Engineers, Systems Integration Analyst=
+s, and Test Engineers, among other positions. As an IT Apprentice, you will=
+ join a cohort-based,=E2=80=A6
+Learn more[https://prod.statics.indeed.com/eml/assets/images/icons/ArrowRig=
+ht_primary_whitebg.png]<https://cts.indeed.com/v3/H4sIAAAAAAAA_42RwW6jMBRF_=
+4UFq9I4YFITCY1amioUElpok0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m=
+4zheF01GaXZNeD0TZEYq9qtkLjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M=
+1eac1LipdMnfOLJvkzUnwSgAEoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc=
+-PzT5cTTsnWvQgCYkht5PlbdvhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0B=
+C69DevgG-P1LQRjbLz6-a6s_SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jm=
+ZU9Puijbn-dqzksHdAjY2pVWa8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD=
+2oiQNx5MKpRjoD51aqtC5oKMSruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA/qQIey1-tK3z=
+qB4H_ipyHQcFfVdlF30Mes6_5BILpR4M>
+Do you want to get more jobs like this?
+[https://prod.statics.indeed.com/eml/assets/images/icons/thumbsdown_primary=
+.png] No <https://cts.indeed.com/v3/H4sIAAAAAAAA_12QTW-CQABE_wsHT1UBwYKJaaC=
+CImoFRYkXsi67sgK7dFm_438vTZOm6dxmXjKH95BO0kDKhKjqQbdbAgGzDqEpQmkHsrJL6JkIIA=
+ij9Q9s86bRQ1d5E_lQyXs6xDTjrOCyIWstQjEbWt-JdRcfPTVU7K3Sn8f6VH7ViI7JNqm9iMhZv=
+Ohn--QcyfOFhhO0Oh6IsqD-NRmrdmJtnHGoFPJEiXH8bltkvfO14u5HoNK5up8AZ7ldsNFOs5g_=
+8wNnNHMvYb0xr6vXXv1x2TFqVel4yrU0rFHsV0WaqQn3MbSzUKfqnM4_5ftSBGtXrYBh2U4VtYH=
+njRIUxHnM8S2AU9afueaqhTkrh0QFbVQCUrRxI2YPYC69SKU0eEgAQnaiwksbiaZpGj3ZMMwGwo=
+LAfN2IOR2yBgl-Qr_rrULN9OdJ5E3_71J6Pr8ABLElB5wBAAA/WJdlqff3LkSV2YxBToQiykAeF=
+CYKEyt7IxWQdfJwDsY>
+[https://prod.statics.indeed.com/eml/assets/images/icons/thumbsup_primary.p=
+ng] Yes <https://cts.indeed.com/v3/H4sIAAAAAAAA_12QTW-CQABE_wsHT1UBwYKJaaCC=
+ImoFRYkXsi6srMAuXdbv-N-7TZOm6dxmXjKH95BO0kDKOa-bQbdbAQ7zDiZplqUdSKsuJmfMAce=
+UND-wzUQjh67-xouhUvR0iEjOaMlkQ9ZamCA6tL4T6y46emqo2FulP4_1qfyqYR3hbdJ4EZbzeN=
+HP98k5kucLDSXZ6njAyoL412Ss2om1ccahUsoTJUbxu23h9c7XyrsfgVpn6n4CnOV2QUc7zaL-z=
+A-c0cy9hM3GvK5ee83HZUeJVafjKdPSsMlivy7TXE2Yj6CdhzpR52T-Kd-XPFi7ag0My3bqqA08=
+b5RkQVzEDN0COKX9mWuuWojRaohV0M4qgMs2EmL2ABbSi1RJg4cEIKQnwr1USDRN0-jJhmEKCEs=
+Mi7UQczrkAnF2yn7XW52J6c8TL0T_71J6Pr8ALeDIOpwBAAA/vu859Wlhj1ZTjAUF-bqkB2Zi4o=
+qagNowwKIUNXZ0pRw>
+
+Keep your Indeed profile up to date
+Romario Billings
+RB
+Edit profile [https://prod.statics.indeed.com/eml/assets/images/icons/Arrow=
+Right_primary_whitebg.png]  <https://cts.indeed.com/v3/H4sIAAAAAAAA_z2OzQrC=
+MBCE3yVn01ar0BbEs2f1XNLNxsb8lXQrSOm7uwfxNDDzMTOrWEQnRqJp7spyyslYj4WNGlEXkML=
+F5BTOrzTYg-pZgiIYZUYFZN-KbIoSo3zcegzKerETQXSrUABpiXTV3N22bVNXTdNyCN6Cu485Lc=
+-RI8oL_t3PhGzNQWWShtcHBU6itiR_r5gkx8je1ScwkVt8rprqKLbtC-oxHkrGAAAA/itGHUjoR=
+TPu_-OUhL_6nkVgmQr_I1SV8JFRK139xpSA>
+[https://prod.statics.indeed.com/eml/assets/images/icons/moneystack_neutral=
+.png]
+Minimum base pay
+
+$70,000 a year
+
+Has not been updated in 90 days
+
+[https://prod.statics.indeed.com/eml/assets/images/icons/Warning_warning_st=
+atus.png]
+[Edit minimum base pay]<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2OywrCQAxF_=
+2UWrhytL2gLxbVrdV1imrHjdB5MU6FI_92A4CpwDvfefNSkatUzp7HeblOOxg60saEj6jYYvSAy=
+lCkgjWeTo29e8WH30MrxwNjrTIBs38A2Bk1B368tebDDKiYKTYJZrZVX9UcBYpwCXzoZrKqqPBR=
+lWYnEwaK79TlOz14U54n-dE4kaPSQWRt56QHo9K-TnZidO5zQBAkPuSiLo1qWL9ATFyrSAAAA/y=
+njweIAgtZTbgo5M8ZBdNmBYzoh8T_8JBnACXMn4OK0>
+
+[https://prod.statics.indeed.com/eml/assets/images/icons/car_neutral.png]
+Commute time
+
+Not provided
+
+[https://prod.statics.indeed.com/eml/assets/images/icons/Error_alert_status=
+.png]
+[Add maximum commute]<https://cts.indeed.com/v3/H4sIAAAAAAAA_0WOuw7CMAxF_yU=
+DE4HyktpKFTMzMCPXdWhIk1Spg0Co_44nmK50rnV8PyqrWvXM41Sv12OKxg60sqEj6lYYvSAylC=
+ggTUeTom8esbVbuEl4YOx1IkC2T2Abg6agr-cbebDDIo4UGlH4zKSWyqv6owAx5sCnTp5WVVXui=
+rKspMTBorv0KeZ7LxWnTD_6HknQ5CGxNjKrBXTaw0v_3ezkYuN2BzRBJEMqymKv5vkLlJUnd94A=
+AAA/l5rFa3oYHeDZIWZnG8iqwoHXjovFvYzm0JPEmBmAtMg>
+
+No longer looking for a job?
+Pause these emails [https://d3hbwax96mbv6t.cloudfront.net/eml/assets/images=
+/icons/ArrowRight_primary_whitebg.png]  <https://cts.indeed.com/v3/H4sIAAAA=
+AAAA_12Qy3KCMABF_yWLrlp5CArOOB2ooIhQQVHGDRMDkQgmFILP8d9Lu-iid3fP2Z0HaMEI5Jx=
+XzUgQTpCjvEdommVpD7GTQOiZcMgJo41QwbbJ3nkxloq-ijDNa1bWoiYqL4RiNjZ-Fqs2PjpyKJ=
+lbaeDF6lwcKkTFZJs0TkTEPPYH-T45R6LnKzjJVscDkXzqXpOpbCbGxpqGUinOpBjHH6ZB1jtXK=
+e9uBCu1lvczaC23PpvsFIO5CzewJgv7EjYb_boa9pvPy45Ro0qn81pJwyaL3apMczmpXYzMPFSp=
+7FHvS7wvebC25QpqhmlV0Rt0nEmSBXER1_gWoDkbLGx9BV7BCYweACLEWsqdtGuk67rWFzVN7yQ=
+qCSrWXYD2kHeK1232R29V1qHfWB3jRXf-BwPP5zfd3tNmeAEAAA/29FlUzfQA4R3_FjDdwn3nrG=
+XefLcUjfp8MKxrr7Scgw>
+
+
+This job match email is sponsored by the employer posting this job on Indee=
+d. Parts of this email may use OpenAI and other AI technologies to generate=
+ content about the similarities between your resume and the job description=
+. This message is intended only for you. Do not forward this email.
+
+Replies to this email are not monitored. To contact our customer service te=
+am, please visit our Help Center<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2N=
+MQ4CIRBF7zK1LpjVBEiMtb0XMMMoG1ggMBRms3d3CmP538vL32CAg8Bcu1Oqj1pL42nJnshPWFY=
+VUFE-jn4L6UoZDrCC2-CJWEbmu5fYWmtmbYwViWnB-AitjHcQxW3Qn34qCfpdCOUo8xTnC76yFK=
+lpo8-w71_RM5FmkwAAAA/XlL6OSew8kE5Rib975CfDiuswLqZgBV11Q4nlWuD1L8> and submi=
+t an inquiry.
+
+Access Indeed anywhere
+
+Download the free app.
+
+[Download on the App Store]<https://go.onelink.me/3430878774?af_xp=3Dcustom=
+&pid=3Demail&c=3Di2a&af_adset=3Dsystem-invitation>
+[Get it on Google Play]<https://go.onelink.me/3430878774?af_xp=3Dcustom&pid=
+=3Demail&c=3Di2a&af_adset=3Dsystem-invitation>
+[Indeed home]<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MTQ6DIBCF7zLrRmisCXC=
+D7nsBM4xikJ9QCDHGu3fcdPm-7713QgMDrtb8NUL03octWiI7YAoCHhDAnDAjphbr23JVa61GqZ=
+RmifuG_uNKaqtjVUujPz0y3ccpUJ7XG1fP-enHCZfIk71IJV9wXT-Spoa5ggAAAA/PKzfYwLYz_=
+pFKRUQsn6TEY46vmnsVhz0zunbWh-Lqkw>
+
+=C2=A9 2026 Indeed, Inc.
+200 West 6th Street, Floor 36, Austin, TX 78701
+
+Indeed processes and analyzes your activity in this email.
+
+[Indeed's Facebook]<https://www.facebook.com/Indeed>    [Indeed's Instagram=
+] <https://www.instagram.com/indeedworks/>
+
+Indeed<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MTQ6DIBCF7zLrRmisCXCD7nsBM4=
+xikJ9QCDHGu3fcdPm-7713QgMDrtb8NUL03octWiI7YAoCHhDAnDAjphbr23JVa61GqZRmifuG_=
+uNKaqtjVUujPz0y3ccpUJ7XG1fP-enHCZfIk71IJV9wXT-Spoa5ggAAAA/PKzfYwLYz_pFKRUQs=
+n6TEY46vmnsVhz0zunbWh-Lqkw>
+
+Privacy Policy<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MwQoCIRRF_-W1jTSmQI=
+Vo3b4fsKel6Kg4Gsgw_95bDC3vOffeFToocK2VRTHmarPoSvVfjeOEeWavqpNZmE_GWnN38WbTY=
+fclR48DjjCDWkEj5p7aw9CdlFJMXAhJEqkUnq7m_nGkWu32T0exhPY7oi1QPIfpiu9Ei1i54BfY=
+th89e6_YpQAAAA/5CLlYV4GnQo3yHbJSLZSw1geTUrg1L5uh7uX8-ABmVc>
+
+Terms<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MwQrDIBBE_2V7LdGSFlQoPefeHwj=
+rNgaNBrMiJeTfay49znszs0MBA4553YwQtdZujpbIdpgWEWgaw8uFJ8ULpw2usIDZYURMJfJg21=
+JrrXqplG4Sw4z-7XIqk2uKc6E__a50IsrLecO-hZvvH_iJrR-yVPIOx_EDJ3XI4Y4AAAA/crgcb=
+YqJcqtCNPeEf3DcB8zHe6ikYINSrMaUTDhPCkc>
+
+Help Center<https://cts.indeed.com/v3/H4sIAAAAAAAA_z2NMQ4CIRBF7zK1LpjVBEiMt=
+b0XMMMoG1ggMBRms3d3CmP538vL32CAg8Bcu1Oqj1pL42nJnshPWFYVUFE-jn4L6UoZDrCC2-CJ=
+WEbmu5fYWmtmbYwViWnB-AitjHcQxW3Qn34qCfpdCOUo8xTnC76yFKlpo8-w71_RM5FmkwAAAA/=
+XlL6OSew8kE5Rib975CfDiuswLqZgBV11Q4nlWuD1L8>
+
+Unsubscribe<https://cts.indeed.com/v3/H4sIAAAAAAAA_12RzW6bQBRG3wWpXtUxGGIPl=
+lCFARGwTRzANs4GwfBrYAaYmQCJ8u6lUtVFpbs6Z_Ppni-OcTuuoLQlu9WKsJjAvmxpiRF5KlGS=
+pskTxM0KtxQz-gti5eItilpJ0YJWilCJzzBDRY_rnge8tICUKlqpZvuiIe-q3BPw3HTngAbXdNy=
+4kOA1WJpDF-tmxrqDlseFld-QcNi20nSIP14dKxHDTI2ne4h53VWnrLXqowUel1NSeKfIcOyjlN=
+Nmc3i_P-ylNXlDwF_BD1FfUFylSNEqzVXp1poEvNxan_b4iG5Gs16SD3MyHe_x-RIddenabaIoA=
+P71-OYFLNkb0eDSZiDCRascoTbTpvJ1uzX3J4rcMexl3ijVNEzs3hZPWge0O_Gzs1uMJWH3fU1A=
+7siJYDSah5yND0f8JkEpIuv-5SwFzi2RjrYVbukw75yP-8k13O6LiyDEDFErmQPIsgxEHgB5lrA=
+uYeXPT2V5MSvas_Qfndp0Rgz9DRX_MbSa0f8puO_v3ycLRXvbAQAA/GsR1abWJt5QOaN67jYc3a=
+lT5a2d4tXyTZNU2QcO6uH8>
+
+
+
+
+
+--_----lP2VEu2LsyBDE86w0T7R9w===_DA/1D-14074-D43E2BA6
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang=3D"en" xmlns=3D"ht=
+tp://www.w3.org/1999/xhtml" xml:lang=3D"en" xmlns:v=3D"urn:schemas-microsof=
+t-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[i=
+f !mso]><!-->
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><m=
+eta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<!--<![endif]-->
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<!--[if !mso]><!--><style type=3D"text/css">@import url('https://prod.stati=
+cs.indeed.com/ds/assets/typography/indeedsans/v1/indeedsans.css');</style><=
+!--<![endif]--><!--[if !mso]><!--><style type=3D"text/css">@import url('htt=
+ps://fonts.googleapis.com/css2?family=3DNoto+Sans:wght@400;700&display=3Dsw=
+ap');</style><!--<![endif]-->
+<title></title>
+<style type=3D"text/css">=0A=
+    =0A=
+/* iOS BLUE LINKS */=0A=
+a[x-apple-data-detectors] {=0A=
+  color: inherit !important;=0A=
+  font-size: inherit !important;=0A=
+  font-family: inherit !important;=0A=
+  font-weight: inherit !important;=0A=
+  line-height: inherit !important;=0A=
+}=0A=
+/* Samsung blue Links */=0A=
+#MessageViewBody a {=0A=
+  color: inherit;=0A=
+  text-decoration: none;=0A=
+  font-size: inherit;=0A=
+  font-family: inherit;=0A=
+  font-weight: inherit;=0A=
+  line-height: inherit;=0A=
+}=0A=
+/* Samsung center email */=0A=
+#MessageViewBody {=0A=
+  margin: 0 auto !important;=0A=
+}=0A=
+=0A=
+a,=0A=
+body,=0A=
+table,=0A=
+td,=0A=
+th {=0A=
+  -webkit-text-size-adjust: 100%;=0A=
+  -ms-text-size-adjust: 100%;=0A=
+  box-sizing: border-box !important;=0A=
+}=0A=
+table,=0A=
+td {=0A=
+  mso-table-lspace: 0;=0A=
+  mso-table-rspace: 0;=0A=
+}=0A=
+img {=0A=
+  -ms-interpolation-mode: bicubic;=0A=
+  border: 0;=0A=
+  height: auto;=0A=
+  line-height: 100%;=0A=
+  outline: 0;=0A=
+  text-decoration: none;=0A=
+}=0A=
+body {=0A=
+  height: 100% !important;=0A=
+  margin: 0 !important;=0A=
+  padding: 0 !important;=0A=
+  width: 100% !important;=0A=
+}=0A=
+sup {=0A=
+  *vertical-align: baseline;=0A=
+  *position: relative;=0A=
+  *bottom: .75em;=0A=
+  font-size: 0.65em;=0A=
+  line-height: 0;=0A=
+}=0A=
+p {=0A=
+  margin-top: 8px;=0A=
+  margin-bottom: 16px;=0A=
+  /* This helps with paragraph spacing in Yahoo! */=0A=
+}=0A=
+@media only print and (max-width: 600px) {=0A=
+  body {=0A=
+    max-width: 320px;=0A=
+  }=0A=
+}=0A=
+@media all and (max-width: 600px) {=0A=
+  .outerContainer {=0A=
+    width: 100% !important=0A=
+  }=0A=
+  .shrinkMobile a {=0A=
+   min-width: 100% !important=0A=
+  }=0A=
+  .innerContainer {=0A=
+    padding-left: 0 !important;=0A=
+    padding-right: 0 !important=0A=
+  }=0A=
+  .fullWidth {=0A=
+    width: 100% !important;=0A=
+    display: block=0A=
+  }=0A=
+  u~div #full-wrap {=0A=
+    min-width: 100vw=0A=
+  }=0A=
+  h1.hero-h1 {=0A=
+    font-size:=0A=
+      36px !important;=0A=
+    line-height: 45px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h1.hero-h1_variable {=0A=
+    font-size: 130% !important;=0A=
+    line-height: 135% !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h2.body-h2 {=0A=
+    font-size:=0A=
+      24px !important;=0A=
+    line-height: 30px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h3.body-h3 {=0A=
+    font-size: 20px !important;=0A=
+    line-height: 24px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h3.body-h3-link {=0A=
+    font-size: 20px !important;=0A=
+    line-height: 24px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h4.body-h4-link {=0A=
+    font-size: 14px !important;=0A=
+    line-height: 18px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h1.h1-xl {=0A=
+    font-size: 44px !important;=0A=
+    line-height: 55px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h1.h1-lg {=0A=
+    font-size: 36px !important;=0A=
+    line-height: 45px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h1.h1-md {=0A=
+    font-size: 28px !important;=0A=
+    line-height: 35px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h1.h1-sm {=0A=
+    font-size: 24px !important;=0A=
+    line-height: 30px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h1.h1-xs {=0A=
+    font-size: 20px !important;=0A=
+    line-height: 28px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h2.h2-xl {=0A=
+    font-size: 28px !important;=0A=
+    line-height: 35px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h2.h2-lg {=0A=
+    font-size: 24px !important;=0A=
+    line-height: 30px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h2.h2-md {=0A=
+    font-size: 20px !important;=0A=
+    line-height: 28px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h2.h2-sm,=0A=
+  h2.h2-xs {=0A=
+    font-size: 16px !important;=0A=
+    line-height: 24px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h3.h3-xl,=0A=
+  h3.h3-link-xl {=0A=
+    font-size: 24px !important;=0A=
+    line-height: 30px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h3.h3-lg,=0A=
+  h3.h3-link-lg {=0A=
+    font-size: 20px !important;=0A=
+    line-height: 28px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h3.h3-md,=0A=
+  h3.h3-link-md {=0A=
+    font-size: 16px !important;=0A=
+    line-height: 24px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  h3.h3-sm,=0A=
+  h3.h3-xs,=0A=
+  h3.h3-link-sm,=0A=
+  h3.h3-link-xs {=0A=
+    font-weight: normal !important;=0A=
+    font-size: 16px !important;=0A=
+    line-height: 24px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  p.body-p-lg {=0A=
+    font-size: 36px !important;=0A=
+    line-height: 43px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  p.body-p-sm {=0A=
+    font-size:=0A=
+      14px !important;=0A=
+    line-height: 22px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  p.body-p-xs {=0A=
+    font-size: 12px !important;=0A=
+    line-height: 20px !important;=0A=
+    -webkit-text-size-adjust: none !important=0A=
+  }=0A=
+  .ph-0 {=0A=
+    padding-left:=0A=
+      0px !important;=0A=
+    padding-right: 0px !important=0A=
+  }=0A=
+  .p-0 {=0A=
+    padding: 0px !important=0A=
+  }=0A=
+  .pt-0 {=0A=
+    padding-top: 0px !important=0A=
+  }=0A=
+  .pr-0 {=0A=
+    padding-right: 0px !important=0A=
+  }=0A=
+  .pb-0 {=0A=
+    padding-bottom: 0px !important=0A=
+  }=0A=
+  .pl-0 {=0A=
+    padding-left: 0px !important=0A=
+  }=0A=
+  .pb-4 {=0A=
+    padding-bottom: 4px !important=0A=
+  }=0A=
+  .pt-4 {=0A=
+    padding-top: 4px !important=0A=
+  }=0A=
+  .ph-8 {=0A=
+    padding-left: 8px !important;=0A=
+    padding-right: 8px !important=0A=
+  }=0A=
+  .pb-8 {=0A=
+    padding-bottom: 8px !important=0A=
+  }=0A=
+  .ptb-8 {=0A=
+    padding-top: 8px !important;=0A=
+    padding-bottom: 8px !important=0A=
+  }=0A=
+  .pt-8 {=0A=
+    padding-top: 8px !important=0A=
+  }=0A=
+  .pl-8 {=0A=
+    padding-left: 8px !important=0A=
+  }=0A=
+  .pl-10 {=0A=
+    padding-left: 10px !important=0A=
+  }=0A=
+  .pr-8 {=0A=
+    padding-right: 8px !important=0A=
+  }=0A=
+  .ph-15 {=0A=
+    padding-left: 15px !important;=0A=
+    padding-right: 15px !important=0A=
+  }=0A=
+  .pr-15 {=0A=
+    padding-right: 15px !important=0A=
+  }=0A=
+  .pl-15 {=0A=
+    padding-left: 15px !important=0A=
+  }=0A=
+  .pb-15 {=0A=
+    padding-bottom: 15px !important=0A=
+  }=0A=
+  .ph-16 {=0A=
+    padding-left: 16px !important;=0A=
+    padding-right: 16px !important=0A=
+  }=0A=
+  .pt-16 {=0A=
+    padding-top: 16px !important=0A=
+  }=0A=
+  .pr-16 {=0A=
+    padding-right:=0A=
+      16px !important=0A=
+  }=0A=
+  .pb-16 {=0A=
+    padding-bottom: 16px !important=0A=
+  }=0A=
+  .pl-16 {=0A=
+    padding-left: 16px !important=0A=
+  }=0A=
+  .p-16 {=0A=
+    padding-top: 16px !important;=0A=
+    padding-right: 16px !important;=0A=
+    padding-bottom: 16px !important;=0A=
+    padding-left:=0A=
+      16px !important=0A=
+  }=0A=
+  .pt-20 {=0A=
+    padding-top: 20px !important=0A=
+  }=0A=
+  .ph-20 {=0A=
+    padding-left:=0A=
+      20px !important;=0A=
+    padding-right: 20px !important=0A=
+  }=0A=
+  .p-20 {=0A=
+    padding-top: 20px !important;=0A=
+    padding-right: 20px !important;=0A=
+    padding-bottom: 20px !important;=0A=
+    padding-left: 20px !important=0A=
+  }=0A=
+  .pt-24 {=0A=
+    padding-top: 24px !important=0A=
+  }=0A=
+  .pr-24 {=0A=
+    padding-right: 24px !important=0A=
+  }=0A=
+  .pb-24 {=0A=
+    padding-bottom: 24px !important=0A=
+  }=0A=
+  .pl-24 {=0A=
+    padding-left: 24px !important=0A=
+  }=0A=
+  .p-24 {=0A=
+    padding-top: 24px !important;=0A=
+    padding-right: 24px !important;=0A=
+    padding-bottom: 24px !important;=0A=
+    padding-left:=0A=
+      24px !important=0A=
+  }=0A=
+  .ph-24 {=0A=
+    padding-right: 24px !important;=0A=
+    padding-left: 24px !important=0A=
+  }=0A=
+  .pb-27 {=0A=
+    padding-bottom: 27px !important=0A=
+  }=0A=
+  .ph-30 {=0A=
+    padding-left:=0A=
+      30px !important;=0A=
+    padding-right: 30px !important=0A=
+  }=0A=
+  .pt-30 {=0A=
+    padding-top: 30px !important=0A=
+  }=0A=
+  .pb-30 {=0A=
+    padding-bottom: 30px !important=0A=
+  }=0A=
+  .pt-32 {=0A=
+    padding-top: 32px !important=0A=
+  }=0A=
+  .pb-32 {=0A=
+    padding-bottom: 32px !important=0A=
+  }=0A=
+  .ph-32 {=0A=
+    padding-left: 32px !important;=0A=
+    padding-right: 32px !important;=0A=
+  }=0A=
+  .pt-36 {=0A=
+    padding-top: 36px !important=0A=
+  }=0A=
+  .pr-36 {=0A=
+    padding-right:=0A=
+      36px !important=0A=
+  }=0A=
+  .pb-36 {=0A=
+    padding-bottom: 36px !important=0A=
+  }=0A=
+  .pl-36 {=0A=
+    padding-left: 36px !important=0A=
+  }=0A=
+  .pt-37 {=0A=
+    padding-top: 37px !important=0A=
+  }=0A=
+  .pt-38 {=0A=
+    padding-top: 38px !important;=0A=
+  }=0A=
+  .pt-40 {=0A=
+    padding-top: 40px !important=0A=
+  }=0A=
+  .pb-40 {=0A=
+    padding-bottom: 40px !important=0A=
+  }=0A=
+  .show {=0A=
+    display: block !important;=0A=
+    max-height:=0A=
+      none !important;=0A=
+    overflow: visible !important=0A=
+  }=0A=
+  .hide {=0A=
+    display: none !important=0A=
+  }=0A=
+  .hide-bg {=0A=
+    background-image: none !important=0A=
+  }=0A=
+  .bt-1 {=0A=
+    border-top: 1px solid #f6f6f6 !important=0A=
+  }=0A=
+  .bt-0 {=0A=
+    border-top: 0px solid #fff !important=0A=
+  }=0A=
+  .bt-15 {=0A=
+    border-top: 15px solid #fff !important=0A=
+  }=0A=
+  .bb-5 {=0A=
+    border-bottom: 5px solid #f6f6f6 !important=0A=
+  }=0A=
+  .br-0 {=0A=
+    border-right: none !important=0A=
+  }=0A=
+  .bgcolor-m {=0A=
+    background-color: #f6f6f6 !important=0A=
+  }=0A=
+  .bgcolor-white-m {=0A=
+    background-color:=0A=
+      #ffffff !important=0A=
+  }=0A=
+  .width-100 {=0A=
+    width: 100% !important=0A=
+  }=0A=
+  .width-70 {=0A=
+    width:=0A=
+      70% !important=0A=
+  }=0A=
+  .center {=0A=
+    margin: 0 auto !important=0A=
+  }=0A=
+  .center-align-text {=0A=
+    text-align: center !important=0A=
+  }=0A=
+  .left-align-text {=0A=
+    text-align: left !important=0A=
+  }=0A=
+  .stack {=0A=
+    display: block !important=0A=
+  }=0A=
+  .table {=0A=
+    display: table !important=0A=
+  }=0A=
+  .cta.stack a {=0A=
+    width: 100% !important=0A=
+  }=0A=
+  .height-580 {=0A=
+    height: 300px !important;=0A=
+    background-position: bottom !important=0A=
+  }=0A=
+  .no-border {=0A=
+    border: none !important;=0A=
+    border-radius: 0 !important;=0A=
+  }=0A=
+  .h24 {=0A=
+    height: 24px !important;=0A=
+  }=0A=
+  .h16 {=0A=
+    height: 16px !important;=0A=
+  }=0A=
+  .jobCardLabels {=0A=
+    margin: 0 0 4px !important;=0A=
+    width: 100% !important;=0A=
+    display: block !important;=0A=
+  }=0A=
+  .radius8 {=0A=
+    border-radius: 8px !important;=0A=
+  }=0A=
+  .ph-24 { =0A=
+    padding-right: 24px !important; =0A=
+    padding-left: 24px !important =0A=
+  }=0A=
+  .p-0 { =0A=
+    padding: 0px !important=0A=
+  }=0A=
+  .pb-8 {=0A=
+    padding-bottom: 8px !important=0A=
+  }=0A=
+}=0A=
+=0A=
+    =0A=
+    .primary-cta-button-group a {=0A=
+      width: 100% !important=0A=
+    }=0A=
+=0A=
+    .primary-cta-button-group .signal-collect-not-interested a {=0A=
+      width: auto !important=0A=
+    }=0A=
+    =0A=
+    /* Hacky selector for Feedback buttons table. TODO change if better sel=
+ector becomes available */=0A=
+    .eml-feedback table.width-100 {=0A=
+      max-width: 400px;=0A=
+      white-space: nowrap;=0A=
+      width: 100% !important;=0A=
+    }=0A=
+=0A=
+    .eml-feedback-button-td {=0A=
+      width: 33.3%=0A=
+    }=0A=
+=0A=
+    .no-font-size {=0A=
+      font-size: 0=0A=
+    }=0A=
+=0A=
+    /* classes with media queries */=0A=
+    @media screen and (min-width: 380px) and (max-width: 479px) {=0A=
+      .job-card-header {=0A=
+        max-width: 144px !important;=0A=
+        width: 144px !important;=0A=
+        word-wrap: break-word;=0A=
+      }=0A=
+    }=0A=
+=0A=
+    @media screen and (max-width: 379px) {=0A=
+      .job-card-header {=0A=
+        max-width: 100px !important;=0A=
+        width: 100px !important;=0A=
+        word-wrap: break-word;=0A=
+      }=0A=
+    }=0A=
+=0A=
+</style><!--[if (gt mso 9)|(IE)]>=0A=
+        <style>=0A=
+                table {=0A=
+                    border-collapse: collapse;=0A=
+                    border-spacing: 0;=0A=
+                }=0A=
+                </style>=0A=
+        <![endif]--><!--[if (gt mso 9)|(IE)]>=0A=
+        <xml>=0A=
+            <o:OfficeDocumentSettings>=0A=
+            <o:AllowPNG/>=0A=
+            <o:PixelsPerInch>96</o:PixelsPerInch>=0A=
+            </o:OfficeDocumentSettings>=0A=
+        </xml>=0A=
+        <![endif]--><!--[if gte mso 9]>=0A=
+        <style>=0A=
+            li {=0A=
+                text-indent: -1em; /* Normalise space between bullets and t=
+ext */=0A=
+            }=0A=
+        </style>=0A=
+        <![endif]-->
+</head>
+<body style=3D"margin:0;padding:0" lang=3D"en" bgcolor=3D"#f3f2f1">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+<tbody>
+<tr>
+<td style=3D"background: #FF0000;" width=3D"5">&nbsp;</td>
+<td style=3D"background: #FDF2F4;" width=3D"10">&nbsp;</td>
+<td style=3D"background: #FDF2F4;"><strong>EXTERNAL EMAIL : </strong>Exerci=
+se caution when responding, opening links, or opening attachments.</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<div>
+<div style=3D"display:none;max-height:0px;overflow:hidden">$37,=E2=80=8C700=
+ - $97,=E2=80=8C200 a year. Hi Romario, Your background in software develop=
+ment and C++ could be a strong match for this Engineering Aide role at Lock=
+heed Martin. If you're interested in a position that
+ offers on-the-job training and the chance to work on real projects, you ca=
+n apply now or view the job description for more details.</div>
+<div style=3D"display:none;max-height:0px;overflow:hidden">=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=
+=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=
+=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=
+=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=
+=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=
+=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=
+=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=
+=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD=E2=80=87=CD=8F=C2=AD</div>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        <style type=3D"text/css">=0A=
+                            table {=0A=
+                                border-collapse: collapse;=0A=
+                                border-spacing: 0;=0A=
+                            }=0A=
+                        </style>=0A=
+        <![endif]-->
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" style=3D"backgrou=
+nd-color:#f3f2f1">
+<tbody>
+<tr>
+<td align=3D"center">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"width:100%" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td aria-hidden=3D"true" height=3D"12" style=3D"height:12px;font-size:12px;=
+line-height:12px" align=3D"center" valign=3D"top">
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" style=3D"width:600px;" role=3D"presentation"><tr><td>=
+=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"max-width:600px;background-color:#ffffff" width=3D"100%" role=3D"pre=
+sentation">
+<h1 style=3D"font-size:0;line-height:0;margin:0;padding:0;overflow:hidden;h=
+eight:0;width:0;text-indent:-9999px">
+Engineering Aide - N1 @ Lockheed Martin</h1>
+<h2 style=3D"font-size:0;line-height:0;margin:0;padding:0;overflow:hidden;h=
+eight:0;width:0;text-indent:-9999px">
+Introduction</h2>
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"ph-24" style=3D"padding:24px 56p=
+x 0"><!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:16px">
+<p style=3D"font-family:'Indeed Sans', 'Noto Sans', Helvetica, Arial, sans-=
+serif;font-size:16px;font-weight:normal;line-height:1.5rem;margin:0;padding=
+:0">
+Hi Romario,<br aria-hidden=3D"true">
+<br aria-hidden=3D"true">
+Your background in software development and C++ could be a strong match for=
+ this Engineering Aide role at Lockheed Martin. If you're interested in a p=
+osition that offers on-the-job training and the chance to work on real proj=
+ects, you can apply now or view
+ the job description for more details.</p>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding-top:16px">
+<table class=3D"primary-cta-button-group" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" align=3D"center" style=3D"max-width:300px;min-width:70%;mar=
+gin:0 auto;width:auto" width=3D"70%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"stack cta center-align-text" s=
+tyle=3D"display:block;padding-top:8px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding:0">
+<table class=3D"width-100" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"shrinkMobile" style=3D"border-radius:12px;bor=
+der:1px solid #004fcb;background-color:#004fcb">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1amioUElpok=
+0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD0TZEYq9qtk=
+LjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOLJvkzUnwSgA=
+EoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQgCYkht5Plbd=
+vhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQRjbLz6-a6s_=
+SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzksHdAjY2pVW=
+a8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD51aqtC5oKM=
+Sruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA%2FqQIey1-tK3zqB4H_ipyHQcFfVdlF30Mes=
+6_5BILpR4M&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300=
+fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C63925705298777=
+2143%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DAd5=
+iojbqUPoJi0WBYaSz3gZUlAKdyGn6lE%2F9oQENlyo%3D&amp;reserved=3D0" originalsrc=
+=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1amioUE=
+lpok0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD0TZEYq=
+9qtkLjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOLJvkzUn=
+wSgAEoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQgCYkht5=
+PlbdvhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQRjbLz6-=
+a6s_SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzksHdAjY=
+2pVWa8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD51aqtC=
+5oKMSruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA/qQIey1-tK3zqB4H_ipyHQcFfVdlF30M=
+es6_5BILpR4M" aria-label=3D"View Engineering Aide - N1 job" class=3D"primar=
+y-button" style=3D"background-color:#004fcb;font-size:16px;font-family:'Ind=
+eed Sans', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:bold;text-=
+decoration:none;padding:12px 16px;color:#ffffff;display:block;border-radius=
+:11px;min-width:375px;width:auto;mso-padding-alt:0;text-underline-color:#25=
+57a7"><!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%;mso-text-raise:150%" hidden=3D"">&e=
+msp;&#8203;</i>=0A=
+        <![endif]--><span style=3D"mso-text-raise:75%">View
+ job<!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%" hidden=3D"">&emsp;&#8203;</i>=0A=
+        <![endif]-->
+</span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"stack cta center-align-text" s=
+tyle=3D"display:block;padding-top:8px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" style=3D"padding:0">
+<table class=3D"width-100" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"shrinkMobile" style=3D"border-radius:12px;bor=
+der:1px solid #e4e2e0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_12Qy27iMBRA_yWLWTXFMQkkSFWVDI-GAC2Bl=
+IiN5Tg2MQl26hjoQ_33cVnMondzpXN0daXzZZ2tkVVp3XajXu-ENanuuSgpLe-JPPW4uHCNNZei=
+6wmpbS40VbTTtHzU9YNT9z3CRKVko4AP3D9cMPkQ_kzuTdkxhqkT7ZzBMvfmYOhyj_Ed6uKMgyp=
+fDaoCXTKwXLkM0c3xwJ2VSN7RDEYofJ3MUqcBT07O8r9RyLf7xG0-kwy3noLFE5687FZyvHdDmS=
+yS9WS8mF7T7jV43wz73fN1L0XYlrO5csu0o3nSNmUFkUoYiarUE3Aplm_g80Wvt1PYYj-MJm1m4=
+zgeI7rO61yxjzWZy8FiGmysO-tkjb4sTIg8Cx2XJlYQBH4f-H5gJD4c5rK4YQfAoQOB6_p9I0jD=
+Sb01Zc6HykitzvQ__WipQQUu7Vtvw5mS5o11lAWHGJl1E7aimGh-ufW3qbCzDaInzBtzoeufl7_=
+6W9_f_wDFdyvS0AEAAA%2Fh3hqpiS5p2WnT2d0xMCZoDf8lliKah7tvDm2-kHxtpw&amp;data=
+=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300fff08df18e718e3%7C6=
+3c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257052987807389%7CUnknown%7CTW=
+FpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOI=
+joiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3Dsoyo56hzjXBzihHgGr8p6e=
+wkjC2JYrevPqhSweEVV4M%3D&amp;reserved=3D0" originalsrc=3D"https://cts.indee=
+d.com/v3/H4sIAAAAAAAA_12Qy27iMBRA_yWLWTXFMQkkSFWVDI-GAC2BlIiN5Tg2MQl26hjoQ_=
+33cVnMondzpXN0daXzZZ2tkVVp3XajXu-ENanuuSgpLe-JPPW4uHCNNZei6wmpbS40VbTTtHzU9=
+YNT9z3CRKVko4AP3D9cMPkQ_kzuTdkxhqkT7ZzBMvfmYOhyj_Ed6uKMgypfDaoCXTKwXLkM0c3x=
+wJ2VSN7RDEYofJ3MUqcBT07O8r9RyLf7xG0-kwy3noLFE5687FZyvHdDmSyS9WS8mF7T7jV43wz=
+73fN1L0XYlrO5csu0o3nSNmUFkUoYiarUE3Aplm_g80Wvt1PYYj-MJm1m4zgeI7rO61yxjzWZy8=
+FiGmysO-tkjb4sTIg8Cx2XJlYQBH4f-H5gJD4c5rK4YQfAoQOB6_p9I0jDSb01Zc6HykitzvQ__=
+WipQQUu7Vtvw5mS5o11lAWHGJl1E7aimGh-ufW3qbCzDaInzBtzoeufl7_6W9_f_wDFdyvS0AEA=
+AA/h3hqpiS5p2WnT2d0xMCZoDf8lliKah7tvDm2-kHxtpw" class=3D"secondary-button" =
+style=3D"background-color:#ffffff;font-size:16px;font-family:'Indeed Sans',=
+ 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:bold;text-decoration=
+:none;padding:12px 16px;color:#004fcb;display:block;border-radius:11px;min-=
+width:375px;width:auto;mso-padding-alt:0;text-underline-color:#2557a7"><!--=
+[if mso]>=0A=
+        <i style=3D"mso-font-width:100%;mso-text-raise:150%" hidden=3D"">&e=
+msp;&#8203;</i>=0A=
+        <![endif]--><span style=3D"mso-text-raise:75%">This
+ is a bad match<!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%" hidden=3D"">&emsp;&#8203;</i>=0A=
+        <![endif]-->
+</span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:16px"><!--[if (gt ms=
+o 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"max-width:600px" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"ph-24" style=3D"padding:0 56px 2=
+4px">
+<table class=3D"width-100" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ style=3D"border:1px solid #e4e2e0;border-radius:20px" bgcolor=3D"#ffffff" =
+width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:16px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=
+=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-bottom:0">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=
+=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top">
+<h2 style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans', Helvetic=
+a, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:24px;margi=
+n:0;padding:0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1amioUElpok=
+0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD0TZEYq9qtk=
+LjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOLJvkzUnwSgA=
+EoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQgCYkht5Plbd=
+vhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQRjbLz6-a6s_=
+SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzksHdAjY2pVW=
+a8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD51aqtC5oKM=
+Sruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA%2FqQIey1-tK3zqB4H_ipyHQcFfVdlF30Mes=
+6_5BILpR4M&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300=
+fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C63925705298783=
+7521%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DHBO=
+pVHXNT%2FihJCS0g2oRTC8N1%2Fu%2FReZX4XdnG6xvloo%3D&amp;reserved=3D0" origina=
+lsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1am=
+ioUElpok0k3lTEmAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD0T=
+ZEYq9qtkLjCRQ2wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOLJv=
+kzUnwSgAEoJ6mboaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQgCY=
+kht5PlbdvhQxzacMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQRjb=
+Lz6-a6s_SbqbHhZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzksH=
+dAjY2pVWa8tPDRPCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD51=
+aqtC5oKMSruh3BQr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA/qQIey1-tK3zqB4H_ipyHQcFfVdl=
+F30Mes6_5BILpR4M" style=3D"color:#2d2d2d;font-weight:bold;text-decoration:u=
+nderline" class=3D"strong-text-link">Engineering
+ Aide - N1</a></h2>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentatio=
+n">
+<tbody>
+<tr>
+<td style=3D"padding:0 12px 0 0">
+<p style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:21px;marg=
+in:0;padding:0">
+Lockheed Martin</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top">
+<p style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:21px;marg=
+in:0;padding:0">
+Remote</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0;border-top:1px solid #e4e2e0;line-height:0;width:100=
+%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0 16px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=
+=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:16px 0 0">
+<h3 class=3D"h3-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-h=
+eight:21px;margin:0;padding:0">
+Salary</h3>
+</td>
+</tr>
+<tr role=3D"list">
+<td align=3D"left" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"border-radius:8px;margin:4px 4px 0 0;display:inline-block" bgcolor=3D"=
+#e4f7e6" role=3D"listitem">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:3px 8px 3px 8px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" dir=
+=3D"ltr" role=3D"presentation">
+<tbody>
+<tr>
+<td width=3D"21" valign=3D"middle" align=3D"left"><img width=3D"15" alt=3D"=
+Matches your profile" src=3D"https://prod.statics.indeed.com/eml/assets/ima=
+ges/icons/tagcheckmark_light_success.png" style=3D"display:block"></td>
+<td>
+<p style=3D"color:#1f662c;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:21px;margin=
+:0;padding:0">
+$37,700 - $97,200 a year</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:16px 0 0">
+<h3 class=3D"h3-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-h=
+eight:21px;margin:0;padding:0">
+Job type</h3>
+</td>
+</tr>
+<tr role=3D"list">
+<td align=3D"left" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"border-radius:8px;margin:4px 4px 0 0;display:inline-block" bgcolor=3D"=
+#e4f7e6" role=3D"listitem">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:3px 8px 3px 8px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" dir=
+=3D"ltr" role=3D"presentation">
+<tbody>
+<tr>
+<td width=3D"21" valign=3D"middle" align=3D"left"><img width=3D"15" alt=3D"=
+Matches your profile" src=3D"https://prod.statics.indeed.com/eml/assets/ima=
+ges/icons/tagcheckmark_light_success.png" style=3D"display:block"></td>
+<td>
+<p style=3D"color:#1f662c;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:21px;margin=
+:0;padding:0">
+Full-time</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:16px 0 0">
+<h3 class=3D"h3-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-h=
+eight:21px;margin:0;padding:0">
+Schedule</h3>
+</td>
+</tr>
+<tr role=3D"list">
+<td align=3D"left" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"border-radius:8px;margin:4px 4px 0 0;display:inline-block" bgcolor=3D"=
+#f3f2f1" role=3D"listitem">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:3px 8px 3px 8px">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:21px;margin=
+:0;padding:0">
+4x10</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:16px 0 0">
+<h3 class=3D"h3-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-h=
+eight:21px;margin:0;padding:0">
+Work setting</h3>
+</td>
+</tr>
+<tr role=3D"list">
+<td align=3D"left" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"border-radius:8px;margin:4px 4px 0 0;display:inline-block" bgcolor=3D"=
+#f3f2f1" role=3D"listitem">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:3px 8px 3px 8px">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:21px;margin=
+:0;padding:0">
+Remote</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0;border-top:1px solid #e4e2e0;line-height:0;width:100=
+%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0 0 16px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" role=
+=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:16px 0 0">
+<h3 class=3D"h3-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-h=
+eight:21px;margin:0;padding:0">
+Benefits</h3>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:4px 0 0">
+<ul style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans', Helvetic=
+a, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:24px;mar=
+gin:0 20px;padding:0px">
+<li style=3D"margin:0">Health insurance</li><li style=3D"margin:0">Dental i=
+nsurance</li><li style=3D"margin:0">Paid time off</li><li style=3D"margin:0=
+">Vision insurance</li><li style=3D"margin:0">401(k) matching</li><li style=
+=3D"margin:0;list-style:none">+ 7 more</li></ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0;border-top:1px solid #e4e2e0;line-height:0;width:100=
+%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:16px 0 0">
+<h3 class=3D"h3-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-h=
+eight:21px;margin:0;padding:0">
+Job description preview</h3>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:4px 0 0;color:#2d2d2d;fo=
+nt-family:'Indeed Sans', 'Noto Sans', Helvetica, Arial, sans-serif;font-siz=
+e:14px;line-height:21px;margin:0">
+<span>Standard Job Description ITAP has already built a strong track record=
+: Cohorts 1 and 2 successfully developed apprentices through the program, a=
+nd those graduates have since moved into full-time roles across the company=
+, including Full-Stack Engineers,
+ Software Engineers, Systems Integration Analysts, and Test Engineers, amon=
+g other positions. As an IT Apprentice, you will join a cohort-based,=E2=80=
+=A6</span></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:4px 0 16px"><a href=3D"h=
+ttps://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fcts.inde=
+ed.com%2Fv3%2FH4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1amioUElpok0k3lTEmAQMGY=
+0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD0TZEYq9qtkLjCRQ2wnJxai=
+iEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOLJvkzUnwSgAEoJ6mboaMPO3=
+2_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQgCYkht5PlbdvhQxzacMF_44=
+MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQRjbLz6-a6s_SbqbHhZtaXsb=
+i8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzksHdAjY2pVWa8tPDRPCh0b6=
+mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD51aqtC5oKMSruh3BQr8bwl=
+qQ7Lvg_8UoX19_QEg57SpBQIAAA%2FqQIey1-tK3zqB4H_ipyHQcFfVdlF30Mes6_5BILpR4M&a=
+mp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300fff08df18e71=
+8e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257052987863487%7CUnkno=
+wn%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMi=
+IsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3D9%2BmFrDQMVvFtL=
+%2BytY45IDxcAZcLs6G5I1n5ZcO5Kv68%3D&amp;reserved=3D0" originalsrc=3D"https:=
+//cts.indeed.com/v3/H4sIAAAAAAAA_42RwW6jMBRF_4UFq9I4YFITCY1amioUElpok0k3lTE=
+mAQMGY0Jo1X8fdxZdzGpWTzpXT0_v3E9t0JbaScq2X85m4zheF01GaXZNeD0TZEYq9qtkLjCRQ2=
+wnJxaiiEBLzwWv3ZKnhYnf1aixJCdDUExkccay4I1BG-M1eac1LipdMnfOLJvkzUnwSgAEoJ6mb=
+oaMPO32_dpbU7uZ8iy6o5NH3voMB1Fy8GAMk_02LlbVpc-PzT5cTTsnWvQgCYkht5PlbdvhQxza=
+cMF_44MI-pJNQRX4UxMMrenHRrB7Ccfdvn2IzygW5Tz0BC69DevgG-P1LQRjbLz6-a6s_SbqbHh=
+ZtaXsbi8RwsHa0S-MpG7C78XiZmPS6nlEMUw3jyBPP1jmZU9Puijbn-dqzksHdAjY2pVWa8tPDR=
+PCh0b6mXLsOA6yAEKOCvHx-MjTv3gOzJu5CSBElgpIVRD2oiQNx5MKpRjoD51aqtC5oKMSruh3B=
+Qr8bwlqQ7Lvg_8UoX19_QEg57SpBQIAAA/qQIey1-tK3zqB4H_ipyHQcFfVdlF30Mes6_5BILpR=
+4M" style=3D"color:#2557a7;display:inline-block;font-family:'Indeed Sans', =
+'Noto Sans', Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;l=
+ine-height:20px;text-align:left;text-decoration:none">Learn
+ more<img alt=3D"" aria-hidden=3D"true" src=3D"https://prod.statics.indeed.=
+com/eml/assets/images/icons/ArrowRight_primary_whitebg.png" style=3D"vertic=
+al-align:middle;padding-bottom:3px;padding-left:4px" width=3D"18" height=3D=
+"18"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top"><!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<table class=3D"full-wrap" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"center" style=3D"min-width:100%" bgcolor=3D"#ffffff" width=3D"100=
+%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top"><!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0"=0A=
+                bgcolor=3D"undefined" style=3D"width:600px;" role=3D"presen=
+tation">=0A=
+                    <tr>=0A=
+                        <td align=3D"center" valign=3D"top">=0A=
+        <![endif]-->
+<table class=3D"outerContainer" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"center" style=3D"max-width:600px;width:600px" width=3D"100%=
+" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:24px 56px 0;padding-to=
+p:24px;border-top:0" class=3D"eml-feedback ph-24">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"stack fullWidth">
+<h2 class=3D"h2-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-h=
+eight:1rem;margin:0;padding:0">
+Do you want to get more jobs like this?</h2>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"fullWidth center-align-text" sty=
+le=3D"padding:24px 0 0;width:100%">
+<table class=3D"width-100" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"left" width=3D"60%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"eml-feedback-button-td" style=
+=3D"padding:0">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"padding:0">
+<table class=3D"width-100" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"left" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"stack cta center-align-text" style=3D"border-=
+radius:8px 0 0 8px;border:1px solid #e4e2e0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_12QTW-CQABE_wsHT1UBwYKJaaCCImoFRYkXs=
+i67sgK7dFm_438vTZOm6dxmXjKH95BO0kDKhKjqQbdbAgGzDqEpQmkHsrJL6JkIIAij9Q9s86bR=
+Q1d5E_lQyXs6xDTjrOCyIWstQjEbWt-JdRcfPTVU7K3Sn8f6VH7ViI7JNqm9iMhZvOhn--QcyfO=
+FhhO0Oh6IsqD-NRmrdmJtnHGoFPJEiXH8bltkvfO14u5HoNK5up8AZ7ldsNFOs5g_8wNnNHMvYb=
+0xr6vXXv1x2TFqVel4yrU0rFHsV0WaqQn3MbSzUKfqnM4_5ftSBGtXrYBh2U4VtYHnjRIUxHnM8=
+S2AU9afueaqhTkrh0QFbVQCUrRxI2YPYC69SKU0eEgAQnaiwksbiaZpGj3ZMMwGwoLAfN2IOR2y=
+Bgl-Qr_rrULN9OdJ5E3_71J6Pr8ABLElB5wBAAA%2FWJdlqff3LkSV2YxBToQiykAeFCYKEyt7I=
+xWQdfJwDsY&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300=
+fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C63925705298788=
+5800%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DOFl=
+xUtM%2BurMCOE8aXS2lkaME9F35k4Y95UmbTL7yBVU%3D&amp;reserved=3D0" originalsrc=
+=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_12QTW-CQABE_wsHT1UBwYKJaaCCImoFR=
+YkXsi67sgK7dFm_438vTZOm6dxmXjKH95BO0kDKhKjqQbdbAgGzDqEpQmkHsrJL6JkIIAij9Q9s=
+86bRQ1d5E_lQyXs6xDTjrOCyIWstQjEbWt-JdRcfPTVU7K3Sn8f6VH7ViI7JNqm9iMhZvOhn--Q=
+cyfOFhhO0Oh6IsqD-NRmrdmJtnHGoFPJEiXH8bltkvfO14u5HoNK5up8AZ7ldsNFOs5g_8wNnNH=
+MvYb0xr6vXXv1x2TFqVel4yrU0rFHsV0WaqQn3MbSzUKfqnM4_5ftSBGtXrYBh2U4VtYHnjRIUx=
+HnM8S2AU9afueaqhTkrh0QFbVQCUrRxI2YPYC69SKU0eEgAQnaiwksbiaZpGj3ZMMwGwoLAfN2I=
+OR2yBgl-Qr_rrULN9OdJ5E3_71J6Pr8ABLElB5wBAAA/WJdlqff3LkSV2YxBToQiykAeFCYKEyt=
+7IxWQdfJwDsY" aria-label=3D"No, I don=E2=80=99t want to get more jobs like =
+this." class=3D"secondary-button" style=3D"background-color:#ffffff;font-si=
+ze:16px;font-family:'Indeed Sans', 'Noto Sans', Helvetica, Arial, sans-seri=
+f;font-weight:bold;text-decoration:none;padding:12px 16px;color:#004fcb;dis=
+play:block;border-radius:-1px;min-width:120px;width:100%;mso-padding-alt:0;=
+text-underline-color:#2557a7;border-top-left-radius:12px;border-bottom-left=
+-radius:12px"><!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%;mso-text-raise:150%" hidden=3D"">&e=
+msp;&#8203;</i>=0A=
+        <![endif]--><span style=3D"mso-text-raise:75%"><!--[if !mso]><!--><=
+img src=3D"https://prod.statics.indeed.com/eml/assets/images/icons/thumbsdo=
+wn_primary.png" alt=3D"" width=3D"24" style=3D"vertical-align:text-bottom;l=
+ine-height:0px;padding:0 8px 0 0;width:24px"><!--<![endif]-->
+ No<!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%" hidden=3D"">&emsp;&#8203;</i>=0A=
+        <![endif]-->
+</span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"center" valign=3D"top" class=3D"eml-feedback-button-td">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" wi=
+dth=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"padding:0">
+<table class=3D"width-100" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"left" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" class=3D"stack cta center-align-text" style=3D"border-=
+radius:0px 8px 8px 0;border:1px solid #e4e2e0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_12QTW-CQABE_wsHT1UBwYKJaaCCImoFRYkXs=
+i6srMAuXdbv-N-7TZOm6dxmXjKH95BO0kDKOa-bQbdbAQ7zDiZplqUdSKsuJmfMAceUND-wzUQj=
+h67-xouhUvR0iEjOaMlkQ9ZamCA6tL4T6y46emqo2FulP4_1qfyqYR3hbdJ4EZbzeNHP98k5kuc=
+LDSXZ6njAyoL412Ss2om1ccahUsoTJUbxu23h9c7XyrsfgVpn6n4CnOV2QUc7zaL-zA-c0cy9hM=
+3GvK5ee83HZUeJVafjKdPSsMlivy7TXE2Yj6CdhzpR52T-Kd-XPFi7ag0My3bqqA08b5RkQVzED=
+N0COKX9mWuuWojRaohV0M4qgMs2EmL2ABbSi1RJg4cEIKQnwr1USDRN0-jJhmEKCEsMi7UQczrk=
+AnF2yn7XW52J6c8TL0T_71J6Pr8ALeDIOpwBAAA%2Fvu859Wlhj1ZTjAUF-bqkB2Zi4oqagNoww=
+KIUNXZ0pRw&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300=
+fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C63925705298790=
+7492%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIl=
+AiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DqKJ=
+bZHhZZnIrqxvJeaYlmjw7wDS53l%2Bl6mC%2FmhdlH3Y%3D&amp;reserved=3D0" originals=
+rc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_12QTW-CQABE_wsHT1UBwYKJaaCCImo=
+FRYkXsi6srMAuXdbv-N-7TZOm6dxmXjKH95BO0kDKOa-bQbdbAQ7zDiZplqUdSKsuJmfMAceUND=
+-wzUQjh67-xouhUvR0iEjOaMlkQ9ZamCA6tL4T6y46emqo2FulP4_1qfyqYR3hbdJ4EZbzeNHP9=
+8k5kucLDSXZ6njAyoL412Ss2om1ccahUsoTJUbxu23h9c7XyrsfgVpn6n4CnOV2QUc7zaL-zA-c=
+0cy9hM3GvK5ee83HZUeJVafjKdPSsMlivy7TXE2Yj6CdhzpR52T-Kd-XPFi7ag0My3bqqA08b5R=
+kQVzEDN0COKX9mWuuWojRaohV0M4qgMs2EmL2ABbSi1RJg4cEIKQnwr1USDRN0-jJhmEKCEsMi7=
+UQczrkAnF2yn7XW52J6c8TL0T_71J6Pr8ALeDIOpwBAAA/vu859Wlhj1ZTjAUF-bqkB2Zi4oqag=
+NowwKIUNXZ0pRw" aria-label=3D"Yes, I want to get more jobs like this." clas=
+s=3D"secondary-button" style=3D"background-color:#ffffff;font-size:16px;fon=
+t-family:'Indeed Sans', 'Noto Sans', Helvetica, Arial, sans-serif;font-weig=
+ht:bold;text-decoration:none;padding:12px 16px;color:#004fcb;display:block;=
+border-radius:-1px;min-width:120px;width:100%;mso-padding-alt:0;text-underl=
+ine-color:#2557a7;border-top-right-radius:12px;border-bottom-right-radius:1=
+2px"><!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%;mso-text-raise:150%" hidden=3D"">&e=
+msp;&#8203;</i>=0A=
+        <![endif]--><span style=3D"mso-text-raise:75%"><!--[if !mso]><!--><=
+img src=3D"https://prod.statics.indeed.com/eml/assets/images/icons/thumbsup=
+_primary.png" alt=3D"" width=3D"24" style=3D"vertical-align:text-bottom;lin=
+e-height:0px;padding:0 8px 0 0;width:24px"><!--<![endif]-->
+ Yes<!--[if mso]>=0A=
+        <i style=3D"mso-font-width:100%" hidden=3D"">&emsp;&#8203;</i>=0A=
+        <![endif]-->
+</span></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]-->
+<table class=3D"ph-24" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" ali=
+gn=3D"left" style=3D"margin-top:32px;padding:0 56px" width=3D"100%" role=3D=
+"presentation">
+<tbody>
+<tr>
+<td style=3D"padding:0px;border-top:1px solid #e4e2e0;line-height:0;width:1=
+00%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:24px 56px 0;padding-top:=
+16px" class=3D"ph-24">
+<!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"max-width:600px" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top">
+<h2 class=3D"h2-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-h=
+eight:30px;margin:0;padding:0">
+Keep your Indeed profile up to date</h2>
+</td>
+</tr>
+<tr>
+<td align=3D"center" valign=3D"top">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"width:50%;text-align:left">
+<h2 class=3D"h2-md" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto=
+ Sans', Helvetica, Arial, sans-serif;font-size:24px;font-weight:bold;line-h=
+eight:30px;margin:0;padding:0;margin-top:12px">
+<span translate=3D"no" class=3D"notranslate">Romario Billings</span></h2>
+</td>
+<td rowspan=3D"2" style=3D"width:50%;text-align:right;vertical-align:top;pa=
+dding:0">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"margin-lef=
+t:auto;margin-right:0">
+<tbody>
+<tr>
+<td style=3D"width:75px;height:75px;background-color:#424242;border-radius:=
+75px;line-height:75px;text-align:center;font-size:24px;font-family:'Indeed =
+Sans', 'Noto Sans', Helvetica, Arial, sans-serif;font-weight:bold;color:#ff=
+ffff">
+RB</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:4px"><a href=3D"http=
+s://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fcts.indeed.=
+com%2Fv3%2FH4sIAAAAAAAA_z2OzQrCMBCE3yVn01ar0BbEs2f1XNLNxsb8lXQrSOm7uwfxNDDz=
+MTOrWEQnRqJp7spyyslYj4WNGlEXkMLF5BTOrzTYg-pZgiIYZUYFZN-KbIoSo3zcegzKerETQXS=
+rUABpiXTV3N22bVNXTdNyCN6Cu485Lc-RI8oL_t3PhGzNQWWShtcHBU6itiR_r5gkx8je1ScwkV=
+t8rprqKLbtC-oxHkrGAAAA%2FitGHUjoRTPu_-OUhL_6nkVgmQr_I1SV8JFRK139xpSA&amp;da=
+ta=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300fff08df18e718e3%7=
+C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257052987928397%7CUnknown%7C=
+TWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkF=
+OIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DZdPlLu1oy%2F4d0AeXDX=
+xZg6mb%2BFPloHFJtNREEoweREE%3D&amp;reserved=3D0" originalsrc=3D"https://cts=
+.indeed.com/v3/H4sIAAAAAAAA_z2OzQrCMBCE3yVn01ar0BbEs2f1XNLNxsb8lXQrSOm7uwfx=
+NDDzMTOrWEQnRqJp7spyyslYj4WNGlEXkMLF5BTOrzTYg-pZgiIYZUYFZN-KbIoSo3zcegzKerE=
+TQXSrUABpiXTV3N22bVNXTdNyCN6Cu485Lc-RI8oL_t3PhGzNQWWShtcHBU6itiR_r5gkx8je1S=
+cwkVt8rprqKLbtC-oxHkrGAAAA/itGHUjoRTPu_-OUhL_6nkVgmQr_I1SV8JFRK139xpSA" sty=
+le=3D"color:#2557a7;display:inline-block;font-family:'Indeed Sans', 'Noto S=
+ans', Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-hei=
+ght:44px;text-align:left;text-decoration:none">Edit
+ profile<!--[if !mso]><!--> <img alt=3D"" aria-hidden=3D"true" src=3D"https=
+://prod.statics.indeed.com/eml/assets/images/icons/ArrowRight_primary_white=
+bg.png" style=3D"vertical-align:middle;padding-bottom:3px;padding-left:4px"=
+ width=3D"18" height=3D"18"><!--<![endif]-->
+</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:12px 0 16px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:0;text-align:center;ve=
+rtical-align:top;width:24px">
+<img height=3D"24" width=3D"24" alt=3D"" src=3D"https://prod.statics.indeed=
+.com/eml/assets/images/icons/moneystack_neutral.png"></td>
+<td style=3D"padding-left:12px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td valign=3D"top" align=3D"left">
+<h3 class=3D"" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans=
+', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height=
+:24px;margin:0;padding:0">
+Minimum base pay</h3>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"padding-top:4px">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:14px;font-weight:normal;line-height:24px;marg=
+in:0;padding:0">
+$70,000 a year</p>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"margin-top:4px" width=3D"auto" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"background-color:#fdefe9;border-radius:8px;padding:3px 8px;wid=
+th:auto">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"padding-right:4px" valign=3D"middle">
+<p style=3D"color:#844b17;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px;margin=
+:0;padding:0">
+Has not been updated in 90 days</p>
+</td>
+<td valign=3D"middle"><img height=3D"18" width=3D"18" alt=3D"" src=3D"https=
+://prod.statics.indeed.com/eml/assets/images/icons/Warning_warning_status.p=
+ng" style=3D"display:block"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"center" style=3D"padding-top:2px;text-align:center;vertical-al=
+ign:top;width:44px">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_z2OywrCQAxF_2UWrhytL2gLxbVrdV1imrHjd=
+B5MU6FI_92A4CpwDvfefNSkatUzp7HeblOOxg60saEj6jYYvSAylCkgjWeTo29e8WH30MrxwNjr=
+TIBs38A2Bk1B368tebDDKiYKTYJZrZVX9UcBYpwCXzoZrKqqPBRlWYnEwaK79TlOz14U54n-dE4=
+kaPSQWRt56QHo9K-TnZidO5zQBAkPuSiLo1qWL9ATFyrSAAAA%2FynjweIAgtZTbgo5M8ZBdNmB=
+Yzoh8T_8JBnACXMn4OK0&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab=
+2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C6392=
+57052987949216%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAu=
+MDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;s=
+data=3D2NQF2iAig8%2BAKgYpaSEDHFipWeE92rJpGpKd8W71N%2B0%3D&amp;reserved=3D0"=
+ originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_z2OywrCQAxF_2UWrhytL=
+2gLxbVrdV1imrHjdB5MU6FI_92A4CpwDvfefNSkatUzp7HeblOOxg60saEj6jYYvSAylCkgjWeT=
+o29e8WH30MrxwNjrTIBs38A2Bk1B368tebDDKiYKTYJZrZVX9UcBYpwCXzoZrKqqPBRlWYnEwaK=
+79TlOz14U54n-dE4kaPSQWRt56QHo9K-TnZidO5zQBAkPuSiLo1qWL9ATFyrSAAAA/ynjweIAgt=
+ZTbgo5M8ZBdNmBYzoh8T_8JBnACXMn4OK0" style=3D"display:inline-block;height:44=
+px;width:44px;text-decoration:none"><img height=3D"24" width=3D"24" alt=3D"=
+Edit minimum base pay" style=3D"display:block" src=3D"https://prod.statics.=
+indeed.com/eml/assets/images/icons/edit_neutral.png"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0px;border-top:1px solid #e4e2e0;line-height:0;width:1=
+00%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:12px 0 16px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:0;text-align:center;ve=
+rtical-align:top;width:24px">
+<img height=3D"24" width=3D"24" alt=3D"" src=3D"https://prod.statics.indeed=
+.com/eml/assets/images/icons/car_neutral.png"></td>
+<td style=3D"padding-left:12px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td valign=3D"top" align=3D"left">
+<h3 class=3D"" style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans=
+', Helvetica, Arial, sans-serif;font-size:14px;font-weight:bold;line-height=
+:24px;margin:0;padding:0">
+Commute time</h3>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" align=3D"left" style=3D"padding-top:4px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"display:block" width=3D"auto" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"background-color:#feeeef;border-radius:8px;padding:3px 8px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"padding-right:4px" valign=3D"middle">
+<p style=3D"color:#a9252b;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:18px;margin=
+:0;padding:0">
+Not provided</p>
+</td>
+<td valign=3D"middle"><img height=3D"18" width=3D"18" alt=3D"" src=3D"https=
+://prod.statics.indeed.com/eml/assets/images/icons/Error_alert_status.png" =
+style=3D"display:block"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"center" style=3D"padding-top:2px;text-align:center;vertical-al=
+ign:top;width:44px">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_0WOuw7CMAxF_yUDE4HyktpKFTMzMCPXdWhIk=
+1Spg0Co_44nmK50rnV8PyqrWvXM41Sv12OKxg60sqEj6lYYvSAylCggTUeTom8esbVbuEl4YOx1=
+IkC2T2Abg6agr-cbebDDIo4UGlH4zKSWyqv6owAx5sCnTp5WVVXuirKspMTBorv0KeZ7LxWnTD_=
+6HknQ5CGxNjKrBXTaw0v_3ezkYuN2BzRBJEMqymKv5vkLlJUnd94AAAA%2Fl5rFa3oYHeDZIWZn=
+G8iqwoHXjovFvYzm0JPEmBmAtMg&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C=
+677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0=
+%7C639257052987969323%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiO=
+iIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7=
+C&amp;sdata=3DKcshoOQ%2BG8NWz4L0VOs0J1AiYKkC61RciiBRAiaVBgg%3D&amp;reserved=
+=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_0WOuw7CMAxF_yUD=
+E4HyktpKFTMzMCPXdWhIk1Spg0Co_44nmK50rnV8PyqrWvXM41Sv12OKxg60sqEj6lYYvSAylCg=
+gTUeTom8esbVbuEl4YOx1IkC2T2Abg6agr-cbebDDIo4UGlH4zKSWyqv6owAx5sCnTp5WVVXuir=
+KspMTBorv0KeZ7LxWnTD_6HknQ5CGxNjKrBXTaw0v_3ezkYuN2BzRBJEMqymKv5vkLlJUnd94AA=
+AA/l5rFa3oYHeDZIWZnG8iqwoHXjovFvYzm0JPEmBmAtMg" style=3D"display:inline-blo=
+ck;height:44px;width:44px;text-decoration:none"><img height=3D"24" width=3D=
+"24" alt=3D"Add maximum commute" style=3D"display:block" src=3D"https://pro=
+d.statics.indeed.com/eml/assets/images/icons/plus_neutral.png"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"padding:0px;border-top:1px solid #e4e2e0;line-height:0;width:1=
+00%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:24px 56px 0;padding-top:=
+24px" class=3D"ph-24">
+<!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"max-width:600px" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:32px">
+<h2 class=3D"h2-md" style=3D"font-family:'Indeed Sans', 'Noto Sans', Helvet=
+ica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:1.5rem;m=
+argin:0;padding:0">
+No longer looking for a job?</h2>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:4px"><a href=3D"http=
+s://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fcts.indeed.=
+com%2Fv3%2FH4sIAAAAAAAA_12Qy3KCMABF_yWLrlp5CArOOB2ooIhQQVHGDRMDkQgmFILP8d9L=
+u-iid3fP2Z0HaMEI5JxXzUgQTpCjvEdommVpD7GTQOiZcMgJo41QwbbJ3nkxloq-ijDNa1bWoiY=
+qL4RiNjZ-Fqs2PjpyKJlbaeDF6lwcKkTFZJs0TkTEPPYH-T45R6LnKzjJVscDkXzqXpOpbCbGxp=
+qGUinOpBjHH6ZB1jtXKe9uBCu1lvczaC23PpvsFIO5CzewJgv7EjYb_boa9pvPy45Ro0qn81pJw=
+yaL3apMczmpXYzMPFSp7FHvS7wvebC25QpqhmlV0Rt0nEmSBXER1_gWoDkbLGx9BV7BCYweACLE=
+WsqdtGuk67rWFzVN7yQqCSrWXYD2kHeK1232R29V1qHfWB3jRXf-BwPP5zfd3tNmeAEAAA%2F29=
+FlUzfQA4R3_FjDdwn3nrGXefLcUjfp8MKxrr7Scgw&amp;data=3D05%7C02%7Crbillings202=
+2%40fau.edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cab=
+b2828f%7C0%7C0%7C639257052987992267%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGk=
+iOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%=
+3D%7C0%7C%7C%7C&amp;sdata=3D5ZKHbic7rHOOAoE9tZP2qywFsYz373THeAwAp6UBzUo%3D&=
+amp;reserved=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_12Q=
+y3KCMABF_yWLrlp5CArOOB2ooIhQQVHGDRMDkQgmFILP8d9Lu-iid3fP2Z0HaMEI5JxXzUgQTpC=
+jvEdommVpD7GTQOiZcMgJo41QwbbJ3nkxloq-ijDNa1bWoiYqL4RiNjZ-Fqs2PjpyKJlbaeDF6l=
+wcKkTFZJs0TkTEPPYH-T45R6LnKzjJVscDkXzqXpOpbCbGxpqGUinOpBjHH6ZB1jtXKe9uBCu1l=
+vczaC23PpvsFIO5CzewJgv7EjYb_boa9pvPy45Ro0qn81pJwyaL3apMczmpXYzMPFSp7FHvS7wv=
+ebC25QpqhmlV0Rt0nEmSBXER1_gWoDkbLGx9BV7BCYweACLEWsqdtGuk67rWFzVN7yQqCSrWXYD=
+2kHeK1232R29V1qHfWB3jRXf-BwPP5zfd3tNmeAEAAA/29FlUzfQA4R3_FjDdwn3nrGXefLcUjf=
+p8MKxrr7Scgw" style=3D"text-align:left;text-decoration:none;font-family:'No=
+to Sans', Helvetica, Arial, sans-serif;font-size:16px;color:#2557A7;font-we=
+ight:700;line-height:44px">Pause
+ these emails<!--[if !mso]><!--> <img aria-hidden=3D"true" src=3D"https://d=
+3hbwax96mbv6t.cloudfront.net/eml/assets/images/icons/ArrowRight_primary_whi=
+tebg.png" alt=3D"" width=3D"18" height=3D"18" style=3D"vertical-align:middl=
+e;padding-bottom:3px;padding-left:4px"><!--<![endif]-->
+</a></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"margin-top:32px" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td style=3D"padding:0px;border-top:1px solid #e4e2e0;line-height:0;width:1=
+00%" align=3D"center" valign=3D"top" aria-hidden=3D"true">
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:24px 56px 0;padding-top:=
+16px;padding-bottom:32px" class=3D"ph-24">
+<!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:16px">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:normal;line-height:1rem;marg=
+in:0;padding:0">
+This job match email is sponsored by the employer posting this job on Indee=
+d. Parts of this email may use OpenAI and other AI technologies to generate=
+ content about the similarities between your resume and the job description=
+.
+<strong>This message is intended only for you. Do not forward this email.</=
+strong>
+</p>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding-top:16px">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:normal;line-height:1rem;marg=
+in:0;padding:0">
+Replies to this email are not monitored. To contact our customer service te=
+am, please visit our
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_z2NMQ4CIRBF7zK1LpjVBEiMtb0XMMMoG1ggM=
+BRms3d3CmP538vL32CAg8Bcu1Oqj1pL42nJnshPWFYVUFE-jn4L6UoZDrCC2-CJWEbmu5fYWmtm=
+bYwViWnB-AitjHcQxW3Qn34qCfpdCOUo8xTnC76yFKlpo8-w71_RM5FmkwAAAA%2FXlL6OSew8k=
+E5Rib975CfDiuswLqZgBV11Q4nlWuD1L8&amp;data=3D05%7C02%7Crbillings2022%40fau.=
+edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7=
+C0%7C0%7C639257052988015494%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWU=
+sIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7=
+C%7C%7C&amp;sdata=3DbhCOZa7Hd9orDmiXx598fjvOM1MFZfuP9Tjap0FgF3Y%3D&amp;rese=
+rved=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_z2NMQ4CIRBF=
+7zK1LpjVBEiMtb0XMMMoG1ggMBRms3d3CmP538vL32CAg8Bcu1Oqj1pL42nJnshPWFYVUFE-jn4=
+L6UoZDrCC2-CJWEbmu5fYWmtmbYwViWnB-AitjHcQxW3Qn34qCfpdCOUo8xTnC76yFKlpo8-w71=
+_RM5FmkwAAAA/XlL6OSew8kE5Rib975CfDiuswLqZgBV11Q4nlWuD1L8" style=3D"text-dec=
+oration:underline;color:#2557a7">
+Help Center</a> and submit an inquiry.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"background-color:#f3f2f1"><!--[i=
+f (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" style=3D"width:600px;" role=3D"presentation"><tr><td align=3D"left" vali=
+gn=3D"top">=0A=
+        <![endif]-->
+<div class=3D"show" style=3D"display:none">
+<table class=3D"full-wrap" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"left" style=3D"min-width:100%" bgcolor=3D"#f3f2f1" width=3D"100%"=
+ role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top"><!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0"=0A=
+                bgcolor=3D"#f3f2f1" style=3D"width:600px;" role=3D"presenta=
+tion">=0A=
+                    <tr>=0A=
+                        <td align=3D"left" valign=3D"top">=0A=
+        <![endif]-->
+<table class=3D"outerContainer" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"left" style=3D"width:600px;max-width:600px" bgcolor=3D"#f3f=
+2f1" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:32px 56px 0" class=3D"=
+ph-24 pt-16">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" class=3D"pb-12" style=3D"padding-bottom=
+:24px;border-bottom:1px solid #e4e2e0">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<th class=3D"stack fullWidth" style=3D"width:197px;vertical-align:top;font-=
+weight:normal;text-align:left">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"pr-0" style=3D"padding-right:24p=
+x">
+<h2 style=3D"color:#2d2d2d;font-family:'Indeed Sans', 'Noto Sans', Helvetic=
+a, Arial, sans-serif;font-size:14px;font-weight:bold;line-height:21px;margi=
+n:0;padding:0">
+Access Indeed anywhere</h2>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"pr-0" style=3D"padding:4px 24px =
+0 0">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+Download the free app.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</th>
+<th class=3D"stack fullWidth" style=3D"vertical-align:top;font-weight:norma=
+l;text-align:left">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"pt-24" style=3D"padding:0">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"display:inline-block" role=3D"presentation">
+<tbody>
+<tr>
+<td class=3D"pr-16 pb-12" align=3D"left" valign=3D"top" style=3D"padding-ri=
+ght:12px"><a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3D=
+https%3A%2F%2Fgo.onelink.me%2F3430878774%3Faf_xp%3Dcustom%26pid%3Demail%26c=
+%3Di2a%26af_adset%3Dsystem-invitation&amp;data=3D05%7C02%7Crbillings2022%40=
+fau.edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb282=
+8f%7C0%7C0%7C639257052988037878%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnR=
+ydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7=
+C0%7C%7C%7C&amp;sdata=3D83htyCvrVXyzp9aJhx0WAyor6X8IziOxbYsbMEhQ%2F1A%3D&am=
+p;reserved=3D0" originalsrc=3D"https://go.onelink.me/3430878774?af_xp=3Dcus=
+tom&amp;pid=3Demail&amp;c=3Di2a&amp;af_adset=3Dsystem-invitation"><img src=
+=3D"https://prod.statics.indeed.com/eml/assets/images/badges/App_Store_Badg=
+e_en.png" height=3D"40" style=3D"max-height:40px;height:40px" alt=3D"Downlo=
+ad on the App Store"></a></td>
+</tr>
+</tbody>
+</table>
+<table class=3D"pb-12" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" ali=
+gn=3D"left" style=3D"display:inline-block" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top"><a href=3D"https://nam02.safelinks.protec=
+tion.outlook.com/?url=3Dhttps%3A%2F%2Fgo.onelink.me%2F3430878774%3Faf_xp%3D=
+custom%26pid%3Demail%26c%3Di2a%26af_adset%3Dsystem-invitation&amp;data=3D05=
+%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9=
+c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257052988058619%7CUnknown%7CTWFpbGZ=
+sb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTW=
+FpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DwErG69n2YOUbOYhSbmWh537tXQi=
+GqvIfM2vBibmRqLM%3D&amp;reserved=3D0" originalsrc=3D"https://go.onelink.me/=
+3430878774?af_xp=3Dcustom&amp;pid=3Demail&amp;c=3Di2a&amp;af_adset=3Dsystem=
+-invitation"><img src=3D"https://prod.statics.indeed.com/eml/assets/images/=
+badges/Google_Play_Badge_en.png" height=3D"40" style=3D"max-height:40px;hei=
+ght:40px" alt=3D"Get it on Google Play"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+</tbody>
+</table>
+</div>
+<table class=3D"full-wrap" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"left" style=3D"min-width:100%" bgcolor=3D"#ffffff" width=3D"100%"=
+ role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top"><!--[if (gt mso 9)|(IE)]>=0A=
+        <table width=3D"600" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0"=0A=
+                bgcolor=3D"#f3f2f1" style=3D"width:600px;" role=3D"presenta=
+tion">=0A=
+                    <tr>=0A=
+                        <td align=3D"left" valign=3D"top">=0A=
+        <![endif]-->
+<table class=3D"outerContainer" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"left" style=3D"max-width:600px;width:600px" bgcolor=3D"#f3f=
+2f1" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"center" valign=3D"top" style=3D"padding:32px 56px" class=3D"p-=
+24">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0px">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" style=3D"padding:0px" class=3D"fullWidth pb-24">
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" widt=
+h=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0px 0px 12px"><a href=3D=
+"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2F%2Fcts.in=
+deed.com%2Fv3%2FH4sIAAAAAAAA_z2MTQ6DIBCF7zLrRmisCXCD7nsBM4xikJ9QCDHGu3fcdPm=
+-7713QgMDrtb8NUL03octWiI7YAoCHhDAnDAjphbr23JVa61GqZRmifuG_uNKaqtjVUujPz0y3c=
+cpUJ7XG1fP-enHCZfIk71IJV9wXT-Spoa5ggAAAA%2FPKzfYwLYz_pFKRUQsn6TEY46vmnsVhz0=
+zunbWh-Lqkw&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d4530=
+0fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C6392570529880=
+79501%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsI=
+lAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DGu=
+5B6b5bQ8Oe3uS%2FMrbqIdIkHAnE8dvkRif1XR%2FZOK8%3D&amp;reserved=3D0" original=
+src=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MTQ6DIBCF7zLrRmisCXCD7nsBM4=
+xikJ9QCDHGu3fcdPm-7713QgMDrtb8NUL03octWiI7YAoCHhDAnDAjphbr23JVa61GqZRmifuG_=
+uNKaqtjVUujPz0y3ccpUJ7XG1fP-enHCZfIk71IJV9wXT-Spoa5ggAAAA/PKzfYwLYz_pFKRUQs=
+n6TEY46vmnsVhz0zunbWh-Lqkw"><img src=3D"https://prod.statics.indeed.com/eml=
+/assets/images/logo/indeed_en_color.png" alt=3D"Indeed home" width=3D"80" s=
+tyle=3D"font-family:'Indeed Sans', 'Noto Sans', Helvetica, Arial, sans-seri=
+f;color:#004fcb;font-size:20px"></a></td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" style=3D"padding:0px" class=3D"fullWidth =
+pb-16">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+=C2=A9 2026 Indeed, Inc. <br>
+200 West 6th Street, Floor 36, Austin, TX 78701</p>
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:12px;font-weight:normal;line-height:18px;marg=
+in:12px 0 0;padding:0">
+Indeed processes and analyzes your activity in this email.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align=3D"left" style=3D"padding:0px" class=3D"fullWidth left-align-text=
+ pt-20 pb-36" valign=3D"top">
+<table class=3D"fullWidth" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ align=3D"right" role=3D"presentation">
+<tbody>
+<tr role=3D"list">
+<td align=3D"right" valign=3D"top" style=3D"padding:0px 8px 0px  0px" class=
+=3D"pl-0" role=3D"listitem">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fwww.facebook.com%2FIndeed&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%=
+7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7=
+C0%7C639257052988100980%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlY=
+iOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C=
+%7C&amp;sdata=3DBChz2umxuMz7ucdQVSKSk%2FGitcNvDjcnGCOGB%2BHvV3o%3D&amp;rese=
+rved=3D0" originalsrc=3D"https://www.facebook.com/Indeed" class=3D"standard=
+-text-link" style=3D"color:#004fcb;text-decoration:underline;font-size:12px=
+"><img src=3D"https://prod.statics.indeed.com/eml/assets/images/icons/Faceb=
+ook_black_whitebg.png" alt=3D"Indeed's Facebook" width=3D"24"></a></td>
+<td align=3D"left" valign=3D"bottom" style=3D"padding:0px 8px 0px" class=3D=
+"fullWidth left-align-text" role=3D"listitem">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fwww.instagram.com%2Findeedworks%2F&amp;data=3D05%7C02%7Crbillings2022%4=
+0fau.edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb28=
+28f%7C0%7C0%7C639257052988123285%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOn=
+RydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%=
+7C0%7C%7C%7C&amp;sdata=3DozIOTDOPRLLUNNL%2FWc8PhY1pJeoLwsAGIKAK2W%2FXEfw%3D=
+&amp;reserved=3D0" originalsrc=3D"https://www.instagram.com/indeedworks/" c=
+lass=3D"standard-text-link" style=3D"color:#004fcb;text-decoration:underlin=
+e;font-size:12px"><img src=3D"https://prod.statics.indeed.com/eml/assets/im=
+ages/icons/Instagram_black_whitebg.png" alt=3D"Indeed's Instagram" width=3D=
+"24"></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align=3D"left" valign=3D"top" class=3D"" style=3D"padding:24px 0px 0px"=
+>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" role=
+=3D"presentation">
+<tbody>
+<tr role=3D"list">
+<th align=3D"left" style=3D"padding:0 8px 0 0;border-right:1px solid #59595=
+9" class=3D"fullWidth br-0" role=3D"listitem">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_z2MTQ6DIBCF7zLrRmisCXCD7nsBM4xikJ9QC=
+DHGu3fcdPm-7713QgMDrtb8NUL03octWiI7YAoCHhDAnDAjphbr23JVa61GqZRmifuG_uNKaqtj=
+VUujPz0y3ccpUJ7XG1fP-enHCZfIk71IJV9wXT-Spoa5ggAAAA%2FPKzfYwLYz_pFKRUQsn6TEY=
+46vmnsVhz0zunbWh-Lqkw&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7a=
+b2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639=
+257052988151548%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjA=
+uMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;=
+sdata=3DcydLOODE6cbyQTPnYWYjAz3%2F0mnKbU1xb%2BFlU%2FmsUSw%3D&amp;reserved=
+=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MTQ6DIBCF7zLr=
+RmisCXCD7nsBM4xikJ9QCDHGu3fcdPm-7713QgMDrtb8NUL03octWiI7YAoCHhDAnDAjphbr23J=
+Va61GqZRmifuG_uNKaqtjVUujPz0y3ccpUJ7XG1fP-enHCZfIk71IJV9wXT-Spoa5ggAAAA/PKz=
+fYwLYz_pFKRUQsn6TEY46vmnsVhz0zunbWh-Lqkw" class=3D"standard-text-link" styl=
+e=3D"color:#004fcb;text-decoration:underline;font-size:12px">Indeed</a></p>
+</th>
+<th align=3D"left" style=3D"padding:0 8px;border-right:1px solid #595959" c=
+lass=3D"fullWidth pt-24 br-0 pl-0" role=3D"listitem">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_z2MwQoCIRRF_-W1jTSmQIVo3b4fsKel6Kg4G=
+sgw_95bDC3vOffeFToocK2VRTHmarPoSvVfjeOEeWavqpNZmE_GWnN38WbTYfclR48DjjCDWkEj=
+5p7aw9CdlFJMXAhJEqkUnq7m_nGkWu32T0exhPY7oi1QPIfpiu9Ei1i54BfYth89e6_YpQAAAA%=
+2F5CLlYV4GnQo3yHbJSLZSw1geTUrg1L5uh7uX8-ABmVc&amp;data=3D05%7C02%7Crbilling=
+s2022%40fau.edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f=
+0cabb2828f%7C0%7C0%7C639257052988183278%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1=
+hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ=
+%3D%3D%7C0%7C%7C%7C&amp;sdata=3D2xZrCPKkWJUgYUkvzi6RWZ2ACYaH4telNkdvAwWIir4=
+%3D&amp;reserved=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA=
+_z2MwQoCIRRF_-W1jTSmQIVo3b4fsKel6Kg4Gsgw_95bDC3vOffeFToocK2VRTHmarPoSvVfjeO=
+EeWavqpNZmE_GWnN38WbTYfclR48DjjCDWkEj5p7aw9CdlFJMXAhJEqkUnq7m_nGkWu32T0exhP=
+Y7oi1QPIfpiu9Ei1i54BfYth89e6_YpQAAAA/5CLlYV4GnQo3yHbJSLZSw1geTUrg1L5uh7uX8-=
+ABmVc" class=3D"standard-text-link" style=3D"color:#004fcb;text-decoration:=
+underline;font-size:12px">Privacy
+ Policy</a></p>
+</th>
+<th align=3D"left" style=3D"padding:0 8px;border-right:1px solid #595959" c=
+lass=3D"fullWidth pt-24 br-0 pl-0" role=3D"listitem">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_z2MwQrDIBBE_2V7LdGSFlQoPefeHwjrNgaNB=
+rMiJeTfay49znszs0MBA4553YwQtdZujpbIdpgWEWgaw8uFJ8ULpw2usIDZYURMJfJg21JrrXqp=
+lG4Sw4z-7XIqk2uKc6E__a50IsrLecO-hZvvH_iJrR-yVPIOx_EDJ3XI4Y4AAAA%2FcrgcbYqJc=
+qtCNPeEf3DcB8zHe6ikYINSrMaUTDhPCkc&amp;data=3D05%7C02%7Crbillings2022%40fau=
+.edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%=
+7C0%7C0%7C639257052988215259%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydW=
+UsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%=
+7C%7C%7C&amp;sdata=3DKIsbyMb2ytq%2B30Mjd9z39VwWEIK2ra6cYHsRtmhcNh0%3D&amp;r=
+eserved=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_z2MwQrDI=
+BBE_2V7LdGSFlQoPefeHwjrNgaNBrMiJeTfay49znszs0MBA4553YwQtdZujpbIdpgWEWgaw8uF=
+J8ULpw2usIDZYURMJfJg21JrrXqplG4Sw4z-7XIqk2uKc6E__a50IsrLecO-hZvvH_iJrR-yVPI=
+Ox_EDJ3XI4Y4AAAA/crgcbYqJcqtCNPeEf3DcB8zHe6ikYINSrMaUTDhPCkc" class=3D"stan=
+dard-text-link" style=3D"color:#004fcb;text-decoration:underline;font-size:=
+12px">Terms</a></p>
+</th>
+<th align=3D"left" style=3D"padding:0 8px;border-right:1px solid #595959" c=
+lass=3D"fullWidth pt-24 br-0 pl-0" role=3D"listitem">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_z2NMQ4CIRBF7zK1LpjVBEiMtb0XMMMoG1ggM=
+BRms3d3CmP538vL32CAg8Bcu1Oqj1pL42nJnshPWFYVUFE-jn4L6UoZDrCC2-CJWEbmu5fYWmtm=
+bYwViWnB-AitjHcQxW3Qn34qCfpdCOUo8xTnC76yFKlpo8-w71_RM5FmkwAAAA%2FXlL6OSew8k=
+E5Rib975CfDiuswLqZgBV11Q4nlWuD1L8&amp;data=3D05%7C02%7Crbillings2022%40fau.=
+edu%7C677f7ab2199d45300fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7=
+C0%7C0%7C639257052988241569%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWU=
+sIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7=
+C%7C%7C&amp;sdata=3DhaYh1kyCYYY8ic172HCBkBuRHh0UGtgDN%2BpXM7Z1BBU%3D&amp;re=
+served=3D0" originalsrc=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_z2NMQ4CIR=
+BF7zK1LpjVBEiMtb0XMMMoG1ggMBRms3d3CmP538vL32CAg8Bcu1Oqj1pL42nJnshPWFYVUFE-j=
+n4L6UoZDrCC2-CJWEbmu5fYWmtmbYwViWnB-AitjHcQxW3Qn34qCfpdCOUo8xTnC76yFKlpo8-w=
+71_RM5FmkwAAAA/XlL6OSew8kE5Rib975CfDiuswLqZgBV11Q4nlWuD1L8" class=3D"standa=
+rd-text-link" style=3D"color:#004fcb;text-decoration:underline;font-size:12=
+px">Help
+ Center</a></p>
+</th>
+<th align=3D"left" style=3D"padding:0 8px" class=3D"fullWidth pt-24 pl-0" r=
+ole=3D"listitem">
+<p style=3D"color:#595959;font-family:'Indeed Sans', 'Noto Sans', Helvetica=
+, Arial, sans-serif;font-size:16px;font-weight:normal;line-height:18px;marg=
+in:0;padding:0">
+<a href=3D"https://nam02.safelinks.protection.outlook.com/?url=3Dhttps%3A%2=
+F%2Fcts.indeed.com%2Fv3%2FH4sIAAAAAAAA_12RzW6bQBRG3wWpXtUxGGIPllCFARGwTRzAN=
+s4GwfBrYAaYmQCJ8u6lUtVFpbs6Z_Ppni-OcTuuoLQlu9WKsJjAvmxpiRF5KlGSpskTxM0KtxQz=
+-gti5eItilpJ0YJWilCJzzBDRY_rnge8tICUKlqpZvuiIe-q3BPw3HTngAbXdNy4kOA1WJpDF-t=
+mxrqDlseFld-QcNi20nSIP14dKxHDTI2ne4h53VWnrLXqowUel1NSeKfIcOyjlNNmc3i_P-ylNX=
+lDwF_BD1FfUFylSNEqzVXp1poEvNxan_b4iG5Gs16SD3MyHe_x-RIddenabaIoAP71-OYFLNkb0=
+eDSZiDCRascoTbTpvJ1uzX3J4rcMexl3ijVNEzs3hZPWge0O_Gzs1uMJWH3fU1A7siJYDSah5yN=
+D0f8JkEpIuv-5SwFzi2RjrYVbukw75yP-8k13O6LiyDEDFErmQPIsgxEHgB5lrAuYeXPT2V5MSv=
+as_Qfndp0Rgz9DRX_MbSa0f8puO_v3ycLRXvbAQAA%2FGsR1abWJt5QOaN67jYc3alT5a2d4tXy=
+TZNU2QcO6uH8&amp;data=3D05%7C02%7Crbillings2022%40fau.edu%7C677f7ab2199d453=
+00fff08df18e718e3%7C63c3c9c1e824413fb4352f0cabb2828f%7C0%7C0%7C639257052988=
+266296%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIs=
+IlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=3DV=
+ap6cvbXIF9bwNqWDOYomDTEHndnaxVkb56jlC4cDHU%3D&amp;reserved=3D0" originalsrc=
+=3D"https://cts.indeed.com/v3/H4sIAAAAAAAA_12RzW6bQBRG3wWpXtUxGGIPllCFARGwT=
+RzANs4GwfBrYAaYmQCJ8u6lUtVFpbs6Z_Ppni-OcTuuoLQlu9WKsJjAvmxpiRF5KlGSpskTxM0K=
+txQz-gti5eItilpJ0YJWilCJzzBDRY_rnge8tICUKlqpZvuiIe-q3BPw3HTngAbXdNy4kOA1WJp=
+DF-tmxrqDlseFld-QcNi20nSIP14dKxHDTI2ne4h53VWnrLXqowUel1NSeKfIcOyjlNNmc3i_P-=
+ylNXlDwF_BD1FfUFylSNEqzVXp1poEvNxan_b4iG5Gs16SD3MyHe_x-RIddenabaIoAP71-OYFL=
+Nkb0eDSZiDCRascoTbTpvJ1uzX3J4rcMexl3ijVNEzs3hZPWge0O_Gzs1uMJWH3fU1A7siJYDSa=
+h5yND0f8JkEpIuv-5SwFzi2RjrYVbukw75yP-8k13O6LiyDEDFErmQPIsgxEHgB5lrAuYeXPT2V=
+5MSvas_Qfndp0Rgz9DRX_MbSa0f8puO_v3ycLRXvbAQAA/GsR1abWJt5QOaN67jYc3alT5a2d4t=
+XyTZNU2QcO6uH8" class=3D"standard-text-link" style=3D"color:#004fcb;text-de=
+coration:underline;font-size:12px">Unsubscribe</a></p>
+</th>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]--></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gt mso 9)|(IE)]>=0A=
+        </td></tr></table>=0A=
+        <![endif]-->
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"left" styl=
+e=3D"width:100%" width=3D"100%" role=3D"presentation">
+<tbody>
+<tr>
+<td aria-hidden=3D"true" height=3D"12" style=3D"height:12px;font-size:12px;=
+line-height:12px" align=3D"center" valign=3D"top">
+&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<img src=3D"https://subscriptions.indeed.com/imgping?type=3Delpemail&amp;tk=
+=3D1k35cfnhrolr0804&amp;aid=3DCkAq4kgNSeX96EIoAJiTekBgwdZ582CCP05Q1ca2ozZAO=
+ErgXBmmtxtQjD30BZbo_ZpuPs78AdzdP13n5f-RBSjLEhCNMQCiy3XR76TyhDJud96MGhDCgOXT=
+7P6HTKajpqb10ojM" height=3D"1" width=3D"1" alt=3D""></td>
+</tr>
+</tbody>
+</table>
+<img border=3D"0" width=3D"1" height=3D"1" alt=3D"" src=3D"https://engage.i=
+ndeed.com/q/NNu3zjCUpKV0jMPVHCTfQA~~/AAR9hBA~/bj7mu6_eTHRTI-a9TtkKz81_HP74A=
+xZFVSr0TLUFObXxU5I41OqtYpNm1jDAO_uDUcUGSFWDaVFijO3Ii8JXwQ~~">
+</div>
+</body>
+</html>
+
+--_----lP2VEu2LsyBDE86w0T7R9w===_DA/1D-14074-D43E2BA6--
