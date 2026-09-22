@@ -1,5 +1,5 @@
 import os
-import readline
+# import readline
 from langchain_classic import hub
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma

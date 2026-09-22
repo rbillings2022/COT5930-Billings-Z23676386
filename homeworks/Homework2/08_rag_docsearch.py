@@ -2,7 +2,6 @@ from langchain_chroma import Chroma
 # from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_google_vertexai import VertexAIEmbeddings
 
-import readline
 import os
 
 # Open the persisted RAG database with the same embedding function used to build it.
