@@ -12,22 +12,34 @@ Configuration comes from environment variables (see .env):
 import hashlib
 import os
 import re
+from pathlib import Path
 
 from dotenv import load_dotenv
 from langchain.agents import create_agent
-from langchain_community.tools import WikipediaQueryRun
-from langchain_community.utilities import WikipediaAPIWrapper
+from langchain_community.agent_toolkits import FileManagementToolkit
+from langchain_community.tools import (
+    ArxivQueryRun,
+    DuckDuckGoSearchRun,
+    WikipediaQueryRun,
+)
+from langchain_community.utilities import ArxivAPIWrapper, WikipediaAPIWrapper
 from langchain_core.tools import tool
 from langchain_experimental.utilities import PythonREPL
 from langchain_ollama import ChatOllama
 
 load_dotenv()
 
+# The agent may only read/write files inside this folder.
+WORKSPACE = Path(__file__).parent / "workspace"
+
 SYSTEM_PROMPT = (
     "You are a helpful cybersecurity assistant. Use the available tools "
     "whenever they help: python_repl for calculations or code, wikipedia for "
-    "background facts, check_password_strength to evaluate passwords, and "
-    "sha256_hash to hash text. Explain your final answer clearly."
+    "background facts, duckduckgo_search for current web information, "
+    "arxiv for research papers, check_password_strength to evaluate "
+    "passwords, sha256_hash to hash text, and the file tools (read_file, "
+    "write_file, list_directory) to save or read notes in your workspace. "
+    "Explain your final answer clearly."
 )
 
 _repl = PythonREPL()
@@ -91,6 +103,9 @@ def sha256_hash(text: str) -> str:
 def build_agent():
     """Create the tool-calling agent backed by the remote Ollama model.
 
+    Tools: PythonREPL, Wikipedia, DuckDuckGo search, Arxiv, a sandboxed
+    file-management toolkit, and two custom security tools.
+
     Returns:
         A compiled LangChain agent ready to be invoked with messages.
     """
@@ -103,7 +118,28 @@ def build_agent():
     wikipedia = WikipediaQueryRun(
         api_wrapper=WikipediaAPIWrapper(top_k_results=2, doc_content_chars_max=1500)
     )
-    tools = [python_repl, wikipedia, check_password_strength, sha256_hash]
+    duckduckgo = DuckDuckGoSearchRun()
+    arxiv = ArxivQueryRun(
+        api_wrapper=ArxivAPIWrapper(top_k_results=2, doc_content_chars_max=1500)
+    )
+
+    # Sandbox the file tools: one folder, and only safe operations.
+    # file_delete, move_file, and copy_file are deliberately left out.
+    WORKSPACE.mkdir(exist_ok=True)
+    file_tools = FileManagementToolkit(
+        root_dir=str(WORKSPACE),
+        selected_tools=["read_file", "write_file", "list_directory"],
+    ).get_tools()
+
+    tools = [
+        python_repl,
+        wikipedia,
+        duckduckgo,
+        arxiv,
+        check_password_strength,
+        sha256_hash,
+        *file_tools,
+    ]
     return create_agent(llm, tools, system_prompt=SYSTEM_PROMPT)
 
 
