@@ -13,6 +13,7 @@ import hashlib
 import os
 import re
 from pathlib import Path
+import requests
 
 from dotenv import load_dotenv
 from langchain.agents import create_agent
@@ -115,9 +116,6 @@ def build_agent():
         temperature=0,
         client_kwargs={"timeout": 300},  # remote model can be slow
     )
-    wikipedia = WikipediaQueryRun(
-        api_wrapper=WikipediaAPIWrapper(top_k_results=2, doc_content_chars_max=1500)
-    )
     duckduckgo = DuckDuckGoSearchRun()
     arxiv = ArxivQueryRun(
         api_wrapper=ArxivAPIWrapper(top_k_results=2, doc_content_chars_max=1500)
@@ -142,6 +140,45 @@ def build_agent():
     ]
     return create_agent(llm, tools, system_prompt=SYSTEM_PROMPT)
 
+@tool
+def wikipedia_search(query: str) -> str:
+    """Look up a topic on Wikipedia and return a short summary.
+
+    Use only when the user asks for factual background on a topic.
+
+    Args:
+        query: The topic to search for, for example "SHA-2".
+
+    Returns:
+        The top matching article titles with extract text, or an error message.
+    """
+    headers = {"User-Agent": "hw3-security-agent/1.0 (student project)"}
+    params = {
+        "action": "query",
+        "generator": "search",
+        "gsrsearch": query,
+        "gsrlimit": 2,
+        "prop": "extracts",
+        "exintro": 1,
+        "explaintext": 1,
+        "format": "json",
+    }
+    try:
+        resp = requests.get(
+            "https://en.wikipedia.org/w/api.php",
+            params=params,
+            headers=headers,
+            timeout=15,
+        )
+        resp.raise_for_status()
+        pages = resp.json().get("query", {}).get("pages", {})
+    except Exception as exc:  # network error or non-JSON reply
+        return f"Wikipedia lookup failed: {exc}"
+    if not pages:
+        return "No Wikipedia results found."
+    return "\n\n".join(
+        f"{p['title']}: {p.get('extract', '')[:1200]}" for p in pages.values()
+    )
 
 def ask(agent, question: str) -> str:
     """Send one question to the agent, printing each tool call it makes.
