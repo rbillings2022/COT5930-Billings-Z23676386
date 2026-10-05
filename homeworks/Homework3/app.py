@@ -41,6 +41,8 @@ SYSTEM_PROMPT = (
     "passwords, sha256_hash to hash text, and the file tools (read_file, "
     "write_file, list_directory) to save or read notes in your workspace. "
     "Explain your final answer clearly."
+    "Do not use any tool for greetings or casual conversation; just reply "
+    "directly. "
 )
 
 _repl = PythonREPL()
@@ -131,7 +133,6 @@ def build_agent():
 
     tools = [
         python_repl,
-        wikipedia,
         duckduckgo,
         arxiv,
         check_password_strength,
@@ -207,6 +208,7 @@ def main() -> None:
             break
         if question:
             print(f"\nAgent: {ask(agent, question)}")
+    
 
 
 if __name__ == "__main__":
