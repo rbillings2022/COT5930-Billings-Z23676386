@@ -18,3 +18,4 @@ scikit-learn
 youtube-transcript-api
 langchain-google-vertexai
 google-cloud-aiplatform
+fastmcp
