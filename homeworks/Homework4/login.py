@@ -19,7 +19,7 @@ con.execute("""CREATE TABLE IF NOT EXISTS audit_log(
 )""")
 con.commit()
 
-def login(username, password, ip):
+def login(username:str, password:str, ip:str):
 
     time_stamp = datetime.datetime.now()
     failed_attempts = 0
@@ -34,7 +34,7 @@ def login(username, password, ip):
     # If the username doesn't exist and this is the machines first attempt, begin incrementing fails
     if password != response_password and response_ip == None:
         failed_attempts += 1
-        cur.execute("INSERT INTO audit_log VALUES(?,?,?)", ip, failed_attempts, time_stamp)
+        cur.execute("INSERT INTO audit_log (ip, failed_attempts, time_stamp) VALUES(?,?,?)", (ip, failed_attempts, time_stamp))
         con.commit()
         return "Sorry, please try logging in again."
     
@@ -46,7 +46,7 @@ def login(username, password, ip):
         con.commit()
         return f"Sorry, please try again, current failed attempts {failed_attempts}"
     
-    elif response_password in password and response_username in username:
+    elif password in response_password  and username in response_username:
         return "Congrates! You've successfully logged in!" 
 
 def create(username, password):
@@ -59,7 +59,7 @@ def create(username, password):
     response = search.fetchone()
 
     # If the username exists, return a message and do not add it to the DB
-    if response == None:
+    if username in response:
         return "Sorry, username already exists. Maybe try logging in?"
     else:
         cur.execute("INSERT INTO user VALUES(?,?,?)", username, password, current_time)
@@ -77,7 +77,7 @@ def main():
         username = input("Please enter a username: ").lower() # normalize any username to lowercase
         password = input("Please enter a password: ").encode('utf-8')
         password = hashlib.sha256(password).hexdigest()
-        ip = input("Enter ip")
+        ip = input("Enter ip: ")
         response = login(username, password, ip)
 
         print(response)
