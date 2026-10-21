@@ -1,6 +1,7 @@
 import sqlite3
 import hashlib 
 import datetime
+import hmac
 
 con = sqlite3.connect("db_data/mcp-server.db")
 cur = con.cursor()
@@ -19,75 +20,98 @@ con.execute("""CREATE TABLE IF NOT EXISTS audit_log(
 )""")
 con.commit()
 
-def login(username:str, password:str, ip:str):
+def login(username: str, password: str, ip: str):
+    """
+        Description:
+            This function is a toy login system where a user can validate their 
+            credentials if they exist in the database. If you're a user thats attempting
+            to bruteforce username and passwords into the system, it will count failed attempts
 
+        Return:
+            Flag
+            Message
+    """
+    password_hash = hashlib.sha256(password.encode("utf-8")).hexdigest()
     time_stamp = datetime.datetime.now()
-    failed_attempts = 0
 
-    search_username = cur.execute("SELECT username FROM user where username = ?", (username,))
-    search_ip = cur.execute("SELECT ip FROM audit_log WHERE ip = ?", (ip,))
-    search_password = cur.execute("SELECT password FROM user WHERE password = ?",(password,))
-    response_password = search_password.fetchone()
-    response_username = search_username.fetchone()
-    response_ip = search_ip.fetchone()
+    user_row = con.execute("SELECT password FROM user WHERE username = ?",(username,)).fetchone()
 
-    # If the username doesn't exist and this is the machines first attempt, begin incrementing fails
-    if password != response_password and response_ip == None:
-        failed_attempts += 1
-        cur.execute("INSERT INTO audit_log (ip, failed_attempts, time_stamp) VALUES(?,?,?)", (ip, failed_attempts, time_stamp))
-        con.commit()
-        return "Sorry, please try logging in again."
-    
-    elif ip in response_ip and password not in response_password:
-        search_attempts = cur.execute("SELECT failed_attempts FROM audit_log WHERE ip = ?",(ip,))
-        failed_attempts = search_attempts.fetchone()
-        failed_attempts += 1
-        cur.execute("UPDATE audit_log SET failed_attempts = ? WHERE ip = ?",(failed_attempts, ip))
-        con.commit()
-        return f"Sorry, please try again, current failed attempts {failed_attempts}"
-    
-    elif password in response_password  and username in response_username:
-        return "Congrates! You've successfully logged in!" 
+    if user_row is not None and hmac.compare_digest(user_row[0], password_hash):
+        return 0, "Congratulations! You've successfully logged in."
+
+    attempt_row = con.execute("SELECT id, failed_attempts FROM audit_log WHERE ip = ? ORDER BY id DESC LIMIT 1",(ip,)).fetchone()
+    if attempt_row is None:
+        failed_attempts = 1
+        cur.execute("INSERT INTO audit_log (ip, failed_attempts, time_stamp) VALUES (?, ?, ?)",(ip, failed_attempts, time_stamp),
+        )
+    else:
+        failed_attempts = attempt_row[1] + 1
+        cur.execute(
+            "UPDATE audit_log SET failed_attempts = ? WHERE id = ?",
+            (failed_attempts, attempt_row[0]),
+        )
+
+    con.commit()
+    return 1, f"Sorry, please try again. Current failed attempts: {failed_attempts}"
 
 def create(username, password):
+    """
+        Description:
+            This is a create accoutn function which will store credentials in a database
+            It will check if a username exists and if youre password characters are long enough.
+
+        Return:
+            Flag
+            Message
+    """
+    password = password.encode('utf-8')
     current_time = datetime.datetime.now()
 
-    # Hash password
-    password = hashlib.sha256(password).hexdigest()
-
+    # Search for username 
     search = cur.execute("SELECT username FROM user WHERE username = ?", (username,))
     response = search.fetchone()
 
     # If the username exists, return a message and do not add it to the DB
-    if username in response:
-        return "Sorry, username already exists. Maybe try logging in?"
-    else:
-        cur.execute("INSERT INTO user VALUES(?,?,?)", username, password, current_time)
-        con.commit()
-        return "You've successfully created your account."
+        # Return Error message or Success message and a flag to keep the program running
+    if response == None:
+        if len(password) < 8:
+            return 1,"Sorry, password needs to be at least 8 chaaracters long, please try again."
+        else:
+            password = hashlib.sha256(password).hexdigest()
+            cur.execute("INSERT INTO user (username, password, time_stamp) VALUES(?,?,?)", (username, password, current_time))
+            con.commit()
+            return 0, "You've successfully created your account."
+    elif username in response:     
+        return 1,"Sorry, username already exists. Maybe try logging in?"
+
 
 # Toy user interface
 def main():
-
+    """
+        Description: 
+            Main function which basically interface both login, and create account
+    """
     # ADD AN EXCEPTION HANDLING
     action = input("Type '1' to log-in or type '2' to create account: ")
+    try_again = 1
 
     # Login
     if action == '1':
-        username = input("Please enter a username: ").lower() # normalize any username to lowercase
-        password = input("Please enter a password: ").encode('utf-8')
-        password = hashlib.sha256(password).hexdigest()
-        ip = input("Enter ip: ")
-        response = login(username, password, ip)
+        while try_again == 1:
+            username = input("Please enter a username: ").lower() # normalize any username to lowercase
+            password = input("Please enter a password: ")
+            ip = input("Enter ip: ")
+            try_again, response = login(username, password, ip)
 
-        print(response)
+            print(response)
     # Create account
     elif action == '2':
-        username = input("Please enter a username: ").lower()
-        password = input("Please enter a password: ").encode("utf-8")
-        response = create(username, password)
+        while try_again == 1:
+            username = input("Please enter a username: ").lower()
+            password = input("Please enter a password: ")
+            try_again, response = create(username, password)
 
-        print(response)
+            print(response)
 
 if __name__ == "__main__":
     main()
