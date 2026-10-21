@@ -14,7 +14,8 @@ async def login_user(username:str, password:str, ip:str) -> str:
 @mcp.tool()
 async def create_bad_account(username:str, password:str) -> str:
     """Generate a random username and password but every password must 
-        be less than 8 characters. Do this 6 times"""
+        be less than 8 characters, input empty strings, and emotes. Do 
+        this 6 times"""
     flag, response = login.create(username.lower(), password)
     return response
 
