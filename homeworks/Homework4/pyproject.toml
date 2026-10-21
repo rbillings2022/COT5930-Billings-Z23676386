@@ -1,0 +1,23 @@
+[project]
+name = "homework4"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "rb", email = "112989062+rbillings2022@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=4.1.3",
+    "langchain>=1.4.6",
+    "langchain-anthropic>=1.7.6",
+    "langchain-mcp-adapters>=0.3.1",
+    "mcp>=2.3.0",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+homework4 = "homework4:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
