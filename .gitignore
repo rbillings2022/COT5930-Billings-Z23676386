@@ -221,3 +221,7 @@ __marimo__/
 *.ipynb
 # textfiles
 .vscode/
+
+dsasa.py
+startingLLM.txt
+test.ipynb

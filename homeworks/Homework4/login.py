@@ -80,7 +80,7 @@ def create(username, password):
             password = hashlib.sha256(password).hexdigest()
             cur.execute("INSERT INTO user (username, password, time_stamp) VALUES(?,?,?)", (username, password, current_time))
             con.commit()
-            return 0, "You've successfully created your account."
+            return 0, "You've successfully created your account!"
     elif username in response:     
         return 1,"Sorry, username already exists. Maybe try logging in?"
 
