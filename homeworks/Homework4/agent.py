@@ -63,6 +63,15 @@ async def run_agent():
                 else:
                     break
 
+async def pentest_agent(user_prompt: str) -> dict:
+    """Runs a single prompt through the pentest agent and returns the raw result."""
+    async with stdio_client(server) as (read1, write1), stdio_client(mcp_market_place_server) as (read2, write2):
+        async with ClientSession(read1, write1) as session1, ClientSession(read2, write2) as session2:
+            await session1.initialize()
+            await session2.initialize()
+            tools = await load_mcp_tools(session1) + await load_mcp_tools(session2)
+            agent = create_agent(model=llm, tools=tools, system_prompt=prompt)
+            return await agent.ainvoke({"messages": [("user", user_prompt)]})
 if __name__ == "__main__":
     result = asyncio.run(run_agent())
     print(result)
