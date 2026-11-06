@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Engineering Threat Detection</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="page-header">
+        <p class="eyebrow">Threat Intelligence</p>
+        <h1>Social Engineering Threat Detection</h1>
+      </header>
+
+      <form id="threatForm" class="panel" novalidate>
+        <div class="field-group">
+          <label for="relationship">Relationship to Sender</label>
+          <select id="relationship" name="relationship" required>
+            <option value="">Select a relationship</option>
+            <option value="Employee">Employee</option>
+            <option value="Friend/Family">Friend/Family</option>
+            <option value="Co-worker">Co-worker</option>
+            <option value="No Personal Relation">No Personal Relation</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="source">Message Source</label>
+          <select id="source" name="source" required>
+            <option value="">Select a source</option>
+            <option value="Email">Email</option>
+            <option value="Discord message">Discord message</option>
+            <option value="Text message">Text message</option>
+          </select>
+        </div>
+
+        <div class="field-group">
+          <label for="prompt">Threat Context / Prompt</label>
+          <textarea
+            id="prompt"
+            name="prompt"
+            rows="8"
+            maxlength="2000"
+            placeholder="Provide the message content or context for review. Example: 'Urgent action required. Please click the link and verify your password now.'"
+            required
+          ></textarea>
+        </div>
+
+        <div class="field-group">
+          <label for="attachment">Import Supporting File</label>
+          <input
+            id="attachment"
+            name="attachment"
+            type="file"
+            accept=".txt,.eml,text/plain,message/rfc822"
+          />
+          <small>Accepted file types: .txt or .eml only.</small>
+        </div>
+
+        <p class="sanitization-note">
+          Sanitization protocol: input is trimmed, script markup is removed, and only .txt/.eml uploads are accepted.
+        </p>
+
+        <div class="actions">
+          <button type="submit" id="analyzeBtn">Analyze Message</button>
+          <button type="button" id="resetBtn" class="secondary">Reset</button>
+        </div>
+
+        <p id="statusMessage" class="status-message" aria-live="polite"></p>
+      </form>
+
+      <section id="resultSection" class="results hidden" aria-live="polite">
+        <div class="gauge-card">
+          <div class="gauge-header">
+            <span>Malicious Intent</span>
+            <strong id="scoreValue">0</strong>
+          </div>
+          <div class="meter" aria-label="Malicious intent meter">
+            <div id="meterFill" class="meter-fill"></div>
+          </div>
+          <div class="meter-scale" aria-hidden="true">
+            <span>0</span>
+            <span>30</span>
+            <span>60</span>
+            <span>100</span>
+          </div>
+          <p id="riskLabel" class="risk-label">Harmless</p>
+        </div>
+
+        <div class="assessment-card">
+          <h2>Agent Assessment</h2>
+          <p id="assessmentText">No assessment available yet.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
