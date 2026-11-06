@@ -1,0 +1,10 @@
+Hello, so I'll be making a Social Engineering Threat detection agent. It will use local stdio MCP service, and a local LLM model Ollama: bonsai-2:9b
+
+Let's start with our tech-stack and creating a python local environment for our application.
+
+   1. Initialize a uv python environment
+      - Technology packages needed: FastMCP, Ollama
+
+
+
+Can you check my .venv file in my Homework6 directory and see if they're are any dependcies missing? IF not give me a notification that my python env is fully functional.
