@@ -49,6 +49,63 @@ function isAllowedFile(file) {
   return VALID_EXTENSIONS.includes(extension) || mimeType === 'text/plain' || mimeType === 'message/rfc822';
 }
 
+function normalizeAssessmentText(value) {
+  if (value === null || value === undefined) {
+    return '';
+  }
+
+  if (typeof value === 'object') {
+    if (Array.isArray(value)) {
+      return value
+        .map((item) => normalizeAssessmentText(item))
+        .filter(Boolean)
+        .join('\n');
+    }
+
+    if (typeof value.content === 'string') {
+      return normalizeAssessmentText(value.content);
+    }
+    if (typeof value.message === 'string') {
+      return normalizeAssessmentText(value.message);
+    }
+    if (typeof value.text === 'string') {
+      return normalizeAssessmentText(value.text);
+    }
+    if (typeof value.assessment === 'string') {
+      return normalizeAssessmentText(value.assessment);
+    }
+
+    try {
+      return normalizeAssessmentText(JSON.stringify(value));
+    } catch (error) {
+      return '';
+    }
+  }
+
+  let text = String(value)
+    .replace(/\\n/g, '\n')
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/(\S)\s+(?=\d+\))/g, '$1\n')
+    .replace(/^\s*[-*•]\s*/gm, '')
+    .replace(/\s*\n\s*/g, '\n')
+    .trim();
+
+  if (!text) {
+    return '';
+  }
+
+  if ((text.startsWith('{') && text.endsWith('}')) || (text.startsWith('[') && text.endsWith(']'))) {
+    try {
+      const parsed = JSON.parse(text);
+      return normalizeAssessmentText(parsed);
+    } catch (error) {
+      return text;
+    }
+  }
+
+  return text;
+}
+
 function getRiskInfo(score) {
   if (score >= 61) {
     return {
@@ -165,8 +222,16 @@ async function readAttachedFile(file) {
   return sanitizeText(text);
 }
 
+function getApiBaseUrl() {
+  if (window.location.protocol === 'file:') {
+    return 'http://127.0.0.1:8000';
+  }
+
+  return '';
+}
+
 async function analyzeThreatIntent(payload) {
-  const response = await fetch('/api/social-engineering-analysis', {
+  const response = await fetch(`${getApiBaseUrl()}/api/social-engineering-analysis`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -227,10 +292,11 @@ form.addEventListener('submit', async (event) => {
 
     const result = await analyzeThreatIntent(backendPayload);
     const score = Number(result.score ?? result.malicious_intent ?? 0);
+    const assessment = normalizeAssessmentText(result.assessment ?? result.analysis ?? result.message ?? result.output ?? getRiskInfo(score).message);
 
     updateGauge(Number.isFinite(score) ? score : 0);
     resultSection.classList.remove('hidden');
-    assessmentText.textContent = result.assessment || result.analysis || getRiskInfo(score).message;
+    assessmentText.textContent = assessment || getRiskInfo(score).message;
     setStatus('Analysis complete.');
   } catch (error) {
     const fullMessage = sanitizeText(`${messageText} ${attachmentInput.files && attachmentInput.files[0] ? await readAttachedFile(file).catch(() => '') : ''}`);
@@ -238,7 +304,8 @@ form.addEventListener('submit', async (event) => {
     updateGauge(fallbackScore);
     resultSection.classList.remove('hidden');
     assessmentText.textContent = buildFallbackAssessment(fallbackScore, fullMessage);
-    setStatus('Backend unavailable. Local threat analysis used as a fallback.', false);
+    const message = error && error.message ? error.message : 'Unknown backend error';
+    setStatus(`Backend unavailable (${message}). Start the server with 'python -m homework6' or 'uv run homework6', then retry. Local threat analysis used as a fallback.`, false);
   }
 });
 
